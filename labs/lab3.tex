@@ -1,0 +1,279 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,tikz,cancel}
+\usepackage{algpseudocode,algorithm}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+% Bioinformatics packages
+\usepackage{textopo}
+%\usepackage{xymtex}
+
+\def\Name{Zackery Field}  % Your name
+\def\Sec{001}  % Your GSI's name and discussion section
+\def\Login{be144-26} % Your login
+\def\Homework{3}%Number of Homework
+\def\Session{Spring 2014}
+
+\title{Lab 3: KCNT1\_CHICK analysis}
+\author{\Name}%, section \Sec, \texttt{\Login}}
+\markboth{--\Session\  Homework \Homework\ \Name, section \Sec}
+{\Session\ Homework \Homework\ \Name, section \Sec, \texttt{\Login}}
+%\pagestyle{myheadings}
+
+\begin{document}
+\maketitle
+
+\section*{REMOVE THESE}
+
+Part 3: Choose BLAST
+
+Choose search set: Database P.D.B.p (pdb)
+
+\section*{Part 1}
+
+\subsection*{Pfam MDA prediction}
+
+Retrieve the KCNT1\_CHICK protein from UniProt in FASTA format. 
+Submit KCNT1\_CHICK to Pfam and examine the predicted multi-domain architecture (MDA). 
+
+\begin{tabular}{| l || c | c | c | c | c |}
+\hline
+{\bf Family} & {\bf Type} & {\bf Clan} & {\bf Start} & {\bf End} & {\bf E-value} \\
+\hline
+Pfam-A &&&&&\\ \hline
+\href{http://pfam.sanger.ac.uk/family/PF07885.11}{Ion\_trans\_2} & Domain & \href{http://pfam.sanger.ac.uk/clan/CL0030}{CL0030} & 257 & 325 & $1.7E-12$ \\ \hline
+\href{http://pfam.sanger.ac.uk/family/PF03493.13}{BK\_channel\_a} & Family & n/a & 474 & 578 & $9.9E-36$ \\ \hline
+Pfam-B &&&&&\\ \hline
+\href{http://pfam.sanger.ac.uk/pfamb/PB004535}{Pfam-B\_4535} & n/a & n/a & 585 & 613 & 0.00016 \\ \hline
+\href{http://pfam.sanger.ac.uk/pfamb/PB009815}{Pfam-B\_9815} & n/a & n/a & 687 & 746 & 6.9e-35 \\ \hline
+\href{http://pfam.sanger.ac.uk/pfamb/PB001301}{Pfam-B\_1301} & n/a & n/a & 714 & 1022 & 1.2e-136\\ \hline
+\href{http://pfam.sanger.ac.uk/pfamb/PB015008}{Pfam-B\_15008} & n/a & n/a & 960 & 1026 & 1.2e-37\\ \hline
+\href{http://pfam.sanger.ac.uk/pfamb/PB012084}{Pfam-B\_12084} & n/a & n/a & 1062 & 1175 & 2e-56\\ \hline
+\end{tabular}
+
+Describe the MDA (as a series of Pfam domains); 
+if a significant fraction of a sequence does not have any detectable 
+Pfam domains, you may want to use Pfam-B. 
+Please describe as "unknown fold" any long regions (>50aa) with no 
+detectable Pfam-A domains, or for which Pfam-B domains give no actual 
+functional or structural information. What fraction of the primary 
+sequence is "covered" by informative Pfam domains? 
+(If a Pfam-B domain provides no actual information, you should list that 
+region as "unknown fold".)
+
+\begin{tabular}{| l | l | l | l | p{5cm} |}
+\hline
+\multicolumn{2}{|c|}{Region} &&&\\ \hline 
+Start & End & Domain & Database & Function \\ \hline
+1 & 256 & unknown fold && \\ \hline
+257 & 325 & \href{http://pfam.sanger.ac.uk/family/PF07885.11}{Ion\_trans\_2} & Pfam-A & transmembrane ion channel family \\ \hline
+326 & 473 & unknown fold && \\ \hline
+474 & 578 & \href{http://pfam.sanger.ac.uk/family/PF03493.13}{BK\_channel\_a} & Pfam-A & Potassium channel with high conductance \\ \hline
+585 & 613 & \href{http://pfam.sanger.ac.uk/pfamb/PB004535}{Pfam-B\_4535} & Pfam-B & unknown \\ \hline
+614 & 713 & unknown fold && \\ \hline
+714 & 1022 & \href{http://pfam.sanger.ac.uk/pfamb/PB001301}{Pfam-B\_1301} & Pfam-B & Automatically generated. Domain found in proteins with
+ion channel architecture \\ \hline
+1062 & 1175 & \href{http://pfam.sanger.ac.uk/pfamb/PB012084}{Pfam-B\_12084} & Pfam-B & Automatically generated. Domain found in proteins with
+BK channel and ion channel architectures. \\ \hline
+\end{tabular}
+
+sequence coverage $$ \frac{68[aa] + 104[aa] + 28[aa] + 308[aa] + 113[aa]}{1201[aa]} \approx 52\% $$ 
+
+The Pfam-B domains were included in the sequence coverage because they reveal some information
+about the function of the protein. Each of the Pfam-B domains of note had some close relationship with
+ion channels, but none of them had any specific structural or clan classification. 
+Of the domains that were identified only the Pfam-A domains revealed enough information
+for further analysis.
+
+
+\subsection*{Ion\_trans\_2 (PF07885)}
+
+This domain has 158 domain architectures listed under the "Domain organisation" tab in Pfam.
+Since this domain has much more than a few dozen domains it is most likely a promiscuous domain.
+
+{\bf Crystal Structure}
+
+There are two structures for this ion channel. One structure for the eukaryotic
+version of the protein, and one structure for the bacterial version of the protein.
+The both versions have the same SCOP classification \href{http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?tlev=fa;&pdb=1bl8}{1bl8}
+and PDB ID: \href{http://pfam.sanger.ac.uk/structure/1LNQ}{1LNQ}.
+
+{\bf Clan}
+
+The clan for this domain contains 8 members. Clan: \href{http://pfam.sanger.ac.uk/clan/Ion\_channel}{Ion\_channel}. 
+
+\begin{enumerate}
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF15249}{GLTSCR1} has the same classifier as Ion trans 2.
+SCOP: \href{http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?tlev=fa;&pdb=1bl8}{1bl8}. This implies that this
+domain is related to Ion trans 2 down to and including the family level.
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF00520}{Ion\_trans} also shares the same SCOP 
+classification as Ion\_trans\_2 SCOP: \href{http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?tlev=fa;&pdb=1bl8}{1bl8}.  
+This implies that the Ion trans domain and the Ion trans 2 domain are related down to and including the
+family level.
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF01007}{IRK} is the first domain in the clan 
+to have a different SCOP classification than the original Ion trans 2 domain. SCOP:
+\href{http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?tlev=fa;&pdb=1n9p}{1n9p}. Surprisingly,
+SCOP places IRK in an entirely different class of proteins than Ion trans 2. SCOP superfamily
+and Pfam clan are commonly seen as equivalent, so this domain within the Ion\_channel clan 
+is an exception.
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF03814}{KdpA} has no structural information.
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF00060}{Lig\_chan} is also an exception
+to the superfamily-clan equivalence rule. SCOP classifies this protein as being in a 
+different class than Ion\_trans\_2. SCOP: \href{http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?tlev=fa;&pdb=1gr2}{1gr2}.
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF08016}{PKD\_channel} has no structural information.
+\item Domain \href{http://pfam.sanger.ac.uk/family/PF02386}{TrkH} has PDB entry number: \href{http://pfam.sanger.ac.uk/structure/3PJZ}{3PJZ}.
+There is no reference to a SCOP classification and search of the SCOP database did not return any
+classification.
+\end{enumerate}
+
+{\bf Taxonomic Distribution}
+
+The Pfam interactive species distribution \href{http://pfam.sanger.ac.uk/family/PF07885.11#tabview=tab7}{map} 
+reveals that this domain is found in all 3 domains of life.
+
+\subsection*{BK\_channel\_a (PF03493)}
+
+{\bf Crystal structure}
+
+This domain does not have a SCOP classification associated with it. Its PDB
+entry is \href{http://pfam.sanger.ac.uk/structure/3U6N}{3U6N}. The representative
+\href{http://en.wikipedia.org/wiki/File:BK-cartoon_wp.jpg}{structure} 
+on the summary page of the Pfam entry contains 7 transmembrane helices 
+as well as two cytoplasmic domains named RCK1 and RCK2. This structure is a voltage
+gated ion channel with the 4th (zero-labeled) transmembrane helix being the voltage
+controlled helix.
+
+{\bf Clan}
+
+This \href{http://pfam.sanger.ac.uk/family/PF03493.13}{domain} also does not have a 
+clan associated with it. 
+
+{\bf Taxonomic Distribution}
+
+According to the Pfam species sunburst \href{http://pfam.sanger.ac.uk/family/PF03493.13#tabview=tab7}{diagram}, this domain is restricted to
+the eukaryotes. 
+
+
+\section*{Part 2. Transmembrane helix prediction}
+
+After searching through exPASY looking for a hit on the accession number in UniProt 
+in the SwissProt database, I downloaded the entire Uni-Swiss FASTA file in search
+of the SwissProt record for this sequence. There appears to be no SwissProt entry 
+containing information on the transmembrane helix prediction of this protein. Instead,
+I will use the transmembrane helix prediction provided on the UniProt site for this
+protein's \href{http://www.uniprot.org/uniprot/Q8QFV0}{entry}. 
+
+\subsection*{TMHMM}
+
+# sp|Q8QFV0|KCNT1\_CHICK Length: 1201
+# sp|Q8QFV0|KCNT1\_CHICK Number of predicted TMHs:  7
+# sp|Q8QFV0|KCNT1\_CHICK Exp number of AAs in TMHs: 140.17303
+# sp|Q8QFV0|KCNT1\_CHICK Exp number, first 60 AAs:  0
+# sp|Q8QFV0|KCNT1\_CHICK Total prob of N-in:        0.98299
+\begin{enumerate}
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	inside	     1    95
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	    96   115
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	outside	   116   154
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	   155   177
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	inside	   178   185
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	   186   208
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	outside	   209   248
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	   249   271
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	inside	   272   277
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	   278   300
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	outside	   301   309
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	   310   332
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	inside	   333   352
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	TMhelix	   353   375
+\item sp|Q8QFV0|KCNT1\_CHICK	TMHMM2.0	outside	   376  1201
+\end{enumerate}
+
+\subsection*{Comparison of TMHMM and UniProt Transmembrane helix prediction}
+
+TMHMM predicts the existence of 7 transmembrane helices. Uniprot also lists, 7 transmembrane helices. 
+The first 6 regions (3 TMHs) align between Uniprot and TMHMM. There is a short extracellular loop (aa:207-211)
+followed by another TMH at aa:212-224  in Uniprot, but the TMHMM analysis reveals one large
+extracellular loop between 209-248. The next two helices (249-271 and 278-300) align well, but they have opposed directionality.
+The uniprot prediction at region 278-300 is not labeled as a TMH, but rather is labeled as
+a pore-forming region, and therefore does not change the handedness (intra vs. extra) of 
+the adjacent loops. The TMHMM prediction then inserts a TMH at region 353-375 where Uniprot 
+does not. Most importantly, this slight mismatching in TM helices causes a major
+C-terminal discrepancy between the two predictions. Region 375-1200 is labeled 
+as being extracellular according to TMHMM, and it is labeled as being cytoplasmic 
+according to Uniprot.
+
+\section*{Part 3. Homologous PDB structure prediction}
+\begin{tabular}{|p{5cm} | c | c | c | c | c | c |}
+\hline
+Description & Qry S-End & Subj S-End & Cover & E & Ident & Accession \\ \hline
+Chain A, Structure Of The Human Slo3 Gating Ring >pdb|4HPF|B Chain B, Structure Of The Human Slo3 Gating Ring	 &350-969 & 3-578 &51\%	& 1e-24	& 23\%	& 4HPF\_A \\ \hline
+Chain A, Crystal Structure Of The Human Bk Gating Apparatus	& 357-975 & 4-608 &52\%	& 1e-19	& 22\%	& 3MT5\_A \\ \hline
+Chain A, Structure Of The Intracellular Gating Ring From The Human High-Conductance Ca2+ Gated K+ Channel (Bk Channel)	& 331-619 & 36-325 &39\%	& 2e-18	& 27\%	& 3NAF\_A \\ \hline
+Chain A, Open Structure Of The Bk Channel Gating Ring >pdb|3U6N|B Chain B, Open Structure Of The Bk Channel Gating Ring	& 351-619 & 4-279 &38\%	& 9e-17	& 27\%	& 3U6N\_A \\ \hline
+Chain A, Crystal Structure Of Mthk At 3.3 A >pdb|1LNQ|B Chain B, Crystal Structure Of Mthk At 3.3 A >pdb|1LNQ|C Chain C & 231-356 & 4-121 &10\%	& 0.001	& 25\%	& 1LNQ\_A \\ \hline
+Chain A, Mthk Channel, Ca2+-Bound >pdb|3RBZ|B Chain B, Mthk Channel, Ca2+-Bound >pdb|3RBZ|C Chain C, Mthk Channel, & 231-356 & 4-121 &10\% & 0.003 & 25\%	& 3RBZ\_A \\ \hline
+\end{tabular}
+
+\newpage
+
+The BLAST results are consistent with both the SCOP classifications and the Pfam domain
+classifications in Part 1. BLAST correctly identifies the Ion\_trans\_2 domain as
+well as the BK\_Channel\_a domain. In addition to the SCOP and Pfam domain classifications
+BLAST also identifies a provisional multi-domain unit labeled PRK10537 which is described
+as a voltage gated ion channel. This does not provide any new information, but does 
+support the previous functional classification that this is some kind of potassium 
+ion channel.
+
+\begin{figure}
+\begin{textopo}
+\sequence{
+  MARAKLKNSPSESNSHVKTVPPATTEDVRGVSPLLPARRMGSLGSDVGQRPHAEDFSMDS
+  SFSQVQVEFYVNENTFKERLKLFFIKNQRSSLRIR
+  [LFNFSLKLLTCLLYIVRVLLD]
+  NPEEGIGCWECEKQNYTLFNQSTKINWSHIFWVDRKL
+  [PLWAVQVSIALISFLETMLLI]
+  YLSYKGNIWEQ
+  [IFRISFILEMINTVPFIITIF]
+  WPPLR
+  [NLFIPVFLNCWLA]
+  KYALENMINDLHRAIQRTQSAMFNQ %([W,10]BlueDiamond[box[Blue,Yellow]:Voltage gated TMR[Red]]=G)
+  [VLILICTLLCLVFTGTCGIQH]
+  LERAGEKLS
+  [LFKSFYFCIVTFSTVGYGDVT]
+  PK
+  [IWPSQLLVVIMICVALVVLPL]
+}
+
+\end{textopo}
+\caption{A transmembrane helix prediction from UniProt. The N-terminus is in
+the left-most cytoplasmic loop. Their are two adjacent large cytoplasmic domains 
+at the C-terminus that are not pictured.}
+\label{fig:transUni}
+\end{figure}
+
+\begin{figure}
+\begin{textopo}
+\sequence{
+MARAKLKNSPSESNSHVKTVPPATTEDVRGVSPLLPARRMGSLGSDVGQRPHAEDFSMDS 
+SFSQVQVEFYVNENTFKERLKLFFIKNQRSSLRIR
+[LFNFSLKLLTCLLYIVRVLL]
+DNPEEGIGCWECEKQNYTLFNQSTKINWSHIFWVDRKLP
+[LWAVQVSIALISFLETMLLIYLS]
+YKGNIWEQ
+[IFRISFILEMINTVPFIITIFWP]
+PLRNLFIPVFLNCWLAKYALENMINDLHRAIQRTQSAMFN
+[QLILICTLLCLVFTGTCGIQH]
+ERAGEK
+[LSLFKSFYFCIVTFSTVGYGDVT]
+PKIWPSQLL %([W,10]BlueDiamond[box[Blue,Yellow]:Voltage gated TMR[Red]]=G)
+[VVIMICVALVVLPLQFEELVYLWM]
+ERQKSGGNYSRHRAQTEKH
+[VVLCVSSLKIDLLMDFLNEF]
+}
+\end{textopo}
+\caption{A transmembrane helix prediction from TMHMM. The N-terminus is in
+the left-most cytoplasmic loop. Their are two adjacent large extracellular domains 
+at the C-terminus that are not pictured.}
+\label{fig:transTMHMM}
+\end{figure}
+\end{document}

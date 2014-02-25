@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,tikz,cancel}
+\usepackage{algpseudocode,algorithm}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+
+\def\Name{Zackery Field}  % Your name
+\def\Sec{}  % Your GSI's name and discussion section
+\def\Login{} % Your login
+\def\Homework{1}%Number of Homework
+\def\Session{Spring 2014}
+
+\title{Review questions}
+\author{\Name}%, section \Sec, \texttt{\Login}}
+\markboth{--\Session\  Homework \Homework\ \Name, section \Sec}
+{\Session\ Homework \Homework\ \Name, section \Sec, \texttt{\Login}}
+%\pagestyle{myheadings}
+
+\begin{document}
+\maketitle
+
+\section*{Readings for this lecture, and some subsequent lectures}
+
+\subsection*{`''Antedisciplinary'' Science - Sean R. Eddy}
+The author cites their experience of being told that science in the future
+was going to be carried out with "interdisciplinary teams of specialized practitioners".
+Eddy found himself, out of place in this new world model, as did many other 
+scientists who are not an expert in any one field, but rather a collage of
+different expertise. A discussion of the difference between interdisciplinary 
+teams and interdisciplinary people ensues. "The first molecular biologists were
+a motely crew of misfits." Eddy goes so far as to say that new science should
+be judged on its merits rather than the disciplinary credentials of the people
+doing it. Teams of one, willing to collaborate, but always stepping away from 
+the confines of existing disciplines.
+
+\subsection*{Phylogenomic inference of protein molecular function: advances and challenges - Kimmen Sjölander}
+
+REALLY FOUNDATIONAL!
+
+\subsection*{Automatic annotation of protein function - Alfonso Valencia}
+
+Good but not great - Kimmen
+
+\section*{``Pre-review'' Questions}
+
+\begin{enumerate}
+\item What is meant by genome annotation?
+Attaching {\bf structural} and {\bf functional} information to genomic data.
+
+\item What is the difference between a structural and a functional annotation of a genome?
+Functional concerns what the gene actually does. Structural seeks to identify 
+specific regions in the genome without concern for their specific function.
+ 
+\item What types of errors occur in a structural annotation of a genome?
+Commonly miss an exon, because of a poor gene model. Guesses that \%25 Eukaryotic gene 
+structural annotations are incorrect. Might miss a gene completely, false negative. 
+Could catch a {\bf pseudogene} (remnant of what was once a fully functioning gene), 
+false positive. {\bf Synteny} is the identification
+of equivalence across species of regions of a genome.
+{\bf Duplication} is a natural process, and while it can be considered an error, 
+it is more of a fortuitous accident.  
+
+\item What is meant by a gene model?
+Some general mapping of what is meant by a gene, and a data
+
+%% SKIP
+\item How do errors in gene models affect a predicted function?
+\item What do we mean by protein ``function''?
+\item How do we determine these functions experimentally?
+\item How precise are these experimental techniques?
+\item How are experimental techniques benchmarked? (Are they?)
+\item How do we predict these functions using bioinformatics tools?
+\item How good are our predictions?
+\item How do we evaluate prediction methods?
+\item Can we determine, for a single gene, whether the functional annotation is correct?
+%%
+
+\item What is the typical functional annotation protocol? 
+When you BLAST a large database with some protein dataset and look
+for proteins that have some significant likeness to the queried protein.
+Just see the directions before.  
+{\bf Homology-based  annotation transfer protocol}
+\begin{enumerate}
+  \item Run BLAST
+  \item Identify top hit
+  \item Check for significance of score
+  \item significance is some E-value (usually) <0.001 
+  \item Some further criteria must be met, like informativeness of transferred annotation
+  \item transfer annotation
+\end{enumerate}
+
+\item What are the fundamental assumptions of that protocol?
+
+Assumptions
+\begin{enumerate}
+  \item Assumes that initial annotation is correct {\bf \%25 WRONG}
+  \item Sig. BLAST score means homology {\bf Promiscuous domains could cause issue, but they are hidden by Seg software}
+  \item Homologs can be detected in the above process (short queries problematic)
+  \item {\bf homology implies same function}
+\end{enumerate}
+
+What fraction of genes in a genome are ``hypothetical genes'' {\bf 30\%}.
+
+\item What are the sources of error in that protocol?
+
+There are some issues defined above in bold. BLAST may make a homology match,
+but this does not imply that there is a functional similarity. BLAST does 
+not differentiate between paralogs and orthologs. paralogs often do not share
+the same function, but they can. 
+
+\item What is the estimated functional annotation error rate in the standard sequence databases?
+\item What modifications to functional annotation protocols are needed to avoid these errors?
+\item How can you personally detect possible errors in an existing functional annotation, using bioinformatics tools and analysis?
+\item What is a pseudogene?
+\item What is meant by horizontal gene transfer (HGT)?
+\item What is meant by a protein’s multi-domain architecture (MDA)?
+\item How can you determine a MDA?
+\item Describe a typical use of the BLAST webserver by a biologist.
+\item What information does BLAST provide?
+\item Describe a typical use of the Pfam webserver by a biologist.
+\item What information does Pfam provide?
+\item What is meant by a Pfam clan, and what other database(s) provide similar information?
+\item What is meant by a missense mutation?
+\item What is meant by a nonsense mutation?
+\item What is meant by a conservative substitution?
+\item List the two most conservative substitutions for isoleucine. (What was the basis for your answer?)
+\item What is meant by the redundancy of the Genetic Code?
+\item Describe the Central Dogma of Molecular Biology.
+\item What information does protein 3D structure provide?
+\item Name two experimental methods used to solve protein 3D structures?
+\item How accurate are protein structures?
+\item What are the two main classes of approach to predicting protein 3D structure? 
+\item What is the Gene Ontology? What are GO evidence codes?
+\item What two bioinformatics databases provide hierarchies of structural domains, elucidating their structural similarities and related functions? (You should be able to describe how one of these databases organizes protein domains, and what types of relationships between domains are implied by that organization.)
+\item What is meant by gene fusion and gene fission?
+\item What is meant by a gene duplication event?
+\item Name the two major protein sequence databases with the largest coverage (of both species and functions).
+\item Name one protein sequence database that is manually curated.
+\item Name one major bioinformatics database/webserver that enables biologists to evaluate the structural superposability of protein 3D structures.
+\item What database is the repository of protein structures?
+
+\end{enumerate}
+
+\end{document}

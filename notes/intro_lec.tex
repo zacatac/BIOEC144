@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,tikz,cancel}
+\usepackage{algpseudocode,algorithm}
+\usepackage[T1]{fontenc}
+
+\title{BIOE C144L First Lecture: introduction information}
+\begin{document}
+\maketitle
+
+Make sure to print out lecture slides before each of the lectures. Consider 
+using some digital note taking strategy.
+
+Office Hours: to be discussed
+
+Homology-based annotation transfer
+
+Start with a protein of unknown function
+\begin{itemize}
+\item Run BLAST on it to find homologs.
+
+\item If the homolog at the top hit has a resaonable E-value, then transfer
+  the annotation to the protein of interest.
+\end{itemize}
+Sources of annotation error
+
+\begin{itemize}
+\item neofunctionalization: ortholog instead of paralog
+\item Domain shuffling: comes from multiple domain architecture of proteins
+  Some domains are promiscuous, and therefore the domain can be found in many 
+  different combinations.
+\end{itemize}
+
+Reading
+
+Start by reading the Sjolander review article. 
+Brown \& Sjolander, "Functional Classification using Phylogenomic Inference." PLoS Computational Biology, 2006 
+
+
+The Wild West of tool development. There are many opportunities in this 
+field for making tools more functinal. So many of the available tools today
+are error prone. 
+
+
+
+\end{document}

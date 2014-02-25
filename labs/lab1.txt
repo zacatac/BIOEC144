@@ -1,0 +1,20 @@
+Lab 1: Unix
+
+Zackery Field
+23031734
+Bioengineering/EECS
+3rd year undergrad
+
+
+1. Emacs
+2. I am proficient in Python and Java, and have been introduced to
+   Javascript, and Ruby. And E7 taught MATLAB, but I haven't touched MATLAB
+   in 2 years.
+3. In Holmes BIOE 131 some bioinformatics was taught.
+4. I have taken the standard courses in the CS department for 
+   introduction to probability theory and algorithms (DP, linear, greedy, etc.).
+   CS 70 and CS170.
+5. Two upper div courses in MCB: C100A and 110.
+6. Software development and bioengineering are my jams. I want to build some tools,
+   but I don't really know what is already out there.
+
