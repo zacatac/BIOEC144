@@ -1,0 +1,26 @@
+106 d1w5da1 Probab=95.26   E-value=0.15  Score=28.72  Aligned_columns=57  Identities=23%
+
+Q ss_pred             HHHHHHHHHHHCCC--CCCEEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHH
+Q ss_conf             99999998731257--54406999996899839999845888754200036788630269
+Q lab05-part01    434 AAEKAVAKYLDGQD--PDMRAAVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKV  491 (820)
+Q Consensus       434 aae~al~~~l~~~~--~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKp  491 (820)
+                      ++...++..+...+  ...+.++.+.|..||+++.-+.         +...+.|.|+.|.
+T Consensus         2 ~L~~~i~~~l~~~~~l~~~~~gi~v~d~~~g~~l~~~n---------~~~~~~PAS~~Kl   52 (458)
+T d1w5da1           2 ALSGQIDKILADHPALEGAMAGITVRSAETGAVLYEHS---------GDTRMRPASSLKL   52 (458)
+T ss_dssp             HHHHHHHHHHHHCGGGTTCEEEEEEEETTTCCEEEEES---------TTSCBCCGGGGHH
+T ss_pred             CHHHHHHHHHHCCCCCCCCEEEEEEEECCCCCEEEEEC---------CCCCCCCHHHHHH
+T ss_conf             30588999975082216766899999889986942107---------8878686047899
+
+
+Q ss_pred             HHHHHHHH
+Q ss_conf             99999997
+Q lab05-part01    492 FALVAALE  499 (820)
+Q Consensus       492 f~yaaALe  499 (820)
+                      |+.++||+
+T Consensus        53 ~Tt~aAL~   60 (458)
+T d1w5da1          53 LTAAAALS   60 (458)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+T ss_conf             99999998
+
+

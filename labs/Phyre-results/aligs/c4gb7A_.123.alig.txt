@@ -1,0 +1,26 @@
+123 c4gb7A_ Probab=64.58   E-value=11  Score=17.10  Aligned_columns=75  Identities=21%
+
+Q ss_pred             EEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHHHH---HHHCC-CCHHHEE
+Q ss_conf             99999689983999984588875420003678863026999999---99749-9843364
+Q lab05-part01    453 AVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFALVA---ALEQG-IGLGYQV  508 (820)
+Q Consensus       453 A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~yaa---ALe~G-~~~~s~~  508 (820)
+                      +++|+  +.|+|+.-......+.    ...+...|.=|.|+.++   +.|+| +++++.+
+T Consensus        78 ~l~V~--~~G~iv~E~y~~~~~~----~t~~~~~SvtKs~ts~li~~lv~~G~i~lddpV  131 (388)
+T c4gb7A_          78 AFVVV--HNGQLVYERYFNGYNE----SEPHGXASLAKVFTGAIIQSLAEENRIDLEKTA  131 (388)
+T ss_dssp             EEEEE--ETTEEEEEEECTTCCT----TSCEECGGGGHHHHHHHHHHHHHTTSSCTTSBH
+T ss_pred             EEEEE--ECCEEEEECCCCCCCC----CCCCCCCCHHHHHHHHHHHHHHHCCCCCCCCCH
+T ss_conf             89999--8998998513789881----201013110799999999999858867867848
+
+
+Q ss_pred             CCCCEEECCEEEECCCCCCCCCEEHHHHHHHCC
+Q ss_conf             148877889879607988523010999998514
+Q lab05-part01    509 DSSPLTVDGIKITNVEGEGCGTCNIAEALKMSL  541 (820)
+Q Consensus       509 ~d~p~~~~g~~~~N~~~~~~G~vtl~~AL~~S~  541 (820)
+                      .+-        +..+.+..++.+|+++-|.+++
+T Consensus       132 ~~y--------lPel~~~~~~~iTir~Ll~mts  156 (388)
+T c4gb7A_         132 DTY--------IKELKNTPFGKATLQQLXDXQV  156 (388)
+T ss_dssp             HHH--------CGGGTTSHHHHSBHHHHHTTCC
+T ss_pred             HHH--------CCCCCCCCCCCCCHHHHCCCCC
+T ss_conf             894--------8454788755770766102435
+
+

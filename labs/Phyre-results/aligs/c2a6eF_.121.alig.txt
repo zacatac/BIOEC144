@@ -1,0 +1,38 @@
+121 c2a6eF_ Probab=76.36   E-value=3.4  Score=20.17  Aligned_columns=101  Identities=17%
+
+Q ss_pred             HHHHHHHHCCCCCCCCCCHHHHHHHHHHHHHHHHHC------------------------
+Q ss_conf             999988625642123467999999999999997642------------------------
+Q lab05-part01    249 QQYVKNALVGSAQHGWSGLMRKAKELVIATKMSGEW------------------------  284 (820)
+Q Consensus       249 QQlvKn~~l~~~~~~~~t~~RK~~E~~lA~~lE~~~------------------------  284 (820)
+                      ++.-+--+|+.++  +..+.+|+++...+.++...+                        
+T Consensus        13 ~~i~~~~LLt~ee--E~~La~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   70 (345)
+T c2a6eF_          13 HEIGQVPLLTLEE--EVELARKVEEGMEAIKKLSEITGLDPDLIREVVRAKILGSARVRH   70 (345)
+T ss_dssp             HHHHHCCCCTTHH--HHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHCCHHHHH
+T ss_pred             HHHCCCCCCCHHH--HHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHH
+T ss_conf             8727887999899--999999999999999999984024314556666543212444333
+
+
+Q ss_pred             ---------------------------------------CHHHHHHHHHHCCCCCCCHHH
+Q ss_conf             ---------------------------------------999999985000516787047
+Q lab05-part01    285 ---------------------------------------SKDDVLQAYLNIIYFGRGAYG  305 (820)
+Q Consensus       285 ---------------------------------------sK~eILe~YLN~iyfG~g~yG  305 (820)
+                                                             .|+++.+.+|..|+       
+T Consensus        71 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ar~~LV~~NLrLV~-------  123 (345)
+T c2a6eF_          71 IPGLKETLDPKTVEEIDQKLKSLPKEHKRYLHIAREGEAARQHLIEANLRLVV-------  123 (345)
+T ss_dssp             TTSCSSSCTTHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHHHHHHTHHHHH-------
+T ss_pred             HHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-------
+T ss_conf             33345310000068889777654799999999972008999999996459999-------
+
+
+Q ss_pred             HHHHHHHHCCCCHHHCCHHHHHHHHHHHCCCCCCCCCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             99998886199878979999877665414886376456989999999999999998
+Q lab05-part01    306 ISAASKAYFDKPVEQLTVAEGALLAALIRRPSTLDPAVDPEGAHARWNWVLDGMVE  361 (820)
+Q Consensus       306 v~aAA~~YFgK~~~~Ltl~EaA~LAgl~~~Ps~y~P~~~pe~a~~Rr~~VL~~M~~  361 (820)
+                        .-|+.|.++.+.-.+|-|..+| ||+++=..|||.+...-..=-.-||-..|..
+T Consensus       124 --~iAkry~~~gl~~~DLiQEG~i-GLikAvekFDp~kG~rFsTYA~~wIr~~I~r  176 (345)
+T c2a6eF_         124 --SIAKKYTGRGLSFLDLIQEGNQ-GLIRAVEKFEYKRRFKFSTYATWWIRQAINR  176 (345)
+T ss_dssp             --HHHTTSCTTTSCHHHHHHHHHH-HHHHHHHHCCTTSCCCHHHHHHHHHHHHHHH
+T ss_pred             --HHHHHHCCCCCCHHHHHHHHHH-HHHHHHHHCCCCCCCCHHHHHHHHHHHHHHH
+T ss_conf             --9999834799998999999999-9999998228325897499999999999999
+
+

@@ -1,0 +1,38 @@
+136 c1l9uH_ Probab=29.32   E-value=7.1  Score=18.20  Aligned_columns=94  Identities=19%
+
+Q ss_pred             HCCCCCCCCCCHHHHHHHHHHHHHH-----------------------------------
+Q ss_conf             2564212346799999999999999-----------------------------------
+Q lab05-part01    256 LVGSAQHGWSGLMRKAKELVIATKM-----------------------------------  280 (820)
+Q Consensus       256 ~l~~~~~~~~t~~RK~~E~~lA~~l-----------------------------------  280 (820)
+                      +|+.++  +..|.||+++...+...                                   
+T Consensus        16 lLt~ee--E~~L~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   73 (322)
+T c1l9uH_          16 LLTLEE--EIDLARKVEEGMEAIKKLSEATGLDQELIREVVRAKILGTARVEEVDGKLKS   73 (322)
+T ss_dssp             CCCTTT--TTTTTHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHTTTSSCCTTHHHHHS
+T ss_pred             CCCHHH--HHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHCCCCCHHHHHHHCCC
+T ss_conf             999899--9999999999999999974301221566666778763022326776422148
+
+
+Q ss_pred             -------------HHHCCHHHHHHHHHHCCCCCCCHHHHHHHHHHHCCCCHHHCCHHHHH
+Q ss_conf             -------------76429999999850005167870479999888619987897999987
+Q lab05-part01    281 -------------SGEWSKDDVLQAYLNIIYFGRGAYGISAASKAYFDKPVEQLTVAEGA  327 (820)
+Q Consensus       281 -------------E~~~sK~eILe~YLN~iyfG~g~yGv~aAA~~YFgK~~~~Ltl~EaA  327 (820)
+                                   +-...++++.+.+|..|.         .=|+.|.|..+.-.+|-|..
+T Consensus        74 ~~~~~~~~~~~~~~~~~Ar~~Lv~~nlrLV~---------siA~ry~~~gl~~~DLiQEG  124 (322)
+T c1l9uH_          74 LPKELKRYLHIAREGEAARQHLIEANLRLVV---------SIAKKYTGRGLSFLDLIQEG  124 (322)
+T ss_dssp             CCTTCSHHHHHHHHHTTGGGSSSSSHHHHHH---------TTTTSTTSSSSCHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH---------HHHHHHCCCCCCHHHHHHHH
+T ss_conf             9899999999962009999999995338999---------99998348999989999999
+
+
+Q ss_pred             HHHHHHCCCCCCCCCCCHHHHHHHHHHHHHHHHH
+Q ss_conf             7665414886376456989999999999999998
+Q lab05-part01    328 LLAALIRRPSTLDPAVDPEGAHARWNWVLDGMVE  361 (820)
+Q Consensus       328 ~LAgl~~~Ps~y~P~~~pe~a~~Rr~~VL~~M~~  361 (820)
+                      +| ||+++=..|||.+...-+.=-.-||-..|..
+T Consensus       125 ~i-GLikAiekFDp~kG~rFsTYA~~wIr~~I~r  157 (322)
+T c1l9uH_         125 NQ-GLIRAVEKFEYKRRFKFSTYATWWIRQAINR  157 (322)
+T ss_dssp             HH-HHHHHTTSCCSSSTTCSSTHHHHHHHHHHHH
+T ss_pred             HH-HHHHHHHHCCCCCCCCHHHHHHHHHHHHHHH
+T ss_conf             99-9999998438236897089999999999999
+
+

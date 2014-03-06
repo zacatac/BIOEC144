@@ -1,0 +1,15 @@
+152 d2htja1 Probab=20.07   E-value=59  Score=12.40  Aligned_columns=22  Identities=32%
+
+Q ss_pred             HHHHHHHHHHCCCCCCCHHHHHHH
+Q ss_conf             999999850005167870479999
+Q lab05-part01    286 KDDVLQAYLNIIYFGRGAYGISAA  309 (820)
+Q Consensus       286 K~eILe~YLN~iyfG~g~yGv~aA  309 (820)
+                      |++||| |+|.+.-+ ..--|..|
+T Consensus         2 Kn~ILe-y~n~~n~~-~T~EiAea   23 (73)
+T d2htja1           2 KNEILE-FLNRHNGG-KTAEIAEA   23 (73)
+T ss_dssp             HHHHHH-HHHHSCCC-CHHHHHHH
+T ss_pred             HHHHHH-HHHHCCCC-CHHHHHHH
+T ss_conf             358999-99754886-28999988
+
+
+Done!

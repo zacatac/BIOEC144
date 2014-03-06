@@ -1,0 +1,38 @@
+103 c1tvfA_ Probab=97.02   E-value=0.0073  Score=37.01  Aligned_columns=122  Identities=17%
+
+Q ss_pred             HHHHHHHHHHCCCCCCEEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHH
+Q ss_conf             999999873125754406999996899839999845888754200036788630269999
+Q lab05-part01    435 AEKAVAKYLDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFAL  494 (820)
+Q Consensus       435 ae~al~~~l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~y  494 (820)
+                      .+.+-...........+...++||..||+||.-..         +...+.|+|+.|.++.
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~~~ivda~tG~ILy~kN---------~d~~~~pAS~tKlmTa   68 (369)
+T c1tvfA_          18 VQAANQYGYAGLSAAYEPTSAVNVSQTGQLLYQYN---------IDTKWNPASMTKLMTM   68 (369)
+T ss_dssp             HHHHHHTTCTTCCGGGCCSEEEEEETTSBEEEEES---------TTCCBCCGGGHHHHHH
+T ss_pred             EEEECCCCCCCCCCCCCCEEEEEECCCCEEEEEEC---------CCCCCCCHHHHHHHHH
+T ss_conf             23202111246410038607999907980966637---------9951266358999999
+
+
+Q ss_pred             HHHHH---CC-CCHHHEECCCCEEE---CCEEEECCCCCCCCCEEHHHH----HHHCCHH
+Q ss_conf             99997---49-98433641488778---898796079885230109999----9851449
+Q lab05-part01    495 VAALE---QG-IGLGYQVDSSPLTV---DGIKITNVEGEGCGTCNIAEA----LKMSLNT  543 (820)
+Q Consensus       495 aaALe---~G-~~~~s~~~d~p~~~---~g~~~~N~~~~~~G~vtl~~A----L~~S~Nt  543 (820)
+                      ..+||   +| +++++.+.-+....   ......+..-.....+|+++.    |..|-|.
+T Consensus        69 ~~vle~i~~gki~ld~~Vtis~~~~~~~~~~~~S~~~l~~G~~~tv~dLl~a~li~SaNd  128 (369)
+T c1tvfA_          69 YLTLEAVNKGQLSLDDTVTMTNKEYIMSTLPELSNTKLYPGQVWTIADLLQITVSNSSNA  128 (369)
+T ss_dssp             HHHHHHHHTTSSCTTCEEECCHHHHHHTTCTTSCCCCCCTTCEEEHHHHHHHHHHSCCHH
+T ss_pred             HHHHHHHHCCCCCCCCEEECCHHHHHHCCCCCCCEEEECCCCEEEHHHHHHHHHHCCCHH
+T ss_conf             999998562899856779808899831266765143315997887989888783435658
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             9999999863028999999998
+Q lab05-part01    544 SYYRLMLKLNGGPQAVADAAHQ  565 (820)
+Q Consensus       544 ~~v~l~~~l~~G~~~v~~~a~~  565 (820)
+                      +++-|++.+.+..++|+++..+
+T Consensus       129 Aa~aLAe~i~Gs~~~Fv~~MN~  150 (369)
+T c1tvfA_         129 AALILAKKVSKNTSDFVDLMNN  150 (369)
+T ss_dssp             HHHHHHHHHSSSHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCCHHHHHHHHHH
+T ss_conf             9999999868998999999999
+
+

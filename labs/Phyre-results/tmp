@@ -1,0 +1,12 @@
+total 3064
+-rw-r--r-- 1 phyre2 bmm     289 Feb 25 18:43 083b01625d2f5d9b.job
+-rw-r--r-- 1 phyre2 bmm     835 Feb 25 18:43 input.fasta
+drwxr-xr-x 1 phyre2 bmm 3096576 Feb 25 18:43 ..
+-rw-r--r-- 1 phyre2 bmm       8 Feb 25 18:43 hostname
+-rw-r--r-- 1 phyre2 bmm      27 Feb 25 18:43 PBS_jobid
+-rw-r--r-- 1 phyre2 bmm     835 Feb 25 18:43 query.fasta
+-rw-r--r-- 1 phyre2 bmm    1068 Feb 25 18:43 phyre2_20140225_184359.log
+-rw-r--r-- 1 phyre2 bmm       2 Feb 25 18:43 status
+-rw-r--r-- 1 phyre2 bmm      37 Feb 25 18:43 jobstat
+-rw-r--r-- 1 phyre2 bmm       0 Feb 25 18:43 tmp
+drwxr-xr-x 2 phyre2 bmm    4096 Feb 25 18:43 .

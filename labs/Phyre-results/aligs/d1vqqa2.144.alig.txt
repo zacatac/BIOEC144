@@ -1,0 +1,14 @@
+144 d1vqqa2 Probab=22.50   E-value=52  Score=12.71  Aligned_columns=42  Identities=14%
+
+Q ss_pred             CCCCEEEEECCCCEEEEEECCCCCEEEECHHHCCHHHHHHHHHH
+Q ss_conf             46663899068947313215767767507799598999989988
+Q lab05-part01    169 TNQVSTILASDGSEIAKIVPPEGNRVDVNLSQVPMHVRQAVIAA  212 (820)
+Q Consensus       169 ~~q~s~i~~~dG~~la~~~~~~~nR~~V~l~~Ip~~~~~A~ia~  212 (820)
+                      .+.+..|||+||++||.-..  .-.+.+....|.+....++..+
+T Consensus        10 ~a~RG~I~DrnG~~LA~~~~--~y~i~i~p~~~~~~~~~~la~~   51 (188)
+T d1vqqa2          10 KSERGKILDRNNVELANTGT--AYEIGIVPKNVSKKDYKAIAKE   51 (188)
+T ss_dssp             CCCCCCEECTTCCEEEEEEE--EEEEEECGGGCCTTTHHHHHHH
+T ss_pred             CCCCCEEECCCCCEEEEEEE--EEEEEEEECCCCHHHHHHHHHH
+T ss_conf             68997478658968255588--9999999120795779999987
+
+

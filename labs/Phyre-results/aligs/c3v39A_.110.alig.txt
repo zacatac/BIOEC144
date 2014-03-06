@@ -1,0 +1,14 @@
+110 c3v39A_ Probab=90.83   E-value=0.13  Score=29.18  Aligned_columns=40  Identities=15%
+
+Q ss_pred             EEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHHHHHHH
+Q ss_conf             0699999689983999984588875420003678863026999999997
+Q lab05-part01    451 RAAVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFALVAALE  499 (820)
+Q Consensus       451 ~~A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~yaaALe  499 (820)
+                      +.+.+++|++||+|++-..         +...+.|.|+.|.|+.++||+
+T Consensus         7 ~~~~~~~D~~T~~vl~~~n---------~d~~~~PAS~~KL~Tt~AAL~   46 (402)
+T c3v39A_           7 SMCHMAANSKTQQIQGDDN---------KDDKFPLASISKVVTTLWAVD   46 (402)
+T ss_dssp             EEEEEETTCSSCCCEECTT---------TTSEEECGGGHHHHHHHHHHH
+T ss_pred             CEEEEEEECCCCEEEEEEC---------CCCCCCCHHHHHHHHHHHHHH
+T ss_conf             1158998469980888307---------786745216689999999998
+
+

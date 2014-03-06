@@ -1,0 +1,14 @@
+139 d2dlxa1 Probab=25.20   E-value=31  Score=14.15  Aligned_columns=24  Identities=21%
+
+Q ss_pred             EEEEEECCCCEEEEEEECCCCCCC
+Q ss_conf             999996899839999845888754
+Q lab05-part01    453 AVVSIDPHNGAVRAYYGGDNANGF  476 (820)
+Q Consensus       453 A~V~iDp~TG~VlA~vGG~d~~~~  476 (820)
+                      .++++||.||+++...|+.+...|
+T Consensus       104 ~i~iidP~tge~l~~~~~~~~~~f  127 (147)
+T d2dlxa1         104 YVSILDPRTGQKLVEWHQLDVSSF  127 (147)
+T ss_dssp             EEEEECTTTCCCCEEESSCCHHHH
+T ss_pred             EEEEEECCCCCEEEECCCCCHHHH
+T ss_conf             599982899838871589898999
+
+

@@ -1,0 +1,86 @@
+27 c3oc2A_ Probab=100.00  E-value=0  Score=444.23  Aligned_columns=299  Identities=22%
+
+Q ss_pred             CCCCEEEECCCHHHHHHHHHHHHHHHHCCCCCCEEEEEEEECCCCEEEEEEECCCCCC--
+Q ss_conf             2896899833999999999999987312575440699999689983999984588875--
+Q lab05-part01    418 TQGLVVTTTIDPQAQRAAEKAVAKYLDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANG--  475 (820)
+Q Consensus       418 ~~Gl~I~TTlD~~lQ~aae~al~~~l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~--  475 (820)
+                      ..|..|+||||.++|+.+|+++.+.+...+.. ++++|+|||+||+||||+++++|+.  
+T Consensus       165 ~~G~~i~lTiD~~lQ~~ae~~l~~~~~~~~~~-~ga~vvmd~~TG~ILAmas~p~~dpn~  223 (495)
+T c3oc2A_         165 KPGKTLALSIDLRLQYLAHRELRNALLENGAK-AGSLVIMDVKTGEILAMTNQPTYNPNN  223 (495)
+T ss_dssp             BCCCCEEBSCCHHHHHHHHHHHHHHHHHHTCC-CEEEEEEETTTCBEEEEEEESCCCTTC
+T ss_pred             CCCCEEEEEECHHHHHHHHHHHHHHHHCCCCC-EEEEEEEECCCCEEEEEEECCCCCCCC
+T ss_conf             78973798128899999999998775217764-699999977998099997577778311
+
+
+Q ss_pred             ---------CCCC-CCCCCCCCHHHHHHHHHHHHCC-CCHHHEECCCC--EEECCEEEEC
+Q ss_conf             ---------4200-0367886302699999999749-98433641488--7788987960
+Q lab05-part01    476 ---------FDFA-QAGLQTGSSFKVFALVAALEQG-IGLGYQVDSSP--LTVDGIKITN  522 (820)
+Q Consensus       476 ---------~n~a-~a~rqpGSTfKpf~yaaALe~G-~~~~s~~~d~p--~~~~g~~~~N  522 (820)
+                               +|++ +..++||||||||++++|||+| ++++++++|++  +.++++.++|
+T Consensus       224 ~~~~~~~~~~nra~~~~y~PGStfK~~t~aaaLe~g~~~~~~~~~~~~~~~~~g~~~~~~  283 (495)
+T c3oc2A_         224 RRNLQPAAMRNRAMIDVFEPGSTVKPFSMSAALASGRWKPSDIVDVYPGTLQIGRYTIRD  283 (495)
+T ss_dssp             CTTCCHHHHCCHHHHCCBBCGGGGHHHHHHHHHHTTSCCTTCEEECTTSEEEETTEEEEC
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHCCCCCHHCEEECCCEEEEECCEEEEC
+T ss_conf             257875321000012667861167899999999879988000897388189419887821
+
+
+Q ss_pred             CCCCCCCCEEHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCC--------C
+Q ss_conf             798852301099999851449999999986302899999999829987677--------4
+Q lab05-part01    523 VEGEGCGTCNIAEALKMSLNTSYYRLMLKLNGGPQAVADAAHQAGIASSFP--------G  574 (820)
+Q Consensus       523 ~~~~~~G~vtl~~AL~~S~Nt~~v~l~~~l~~G~~~v~~~a~~~Gi~~~~~--------~  574 (820)
+                      ++ .++|.++|++||++|||++|++|+.++  |.+.+.+++++|||...++        +
+T Consensus       284 ~~-~~~g~~~l~~al~~S~N~~f~~l~~~l--g~~~~~~~~~~~G~g~~tgi~lp~e~~g  340 (495)
+T c3oc2A_         284 VS-RNSRQLDLTGILIKSSNVGISKIAFDI--GAESIYSVMQQVGLGQDTGLGFPGERVG  340 (495)
+T ss_dssp             SC-CCCSEEEHHHHHHTTCHHHHHHHHHHH--CHHHHHHHHHHTTTTSCCCCSCTTCCCC
+T ss_pred             CC-CCCCCCCHHHHHHHHHHHHHHHHHHHC--CHHHHHHHHHHCCCCCCCCCCCCCCCCC
+T ss_conf             48-886633199999874079999999870--9899999999828998678887754457
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCEEECCCCCCHHHHHHHHHHHHCCCEEECCEEEEEEECCCCCEE
+Q ss_conf             444444555665545412406575569999999999833886726788877787998785
+Q lab05-part01    575 VAHTLSEDGKGGPPNNGIVLGQYQTRVIDMASAYATLAASGIYHPPHFVQKVVSANGQVL  634 (820)
+Q Consensus       575 ~~~~~~~~~~~~~~~~siaLG~~~vsplqmA~AYat~ANgG~~~~P~~V~~I~d~~G~vi  634 (820)
+                      .......+........+|++| ..+||||||.+|++|||+|.+++||+|++|++.+|+  
+T Consensus       341 ~~p~~~~~~~~~~~~~~iGqg-~~~TPlq~a~~~aaiAn~G~~~~p~~v~~~~~~~~~--  397 (495)
+T c3oc2A_         341 NLPNHRKWPKAETATLAYGYG-LSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV--  397 (495)
+T ss_dssp             BCCCCSSCCHHHHHHHHTTCS-CBBCHHHHHHHHHHHHTTTEECCCBSBCCSSCCCCE--
+T ss_pred             CCCCCCCCCHHHHHHHHHCCC-CCCCHHHHHHHHHHHHCCCEEECCEEEEEEECCCCC--
+T ss_conf             547722158123666642534-431799999999997408878442889864358886--
+
+
+Q ss_pred             ECCCCCCCCCCCCCCHHHHHHHHHHHHHHHH-CCCEECCC-CCCCEEEEECCCCCCCCCC
+Q ss_conf             5167777764303899999999999999850-36400014-7613278702343678888
+Q lab05-part01    635 FDASTADNTGDQRIPKAVADNVTAAMEPIAG-YSRGHNLA-GGRDSAAKTGTTQFGDTTA  692 (820)
+Q Consensus       635 ~~~~~~~~~~~~~i~~~~a~~vt~~L~~vv~-~gtg~a~~-~g~~vAGKTGTsq~g~t~~  692 (820)
+                                 +++++++++.|..||+.|+. .|++.... .++++||||||+|     .
+T Consensus       398 -----------~v~s~~~a~~i~~~m~~vv~~~gt~~~~~~~g~~vaGKTGTaq-----~  441 (495)
+T c3oc2A_         398 -----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTAR-----K  441 (495)
+T ss_dssp             -----------ECSCHHHHHHHHHHHHHHHHSTTSCGGGCCTTSCCEEEEEEEE-----C
+T ss_pred             -----------CCCCHHHHHHHHHHHHHHHCCCCCCCCCCCCCCEEEEEECCCC-----C
+T ss_conf             -----------6259999999999999861689831123479814788731136-----9
+
+
+Q ss_pred             CCEEEEEEECC----CEEEEEEEECCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHCC
+Q ss_conf             75069997559----959999970689985544677775446532079999999999849
+Q lab05-part01    693 NKDAWMVGYTP----SLSTAVWVGTVKGDEPLVTASGAAIYGSGLPSDIWKATMDGALKG  748 (820)
+Q Consensus       693 ~~DaWFvGyTP----~~~~~VWvG~~~~~~~~~~~~g~~~~G~~~~a~iW~~~M~~al~g  748 (820)
+                      ..++||+||+|    +|+++|||.++              +|+..++|||+++|+.+++-
+T Consensus       442 ~~~~wFvG~~P~~~p~~av~V~v~~~--------------~g~~~Aapi~~~i~~~~l~~  487 (495)
+T c3oc2A_         442 AYRSLFAGFAPATDPRIAMVVVIDEP--------------FGGLVSAPVFSKVMAGALRL  487 (495)
+T ss_dssp             CEEEEEEEEECTTSCCEEEEEEEEEC--------------CHHHHTHHHHHHHHHHHHHH
+T ss_pred             CCCEEEEEEEECCCCCEEEEEEECCC--------------CCCCHHHHHHHHHHHHHHHH
+T ss_conf             97538999987489839999998089--------------87603589999999999998
+
+
+Q ss_pred             CCHHH
+Q ss_conf             98020
+Q lab05-part01    749 TSNET  753 (820)
+Q Consensus       749 ~p~~~  753 (820)
+                      ....+
+T Consensus       488 ~~i~p  492 (495)
+T c3oc2A_         488 MNVPP  492 (495)
+T ss_dssp             TTCCC
+T ss_pred             CCCCC
+T ss_conf             38998
+
+

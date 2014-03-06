@@ -1,0 +1,26 @@
+104 c3a3eB_ Probab=96.23   E-value=0.037  Score=32.59  Aligned_columns=60  Identities=27%
+
+Q ss_pred             HHHHHHCCCCCCEEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHHHHHH
+Q ss_conf             998731257544069999968998399998458887542000367886302699999999
+Q lab05-part01    439 VAKYLDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFALVAAL  498 (820)
+Q Consensus       439 l~~~l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~yaaAL  498 (820)
+                      +++.++...++.+.++.+.|..||+++.-+.         +...+.|.|+.|.|+.++||
+T Consensus         4 ~~~~~~~~~~~~~~gi~v~d~~tg~~l~~~n---------~~~~~~PAS~~Kl~Tt~aAL   54 (433)
+T c3a3eB_           4 VSDLTQKLPEGSNAGVIAKNINQNQIIADYN---------GSTFMLPASTQKVFTAVAAK   54 (433)
+T ss_dssp             HHHHHTTSCTTCEEEEEEEETTTTEEEEEES---------TTCCBCCGGGGHHHHHHHHH
+T ss_pred             HHHHHHHCCCCCEEEEEEEECCCCCEEEEEC---------CCCCCCCHHHHHHHHHHHHH
+T ss_conf             8899961254675899999889987954316---------98785870468999999999
+
+
+Q ss_pred             HCCCCHHHEE
+Q ss_conf             7499843364
+Q lab05-part01    499 EQGIGLGYQV  508 (820)
+Q Consensus       499 e~G~~~~s~~  508 (820)
+                      +. +.++..+
+T Consensus        55 ~~-LG~d~rf   63 (433)
+T c3a3eB_          55 LA-LGDQFQF   63 (433)
+T ss_dssp             HH-TCTTCEE
+T ss_pred             HH-CCCCCEE
+T ss_conf             86-3998569
+
+

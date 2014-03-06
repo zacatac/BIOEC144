@@ -1,0 +1,26 @@
+145 d2vkea1 Probab=22.40   E-value=53  Score=12.70  Aligned_columns=61  Identities=13%
+
+Q ss_pred             HCCHHHHHHHHHHCCCCCCCHHHHHHHHHHHCCCCHHHCCHHHHHHHHHHHCCCCCCCCC
+Q ss_conf             429999999850005167870479999888619987897999987766541488637645
+Q lab05-part01    283 EWSKDDVLQAYLNIIYFGRGAYGISAASKAYFDKPVEQLTVAEGALLAALIRRPSTLDPA  342 (820)
+Q Consensus       283 ~~sK~eILe~YLN~iyfG~g~yGv~aAA~~YFgK~~~~Ltl~EaA~LAgl~~~Ps~y~P~  342 (820)
+                      ++||++||+                +|-+.+-.+....+|+.+.|--+|+.++.-++-=-
+T Consensus         2 ~~tr~~il~----------------aa~~l~~~~G~~~~t~~~Ia~~agvs~~~~y~~F~   45 (66)
+T d2vkea1           2 RLNRESVID----------------AALELLNETGIDGLTTRKLAQKLGIEQPTLYWHVK   45 (66)
+T ss_dssp             CCSHHHHHH----------------HHHHHHHHHCGGGCCHHHHHHHHTCCHHHHHHHCC
+T ss_pred             CCCHHHHHH----------------HHHHHHHHHCCCCCCHHHHHHHHCCCHHHHHHHCC
+T ss_conf             069999999----------------99999997192407599999994899989750069
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHH
+Q ss_conf             69899999999999999
+Q lab05-part01    343 VDPEGAHARWNWVLDGM  359 (820)
+Q Consensus       343 ~~pe~a~~Rr~~VL~~M  359 (820)
+                      .--+....--+.++..|
+T Consensus        46 ~k~~L~~~~~~~~~~~~   62 (66)
+T d2vkea1          46 NKRALLDALAVEILARH   62 (66)
+T ss_dssp             CHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHH
+T ss_conf             99999999999999999
+
+

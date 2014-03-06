@@ -1,0 +1,26 @@
+146 c4fymA_ Probab=22.32   E-value=53  Score=12.69  Aligned_columns=56  Identities=27%
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCHHHHHHHHHHCCC-CCCCHHHHHHHHHHHCCCCHHHCCHHHH
+Q ss_conf             9999999999999764299999998500051-6787047999988861998789799998
+Q lab05-part01    268 MRKAKELVIATKMSGEWSKDDVLQAYLNIIY-FGRGAYGISAASKAYFDKPVEQLTVAEG  326 (820)
+Q Consensus       268 ~RK~~E~~lA~~lE~~~sK~eILe~YLN~iy-fG~g~yGv~aAA~~YFgK~~~~Ltl~Ea  326 (820)
+                      .+|.+|++.-+.-.+++.|.-+..++-|.+. ||.=.      |.+||+..+  |+-.++
+T Consensus        23 ~~~~kel~~~~sy~~e~k~~l~~~Ll~~~aLkFG~F~------SpYffnag~--f~~~~~   74 (223)
+T c4fymA_          23 ERKKKELVSYSSYIKEMKKLLKVVLLKYKALKFGEFI------SNYFFSSGV--LNNIVS   74 (223)
+T ss_dssp             HHHTTCHHHHHHHHHHHHHHHHHHHHHTTSEEESCCC------CCEEECSGG--GCSHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHCCCEEEEEEC------CCCCCCCHH--HCCHHH
+T ss_conf             9999998633456899999999999626540212123------733031032--149899
+
+
+Q ss_pred             HHHHH
+Q ss_conf             77665
+Q lab05-part01    327 ALLAA  331 (820)
+Q Consensus       327 A~LAg  331 (820)
+                      .-+.+
+T Consensus        75 ~~~L~   79 (223)
+T c4fymA_          75 SNIIC   79 (223)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+T ss_conf             99999
+
+

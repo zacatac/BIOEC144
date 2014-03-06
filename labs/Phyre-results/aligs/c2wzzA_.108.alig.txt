@@ -1,0 +1,38 @@
+108 c2wzzA_ Probab=91.75   E-value=1  Score=23.48  Aligned_columns=101  Identities=15%
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHCCCCCCEEEEEEEECCCCEEEEEEECCCCCCCCCC--CCCCC
+Q ss_conf             39999999999999873125754406999996899839999845888754200--03678
+Q lab05-part01    427 IDPQAQRAAEKAVAKYLDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANGFDFA--QAGLQ  484 (820)
+Q Consensus       427 lD~~lQ~aae~al~~~l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a--~a~rq  484 (820)
+                      |+..+++++++.+++.      .+.++.|+|-.+.--|+.-+|..|...-...  ...+.
+T Consensus         6 ~~~~id~~i~~~~~~~------~~~G~~v~v~~~g~i~~~~~G~~d~~~~~~~t~dt~f~   59 (360)
+T c2wzzA_           6 LKALVDAAVQPVMKAN------DIPGLAVAISLKGEPHYFSYGLASKEDGRRVTPETLFE   59 (360)
+T ss_dssp             HHHHHHHHHHHHHHHT------TCSEEEEEEEETTEEEEEEEEBSCTTTCCBCCTTCEEE
+T ss_pred             HHHHHHHHHHHHHHHC------CCCEEEEEEEECCEEEEEEEEECCCCCCCCCCCCCEEE
+T ss_conf             9999999999999816------99759999999998999953110156688888675054
+
+
+Q ss_pred             CCCHHHHHHHHHHH---HCC-CCHHHEECCCCEEECCEEEECCCCCCCCCEEHHHHHHHC
+Q ss_conf             86302699999999---749-984336414887788987960798852301099999851
+Q lab05-part01    485 TGSSFKVFALVAAL---EQG-IGLGYQVDSSPLTVDGIKITNVEGEGCGTCNIAEALKMS  540 (820)
+Q Consensus       485 pGSTfKpf~yaaAL---e~G-~~~~s~~~d~p~~~~g~~~~N~~~~~~G~vtl~~AL~~S  540 (820)
+                      .||.=|.|+..+++   |+| +.+++.+.+-        ...+.......||+++-|.++
+T Consensus        60 i~SitK~~ta~~~~~lve~G~l~ldd~i~~~--------lp~~~~~~~~~ITi~~LLsht  111 (360)
+T c2wzzA_          60 IGSVSKTFTATLAGYALTQDKMRLDDRASQH--------WPALQGSRFDGISLLDLATYT  111 (360)
+T ss_dssp             CGGGHHHHHHHHHHHHHHTTSCCTTSBGGGG--------CGGGTTSGGGGCBHHHHHTTC
+T ss_pred             EHHHHHHHHHHHHHHHHHCCCCCCCCCHHHH--------HHHCCCCCCCCCCHHHHHHCC
+T ss_conf             3304489999999999987998835617988--------651557875586189997210
+
+
+Q ss_pred             C
+Q ss_conf             4
+Q lab05-part01    541 L  541 (820)
+Q Consensus       541 ~  541 (820)
+                      .
+T Consensus       112 s  112 (360)
+T c2wzzA_         112 A  112 (360)
+T ss_dssp             S
+T ss_pred             C
+T ss_conf             4
+
+

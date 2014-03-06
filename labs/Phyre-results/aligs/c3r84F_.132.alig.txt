@@ -1,0 +1,14 @@
+132 c3r84F_ Probab=39.92   E-value=24  Score=14.87  Aligned_columns=23  Identities=39%
+
+Q ss_pred             HHHHHHHHHCCCCCCCCCCHHHHHHHHHH
+Q ss_conf             99999886256421234679999999999
+Q lab05-part01    248 TQQYVKNALVGSAQHGWSGLMRKAKELVI  276 (820)
+Q Consensus       248 TQQlvKn~~l~~~~~~~~t~~RK~~E~~l  276 (820)
+                      |+||+|++   ++--   -+.|-+||-|+
+T Consensus        52 T~QLIkgv---QDLL---viTRsIrEkW~   74 (77)
+T c3r84F_          52 TXQLIKNV---QDLL---ILTRSIKEKWL   74 (77)
+T ss_dssp             HHHHHHHH---HHHH---HHHHHHHHHHH
+T ss_pred             HHHHHHHH---HHHH---HHHHHHHHHHC
+T ss_conf             89999504---8999---99997766530
+
+

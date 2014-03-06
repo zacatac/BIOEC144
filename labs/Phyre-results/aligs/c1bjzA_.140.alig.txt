@@ -1,0 +1,14 @@
+140 c1bjzA_ Probab=23.61   E-value=49  Score=12.92  Aligned_columns=37  Identities=16%
+
+Q ss_pred             HCCHHHHHHHHHHCCCCCCCHHHHHHHHHHHCCCCHHHCCHHHHHHHHHHHCC
+Q ss_conf             42999999985000516787047999988861998789799998776654148
+Q lab05-part01    283 EWSKDDVLQAYLNIIYFGRGAYGISAASKAYFDKPVEQLTVAEGALLAALIRR  335 (820)
+Q Consensus       283 ~~sK~eILe~YLN~iyfG~g~yGv~aAA~~YFgK~~~~Ltl~EaA~LAgl~~~  335 (820)
+                      +.||++||+                +|.+.+-.+....+|+.+.|--||+.++
+T Consensus         2 ~~TR~~Il~----------------aA~~l~~~~G~~~~ti~~IA~~aGvs~~   38 (194)
+T c1bjzA_           2 RLNRESVID----------------AALELLNETGIDGLTTRKLAQKLGIEQP   38 (194)
+T ss_dssp             CSSHHHHHH----------------HHHHHHHHHHHHHCCHHHHHHHHTSCHH
+T ss_pred             CCCHHHHHH----------------HHHHHHHHHCCCCCCHHHHHHHHCCCHH
+T ss_conf             278999999----------------9999999619131759999999489988
+
+

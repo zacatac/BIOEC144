@@ -1,0 +1,38 @@
+85 c2bcfA_ Probab=98.25   E-value=8.4e-05  Score=49.25  Aligned_columns=139  Identities=19%
+
+Q ss_pred             EEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHHHHHHHCC-CCHHHEECCC
+Q ss_conf             9999968998399998458887542000367886302699999999749-9843364148
+Q lab05-part01    453 AVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFALVAALEQG-IGLGYQVDSS  511 (820)
+Q Consensus       453 A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~yaaALe~G-~~~~s~~~d~  511 (820)
+                      +.+++|-+||+||.-..         +...++|.|++|.++...+||+. +....++...
+T Consensus        16 s~~v~d~~tG~vl~~~n---------~~~~~~~AS~tKl~ta~~~le~i~l~~~v~~~~~   66 (261)
+T c2bcfA_          16 TWIVADLDSGQVLAGRD---------QNVAHPPASTIKVLLALVALDELDLNSTVVADVA   66 (261)
+T ss_dssp             EEEEEETTTCEEEEEES---------TTCCBCCGGGHHHHHHHHHHHHCCTTCEEECCTG
+T ss_pred             EEEEEECCCCCEEEEEC---------CCCCCCCHHHHHHHHHHHHHHCCCCCCEEECCHH
+T ss_conf             79999999970967746---------9973256148999999999970898887981698
+
+
+Q ss_pred             CEEECCEEEECCCCCCCCCEEHHHHHH----HCCHHHHHHHHHHHHHH---HHHHHHHHH
+Q ss_conf             877889879607988523010999998----51449999999986302---899999999
+Q lab05-part01    512 PLTVDGIKITNVEGEGCGTCNIAEALK----MSLNTSYYRLMLKLNGG---PQAVADAAH  564 (820)
+Q Consensus       512 p~~~~g~~~~N~~~~~~G~vtl~~AL~----~S~Nt~~v~l~~~l~~G---~~~v~~~a~  564 (820)
+                      ....++....-..+.   .+|+++.|.    .|.|..+.-|+..+++.   ...+-+.++
+T Consensus        67 ~~~~~~~~~~~~~g~---~~tv~dLl~~mi~~S~N~Aa~~La~~~Gg~~~~~~~mn~~a~  123 (261)
+T c2bcfA_          67 DTQAECNCVGVKPGR---SYTVRQLLDGLLLVSGNDAANTLAHXLGGQDVTVAKXNAKAA  123 (261)
+T ss_dssp             GGCCSSCCCCCCTTC---EEEHHHHHHHHHHSCCHHHHHHHHHHTTCHHHHHHHHHHHHH
+T ss_pred             HHCCCCCEECCCCCC---CCCHHHHHHHHHHCCCHHHHHHHHHHHCCCHHHHHHHHHHHH
+T ss_conf             823586300344677---764899999897526617999999875898899999999999
+
+
+Q ss_pred             HCCCCCCCCCCCCCCCCCCCCCCCCCCEEECCCCCCHHHHHHHHHHHHCC
+Q ss_conf             82998767744444445556655454124065755699999999998338
+Q lab05-part01    565 QAGIASSFPGVAHTLSEDGKGGPPNNGIVLGQYQTRVIDMASAYATLAAS  614 (820)
+Q Consensus       565 ~~Gi~~~~~~~~~~~~~~~~~~~~~~siaLG~~~vsplqmA~AYat~ANg  614 (820)
+                      ++|+....-.....+........           +|+.+|+..+..+..+
+T Consensus       124 ~lGl~~t~~~n~~Gl~~~~~~n~-----------tTa~Dla~l~~~~~~~  162 (261)
+T c2bcfA_         124 TLGATSTHATTPSGLDGPGGSGA-----------STAHDLVVIFRAAXAN  162 (261)
+T ss_dssp             HHTCTTCBCSSSSSSCBTTBSCB-----------BCHHHHHHHHHHHHHS
+T ss_pred             HCCCCCCEEECCCCCCCCCCCCC-----------CCHHHHHHHHHHHHCC
+T ss_conf             73870045314778848999860-----------2899999999998439
+
+

@@ -1,0 +1,14 @@
+134 d1pyya3 Probab=34.29   E-value=30  Score=14.28  Aligned_columns=17  Identities=29%
+
+Q ss_pred             CCCCEEEEECCCCEEEE
+Q ss_conf             46663899068947313
+Q lab05-part01    169 TNQVSTILASDGSEIAK  185 (820)
+Q Consensus       169 ~~q~s~i~~~dG~~la~  185 (820)
+                      ++++..|||+||.+||.
+T Consensus         1 PA~RG~I~DrnG~~LA~   17 (120)
+T d1pyya3           1 PAKRGTIYDRNGVPIAE   17 (120)
+T ss_dssp             CCCCCCEECTTSCEEEE
+T ss_pred             CCCCCEEECCCCCEEEE
+T ss_conf             97887258358978144
+
+

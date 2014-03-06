@@ -1,0 +1,14 @@
+148 d1b7go2 Probab=21.75   E-value=18  Score=15.61  Aligned_columns=34  Identities=21%
+
+Q ss_pred             HHHHCCHHHHHHHHHHC--CCCCCCHHHHHHHHHHH
+Q ss_conf             97642999999985000--51678704799998886
+Q lab05-part01    280 MSGEWSKDDVLQAYLNI--IYFGRGAYGISAASKAY  313 (820)
+Q Consensus       280 lE~~~sK~eILe~YLN~--iyfG~g~yGv~aAA~~Y  313 (820)
+                      |...++|++|||..-|.  |.+=....|+++.|+..
+T Consensus        89 lk~~~tk~~Vle~l~~~~Ri~li~~~~g~~sta~i~  124 (162)
+T d1b7go2          89 LKDKVEKKDILSVLENTPRIVLISSKYDAEATAELV  124 (162)
+T ss_dssp             ESSCCCHHHHHHHHHTCTTEEEECSSSSCCSHHHHH
+T ss_pred             ECCCCCHHHHHHHHHHCCEEEEEECCCCCCCCHHHH
+T ss_conf             479999899999973087189995233854217899
+
+

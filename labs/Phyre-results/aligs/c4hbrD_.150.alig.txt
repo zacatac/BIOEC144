@@ -1,0 +1,14 @@
+150 c4hbrD_ Probab=20.79   E-value=57  Score=12.49  Aligned_columns=36  Identities=28%
+
+Q ss_pred             CCEEEEECCCCEEEEEECCCCCEEEE-CHHHCCHHHHHHHHHHH
+Q ss_conf             66389906894731321576776750-77995989999899885
+Q lab05-part01    171 QVSTILASDGSEIAKIVPPEGNRVDV-NLSQVPMHVRQAVIAAE  213 (820)
+Q Consensus       171 q~s~i~~~dG~~la~~~~~~~nR~~V-~l~~Ip~~~~~A~ia~E  213 (820)
+                      +....++.+|+.+.+-       ..+ +++++|..+++||-+.|
+T Consensus        40 e~ea~fd~~G~W~~Te-------~di~~~~~LP~~V~~a~~~s~   76 (139)
+T c4hbrD_          40 DTRVWFTPDAEWVXKQ-------TDWETLDEVPAAVFNAFAASE   76 (139)
+T ss_dssp             EEEEEECTTSCEEEEE-------EECCSGGGSCHHHHHHHHHST
+T ss_pred             EEEEEECCCCCEEEEE-------EEEEEHHHCCHHHHHHHHCCC
+T ss_conf             9999987998599999-------761026667989899986168
+
+

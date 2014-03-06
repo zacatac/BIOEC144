@@ -1,0 +1,38 @@
+109 c1zkjA_ Probab=90.93   E-value=1.2  Score=22.97  Aligned_columns=102  Identities=17%
+
+Q ss_pred             CCCHHHHHHHHHHHHHHHHCCCCCCEEEEEEEECCCCEEEEEEECCCCCCCCCC--CCCC
+Q ss_conf             339999999999999873125754406999996899839999845888754200--0367
+Q lab05-part01    426 TIDPQAQRAAEKAVAKYLDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANGFDFA--QAGL  483 (820)
+Q Consensus       426 TlD~~lQ~aae~al~~~l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a--~a~r  483 (820)
+                      +|++.++..+++.+++.      .+.++.|+|--+..-|..-+|-.|...-...  ...+
+T Consensus         2 ~~~~~id~~~~~~~~~~------~~~G~~v~v~~~g~i~~~~~G~~~~~~~~~~~~~t~f   55 (350)
+T c1zkjA_           2 PLRPVVDASIQPLLKEH------RIPGMAVAVLKDGKAHYFNYGVANRESGAGVSEQTLF   55 (350)
+T ss_dssp             TTHHHHHHHHHHHHHHT------TCSEEEEEEEETTEEEEEEEEBSCTTTCCBCCTTCBE
+T ss_pred             CHHHHHHHHHHHHHHHC------CCCEEEEEEEECCEEEEEEEEEEECCCCCCCCCCCEE
+T ss_conf             73489999999999837------9975999999899999995223206668888846405
+
+
+Q ss_pred             CCCCHHHHHHHHH---HHHCC-CCHHHEECCCCEEECCEEEECCCCCCCCCEEHHHHHHH
+Q ss_conf             8863026999999---99749-98433641488778898796079885230109999985
+Q lab05-part01    484 QTGSSFKVFALVA---ALEQG-IGLGYQVDSSPLTVDGIKITNVEGEGCGTCNIAEALKM  539 (820)
+Q Consensus       484 qpGSTfKpf~yaa---ALe~G-~~~~s~~~d~p~~~~g~~~~N~~~~~~G~vtl~~AL~~  539 (820)
+                      +.||.=|+|+.++   +.|+| +.+++.+.+-        ..++.......||+++-|.+
+T Consensus        56 ~iaSisK~~ta~~i~~Lv~~g~l~ldd~i~~y--------lp~~~~~~~~~iTi~~LL~h  107 (350)
+T c1zkjA_          56 EIGSVSKTLTATLGAYAVVKGAMQLDDKASRH--------APWLKGSAFDSITMGELATY  107 (350)
+T ss_dssp             ECGGGHHHHHHHHHHHHHHTTSCCTTSBGGGG--------CGGGTTSGGGSSBHHHHHTT
+T ss_pred             EEHHHHHHHHHHHHHHHHHCCCCCCCCCHHHH--------CCCCCCCCCCCCCHHHHHHC
+T ss_conf             42323489999999999976998768807895--------86623588225629998304
+
+
+Q ss_pred             CC
+Q ss_conf             14
+Q lab05-part01    540 SL  541 (820)
+Q Consensus       540 S~  541 (820)
+                      +.
+T Consensus       108 ts  109 (350)
+T c1zkjA_         108 SA  109 (350)
+T ss_dssp             CS
+T ss_pred             CC
+T ss_conf             05
+
+

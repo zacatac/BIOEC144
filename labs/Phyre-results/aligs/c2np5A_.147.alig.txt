@@ -1,0 +1,14 @@
+147 c2np5A_ Probab=22.05   E-value=40  Score=13.44  Aligned_columns=35  Identities=26%
+
+Q ss_pred             CHHHHHHHHHHCCCCCCCHHHHHHHHHHHCCCCHHHCCHHHHHHHHHHHCC
+Q ss_conf             999999985000516787047999988861998789799998776654148
+Q lab05-part01    285 SKDDVLQAYLNIIYFGRGAYGISAASKAYFDKPVEQLTVAEGALLAALIRR  335 (820)
+Q Consensus       285 sK~eILe~YLN~iyfG~g~yGv~aAA~~YFgK~~~~Ltl~EaA~LAgl~~~  335 (820)
+                      ||++||+                +|.+.+-.+....+|+.+.|--||+.++
+T Consensus         2 s~e~Il~----------------aA~~l~~~~G~~~~s~~~IA~~agvs~~   36 (187)
+T c2np5A_           2 SPERLAA----------------ALFDVAAESGLEGASVREVAKRAGVSIG   36 (187)
+T ss_dssp             HHHHHHH----------------HHHHHHHHHCGGGCCHHHHHHHHTCCHH
+T ss_pred             CHHHHHH----------------HHHHHHHHHCCCCCCHHHHHHHHCCCHH
+T ss_conf             8799999----------------9999999738031759999999489999
+
+

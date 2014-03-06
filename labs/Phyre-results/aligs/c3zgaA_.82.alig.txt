@@ -1,0 +1,14 @@
+82 c3zgaA_ Probab=98.85   E-value=1.8e-09  Score=78.69  Aligned_columns=41  Identities=20%
+
+Q ss_pred             CEEEEECCCCEEEEEECCCCCEEEECHHHCCHHHHHHHHHHHH
+Q ss_conf             6389906894731321576776750779959899998998851
+Q lab05-part01    172 VSTILASDGSEIAKIVPPEGNRVDVNLSQVPMHVRQAVIAAED  214 (820)
+Q Consensus       172 ~s~i~~~dG~~la~~~~~~~nR~~V~l~~Ip~~~~~A~ia~ED  214 (820)
+                      +|+||++||++|++|  ..+||++|++++||++|++||||+||
+T Consensus         1 aT~iyd~~G~~i~~~--~~e~R~~v~~~~ip~~l~~A~iA~ED   41 (41)
+T c3zgaA_           1 ATIIYDKDGDKAGEL--SSTDATFVSIDKISKNLQNAVVSIED   41 (41)
+T ss_dssp             CEEEECTTSCEEEEE--SSTTSCCCCGGGSCHHHHHHHHTTCC
+T ss_pred             CEEEECCCCCEEEEE--ECCCEEEEEHHHCCHHHHHHHHCCCC
+T ss_conf             959992489397775--21341686688959787865320359
+
+

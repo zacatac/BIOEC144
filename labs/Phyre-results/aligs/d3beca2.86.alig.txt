@@ -1,0 +1,50 @@
+86 d3beca2 Probab=98.16   E-value=0.00018  Score=47.12  Aligned_columns=147  Identities=15%
+
+Q ss_pred             HHCCCCCCEEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHHHHHHHC--
+Q ss_conf             3125754406999996899839999845888754200036788630269999999974--
+Q lab05-part01    443 LDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFALVAALEQ--  500 (820)
+Q Consensus       443 l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~yaaALe~--  500 (820)
+                      +...+.-...+.+++|..||+||+-..         +...++++|++|.++.+.+|++  
+T Consensus         6 ~p~~p~~~a~s~~vvd~~tG~~l~~~n---------~~~~~~~AS~~Kl~~a~~vl~~v~   56 (259)
+T d3beca2           6 IPGVPQIDAESYILIDYNSGKVLAEQN---------ADVRRDPASLTKMMTSYVIGQAMK   56 (259)
+T ss_dssp             CCCCCCCCEEEEEEEETTTCCEEEEES---------TTCCBCCGGGHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCEEEEEECCCCEEEEEEC---------CCCCCCCHHHHHHHHHHHHHHHHH
+T ss_conf             778987344479999999970989865---------995143546999999999999745
+
+
+Q ss_pred             --CCCHHHEECCCCEEECCEEEECCCCCCCC-----CEEHHHH----HHHCCHHHHHHHH
+Q ss_conf             --99843364148877889879607988523-----0109999----9851449999999
+Q lab05-part01    501 --GIGLGYQVDSSPLTVDGIKITNVEGEGCG-----TCNIAEA----LKMSLNTSYYRLM  549 (820)
+Q Consensus       501 --G~~~~s~~~d~p~~~~g~~~~N~~~~~~G-----~vtl~~A----L~~S~Nt~~v~l~  549 (820)
+                        -+++++.+.-+...+..+.+...+....+     .+|+++.    |..|-|+++.-|+
+T Consensus        57 ~g~l~l~~~v~i~~~~~~~~~~~~~~~~~~~~~~g~~~tv~dLl~~ml~~SdN~Aa~~L~  116 (259)
+T d3beca2          57 AGKFKETDLVTIGNDAWATGNPVFKGSSLMFLKPGMQVPVSQLIRGINLQSGNDACVAMA  116 (259)
+T ss_dssp             TTSCCTTCEEECCGGGCGGGCGGGTTSCCCCCCTTCEEEHHHHHHHHHHHCCHHHHHHHH
+T ss_pred             CCCCCCCCEEECCHHHHHCCCCCCCCCCEECCCCCCEEEHHHHHHHHHHCCCCHHHHHHH
+T ss_conf             489983457872999961256555686240356775376999999886537615999999
+
+
+Q ss_pred             HHHHHH----HHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCEEECCCCCCHHHHH
+Q ss_conf             986302----89999999982998767744444445556655454124065755699999
+Q lab05-part01    550 LKLNGG----PQAVADAAHQAGIASSFPGVAHTLSEDGKGGPPNNGIVLGQYQTRVIDMA  605 (820)
+Q Consensus       550 ~~l~~G----~~~v~~~a~~~Gi~~~~~~~~~~~~~~~~~~~~~~siaLG~~~vsplqmA  605 (820)
+                      +.+.++    ...+-+.++++|+..             .......++--.....|+.+|+
+T Consensus       117 ~~igG~~~~f~~~mn~~a~~lG~~~-------------T~~~~~~Gl~~~~n~tTa~Dla  163 (259)
+T d3beca2         117 DFAAGSQDAFVGLMNSYVNALGLKN-------------THFQTVHGLDADGQYSSARDMA  163 (259)
+T ss_dssp             HHHHSSHHHHHHHHHHHHHHTTCSS-------------CBCSSSSSSSCTTCBBCHHHHH
+T ss_pred             HHHCCCHHHHHHHHHHHHHHCCCCC-------------CEEECCCCCCCCCCCCCHHHHH
+T ss_conf             8728998899999999999739977-------------6781158888767741899999
+
+
+Q ss_pred             HHHHHH
+Q ss_conf             999998
+Q lab05-part01    606 SAYATL  611 (820)
+Q Consensus       606 ~AYat~  611 (820)
+                      .....+
+T Consensus       164 ~l~~~l  169 (259)
+T d3beca2         164 LIGQAL  169 (259)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+T ss_conf             999999
+
+

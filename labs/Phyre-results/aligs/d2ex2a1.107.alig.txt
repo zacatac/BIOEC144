@@ -1,0 +1,26 @@
+107 d2ex2a1 Probab=95.21   E-value=0.064  Score=31.08  Aligned_columns=52  Identities=23%
+
+Q ss_pred             HHHHHHCCCCCCEEEEEEEECCCCEEEEEEECCCCCCCCCCCCCCCCCCHHHHHHHHHHH
+Q ss_conf             998731257544069999968998399998458887542000367886302699999999
+Q lab05-part01    439 VAKYLDGQDPDMRAAVVSIDPHNGAVRAYYGGDNANGFDFAQAGLQTGSSFKVFALVAAL  498 (820)
+Q Consensus       439 l~~~l~~~~~~~~~A~V~iDp~TG~VlA~vGG~d~~~~n~a~a~rqpGSTfKpf~yaaAL  498 (820)
+                      +++.++......+.++.+.|..+|+++.-+.         +...+.|.|+.|.|+.++||
+T Consensus         2 i~~~l~~~~~~~~~gi~V~dl~~g~~l~~~n---------~~~~~~PAS~~Kl~Tt~aAL   52 (456)
+T d2ex2a1           2 VDEYITQLPAGANLALMVQKVGASAPAIDYH---------SQQMALPASTQKVITALAAL   52 (456)
+T ss_dssp             HHHHHTTSCTTCEEEEEEEETTCSSCSEEES---------TTSCBCCGGGHHHHHHHHHH
+T ss_pred             HHHHHHHCCCCCEEEEEEEECCCCCEEEEEC---------CCCCCCCHHHHHHHHHHHHH
+T ss_conf             7788873176682899999889997976527---------98785761568999999999
+
+
+Q ss_pred             H
+Q ss_conf             7
+Q lab05-part01    499 E  499 (820)
+Q Consensus       499 e  499 (820)
+                      +
+T Consensus        53 ~   53 (456)
+T d2ex2a1          53 I   53 (456)
+T ss_dssp             H
+T ss_pred             H
+T ss_conf             8
+
+

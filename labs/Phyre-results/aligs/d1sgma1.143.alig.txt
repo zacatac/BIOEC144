@@ -1,0 +1,14 @@
+143 d1sgma1 Probab=22.70   E-value=43  Score=13.24  Aligned_columns=35  Identities=11%
+
+Q ss_pred             CHHHHHHHHHHCCCCCCCHHHHHHHHHHHCCCCHHHCCHHHHHHHHHHHCC
+Q ss_conf             999999985000516787047999988861998789799998776654148
+Q lab05-part01    285 SKDDVLQAYLNIIYFGRGAYGISAASKAYFDKPVEQLTVAEGALLAALIRR  335 (820)
+Q Consensus       285 sK~eILe~YLN~iyfG~g~yGv~aAA~~YFgK~~~~Ltl~EaA~LAgl~~~  335 (820)
+                      +|++||+                +|.+.+.-+..+.+|+.+.|--|||.++
+T Consensus         3 tr~~Il~----------------aa~~~~~~~G~~~~t~~~Ia~~agis~~   37 (73)
+T d1sgma1           3 SREKILH----------------TASRLSQLQGYHATGLNQIVKESGAPKG   37 (73)
+T ss_dssp             HHHHHHH----------------HHHHHHHHHCTTTCCHHHHHHHHCCCSC
+T ss_pred             HHHHHHH----------------HHHHHHHHHCCCCCCHHHHHHHHCCCHH
+T ss_conf             2999999----------------9999999728451409999999389998
+
+

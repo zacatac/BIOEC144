@@ -1,0 +1,38 @@
+113 d1ci9a_ Probab=88.39   E-value=1.9  Score=21.74  Aligned_columns=106  Identities=13%
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCCCCEEEEEEEECCCCEEEEE--EECCCCCCCCCC--CCCCC
+Q ss_conf             999999999999873125754406999996899839999--845888754200--03678
+Q lab05-part01    429 PQAQRAAEKAVAKYLDGQDPDMRAAVVSIDPHNGAVRAY--YGGDNANGFDFA--QAGLQ  484 (820)
+Q Consensus       429 ~~lQ~aae~al~~~l~~~~~~~~~A~V~iDp~TG~VlA~--vGG~d~~~~n~a--~a~rq  484 (820)
+                      ..++...++.+++.++  ...+.++.|+|- +.|+++-.  +|-.|...---.  +..+.
+T Consensus         2 ~~l~~~ld~~~~~~~~--~~~~~G~~v~v~-~~g~~v~~~~~G~~d~~~~~p~~~~t~~~   58 (377)
+T d1ci9a_           2 ASLAARLDAVFDQALR--ERRLVGAVAIVA-RHGEILYRRAQGLADREAGRPMREDTLFR   58 (377)
+T ss_dssp             HHHHHHHHHHHHHHHH--TTSCSEEEEEEE-ETTEEEEEEEEEEEETTTTEECCTTCBEE
+T ss_pred             CHHHHHHHHHHHHHHH--HCCCCEEEEEEE-ECCEEEEEEEEEEECCCCCCCCCCCCEEE
+T ss_conf             2079999999999998--189973999999-89989998542331266688888776055
+
+
+Q ss_pred             CCCHHHHHHHHH---HHHCC-CCHHHEECCCCEEECCEEEECCCCCCCCCEEHHHHHHHC
+Q ss_conf             863026999999---99749-984336414887788987960798852301099999851
+Q lab05-part01    485 TGSSFKVFALVA---ALEQG-IGLGYQVDSSPLTVDGIKITNVEGEGCGTCNIAEALKMS  540 (820)
+Q Consensus       485 pGSTfKpf~yaa---ALe~G-~~~~s~~~d~p~~~~g~~~~N~~~~~~G~vtl~~AL~~S  540 (820)
+                      .||.=|.|+.++   ++|+| +.+++.+.+   .+..+...+.+.... .||+++-|.++
+T Consensus        59 iaS~tK~~Ta~~i~~lve~G~l~ld~pi~~---ylP~~~~~~~~~~~~-~ITi~~LLsHt  114 (377)
+T d1ci9a_          59 LASVTKPIVALAVLRLVARGELALDAPVTR---WLPEFRPRLADGSEP-LVTIHHLLTHT  114 (377)
+T ss_dssp             CGGGHHHHHHHHHHHHHHHTSSCTTSBGGG---TCTTCCCBCTTSCCC-CCBHHHHHHTC
+T ss_pred             EEEHHHHHHHHHHHHHHHCCCCCCCCCHHH---HCCCCCCCCCCCCCC-CCCHHHHHCCC
+T ss_conf             400238999999999998689874571688---498732446777766-72399984074
+
+
+Q ss_pred             C
+Q ss_conf             4
+Q lab05-part01    541 L  541 (820)
+Q Consensus       541 ~  541 (820)
+                      +
+T Consensus       115 S  115 (377)
+T d1ci9a_         115 S  115 (377)
+T ss_dssp             S
+T ss_pred             C
+T ss_conf             6
+
+
