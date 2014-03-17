@@ -1,0 +1,51 @@
+>> gi|361132388|pdb|3UDF|A  Chain A, Crystal Structure Of Apo Pbp1a From Acinetobacter Baumanniigi|361132389|pdb|3UDF|B
+>> gi|380259141|pdb|3VMA|A  Chain A, Crystal Structure Of The Full-Length Transglycosylase Pbp1b From Escherichia Coli
+>> gi|208435656|pdb|3DWK|A  Chain A, Identification Of Dynamic Structural Motifs Involved In Peptidoglycan Glycosyltrans
+>> gi|238828188|pdb|3FWL|A  Chain A, Crystal Structure Of The Full-Length Transglycosylase Pbp1b From Escherichia Coli
+>> gi|508123538|pdb|3ZG8|B  Chain B, Crystal Structure Of Penicillin Binding Protein 4 From Listeria Monocytogenes In Th
+>> gi|145580077|pdb|2OLU|A  Chain A, Structural Insight Into The Transglycosylation Step Of Bacterial Cell Wall Biosynth
+>> gi|508123536|pdb|3ZG7|B  Chain B, Crystal Structure Of Penicillin-binding Protein 4 From Listeria Monocytogenes In Th
+>> gi|157835256|pdb|2JE5|A  Chain A, Structural And Mechanistic Basis Of Penicillin Binding Protein Inhibition By Lactiv
+>> gi|145580129|pdb|2OQO|A  Chain A, Crystal Structure Of A Peptidoglycan Glycosyltransferase From A Class A Pbp: Insigh
+>> gi|333361276|pdb|3NB6|A  Chain A, Crystal Structure Of Aquifex Aeolicus Peptidoglycan Glycosyltransferase In Complex 
+>> gi|384482423|pdb|3VMQ|A  Chain A, Crystal Structure Of Staphylococcus Aureus Membrane-bound Transglycosylase: Apoenzy
+>> gi|251837135|pdb|3HZS|A  Chain A, S. Aureus Monofunctional Glycosyltransferase (Mtga)in Complex With Moenomycin
+>> gi|409973705|pdb|3UN7|A  Chain A, Crystal Structure Of Pbpa From Mycobacterium Tuberculosisgi|409973706|pdb|3UN7|B C
+>> gi|291463677|pdb|3LO7|A  Chain A, Crystal Structure Of Pbpa From Mycobacterium Tuberculosisgi|291463678|pdb|3LO7|B C
+>> gi|62738935|pdb|2BG1|A  Chain A, Active Site Restructuring Regulates Ligand Recognition In Classa Penicillin-Binding 
+>> gi|342350781|pdb|2Y2G|A  Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With An Alkyl Boronate (A01)gi|3
+>> gi|110591396|pdb|2FFF|B  Chain B, Open Form Of A Class A Transpeptidase Domain
+>> gi|545720010|pdb|4MNR|A  Chain A, Crystal Structure Of D,d-transpeptidase Domain Of Peptidoglycan Glycosyltransferase
+>> gi|296863372|pdb|2XD1|A  Chain A, Active Site Restructuring Regulates Ligand Recognition In Class A Penicillin-Bindin
+>> gi|178847453|pdb|2ZC5|B  Chain B, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-Enzyme Complex (Biapenem) From Streptoc
+>> gi|85544361|pdb|2C5W|B  Chain B, Penicillin-Binding Protein 1a (Pbp-1a) Acyl-Enzyme Complex (Cefotaxime) From Strepto
+>> gi|85544374|pdb|2C6W|B  Chain B, Penicillin-Binding Protein 1a (Pbp-1a) From Streptococcus Pneumoniae
+>> gi|157835243|pdb|2JCH|A  Chain A, Structural And Mechanistic Basis Of Penicillin Binding Protein Inhibition By Lactiv
+>> gi|157884145|pdb|2UWX|A  Chain A, Active Site Restructuring Regulates Ligand Recognition In Class A Penicillin-Bindin
+>> gi|163931068|pdb|2V2F|F  Chain F, Crystal Structure Of Pbp1a From Drug-resistant Strain 5204 From Streptococcus Pneum
+>> gi|554793834|pdb|4N1X|A  Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase From Atopobium Parvulum I
+>> gi|469474696|pdb|4JBF|A  Chain A, Crystal Structure Of Peptidoglycan Glycosyltransferase From Atopobium Parvulum Dsm 
+>> gi|361132398|pdb|3UE3|A  Chain A, Crystal Structure Of Acinetobacter Baumanni Pbp3
+>> gi|409107271|pdb|4FSF|A  Chain A, Crystal Structure Of Pseudomonas Aeruginosa Pbp3 Complexed With Compound 14
+>> gi|532138034|pdb|4L0L|A  Chain A, Crystal Structure Of P.aeruginosa Pbp3 In Complex With Compound 4
+>> gi|315364688|pdb|3PBN|A  Chain A, Crystal Structure Of Apo Pbp3 From Pseudomonas Aeruginosagi|315364689|pdb|3PBO|A C
+>> gi|311772227|pdb|3OC2|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 3 From Pseudomonas Aeruginosagi|31
+>> gi|209870568|pdb|3EQV|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 2 From Neisseria Gonorrhoeae Contai
+>> gi|209870566|pdb|3EQU|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 2 From Neisseria Gonorrhoeaegi|209
+>> gi|58177060|pdb|1VQQ|A  Chain A, Structure Of Penicillin Binding Protein 2a From Methicillin Resistant Staphylococcus
+>> gi|550545821|pdb|3ZG5|A  Chain A, Crystal Structure Of Pbp2a From Mrsa In Complex With Peptidoglycan Analogue At Allo
+>> gi|158431327|pdb|2Z2L|B  Chain B, Penicillin-Binding Protein 2x (Pbp2x) From Streptococcus Pneumoniaegi|158431330|pd
+>> gi|37927671|pdb|1PYY|A  Chain A, Double Mutant Pbp2x T338aM339F FROM STREPTOCOCCUS PNEUMONIAE STRAIN R6 At 2.4 A Reso
+>> gi|157833527|pdb|1PMD|A  Chain A, Penicillin-Binding Protein 2x (Pbp-2x)
+>> gi|8569396|pdb|1QME|A  Chain A, Penicillin-binding Protein 2x (pbp-2x)gi|8569397|pdb|1QMF|A Chain A, Penicillin-bind
+>> gi|24987839|pdb|1MWS|A  Chain A, Structure Of Nitrocefin Acyl-Penicillin Binding Protein 2a From Methicillin Resistan
+>> gi|16974968|pdb|1K25|A  Chain A, Pbp2x From A Highly Penicillin-Resistant Streptococcus Pneumoniae Clinical Isolateg
+>> gi|42543579|pdb|1RP5|A  Chain A, Pbp2x From Streptococcus Pneumoniae Strain 5259 With Reduced Susceptibility To Beta-
+>> gi|24987837|pdb|1MWR|A  Chain A, Structure Of Semet Penicillin Binding Protein 2a From Methicillin Resistant Staphylo
+>> gi|410562625|pdb|3VSK|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 3 (Pbp3) From Methicilin-Resistant 
+>> gi|224036199|pdb|2WAF|A  Chain A, Penicillin-Binding Protein 2b (Pbp-2b) From Streptococcus Pneumoniae (Strain R6)
+>> gi|224036198|pdb|2WAE|A  Chain A, Penicillin-Binding Protein 2b (Pbp-2b) From Streptococcus Pneumoniae (Strain 5204)
+>> gi|224036195|pdb|2WAD|A  Chain A, Penicillin-Binding Protein 2b (Pbp-2b) From Streptococcus Pneumoniae (Strain 5204)
+>> gi|508123535|pdb|3ZG7|A  Chain A, Crystal Structure Of Penicillin-binding Protein 4 From Listeria Monocytogenes In Th
+>> gi|42543131|pdb|1NRF|A  Chain A, C-Terminal Domain Of The Bacillus Licheniformis Blar Penicillin-Receptor
+>> gi|112491426|pdb|2IWB|A  Chain A, Mecr1 Unbound Extracellular Antibiotic-Sensor Domain
