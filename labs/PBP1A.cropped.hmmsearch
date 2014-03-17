@@ -1,0 +1,1664 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PBP1A.cropped.hmm
+# target sequence database:        /usr/local/be144/pdbaa.fasta
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PBP1A  [M=792]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+   9.5e-153  512.4   1.5    1.6e-83  283.4   0.5    3.1  3  gi|361132388|pdb|3UDF|A Chain A, Crystal Structure Of Apo Pb
+   1.9e-121  408.9   0.0   2.8e-121  408.3   0.0    1.1  1  gi|380259141|pdb|3VMA|A Chain A, Crystal Structure Of The Fu
+   5.9e-114  384.1  13.1     7e-114  383.9   9.1    1.0  1  gi|208435656|pdb|3DWK|A Chain A, Identification Of Dynamic S
+   8.2e-114  383.6   0.0   1.1e-113  383.2   0.0    1.1  1  gi|238828188|pdb|3FWL|A Chain A, Crystal Structure Of The Fu
+   1.3e-110  373.0  18.1   1.6e-110  372.8  12.5    1.0  1  gi|508123538|pdb|3ZG8|B Chain B, Crystal Structure Of Penici
+   3.2e-108  365.2  16.2   4.3e-108  364.7  11.2    1.0  1  gi|145580077|pdb|2OLU|A Chain A, Structural Insight Into The
+   1.2e-101  343.4  16.0   1.4e-101  343.1  11.1    1.0  1  gi|508123536|pdb|3ZG7|B Chain B, Crystal Structure Of Penici
+    1.5e-98  333.2  13.3      3e-98  332.2   9.1    1.4  1  gi|157835256|pdb|2JE5|A Chain A, Structural And Mechanistic 
+    2.5e-77  263.0   0.1      3e-77  262.7   0.0    1.0  1  gi|145580129|pdb|2OQO|A Chain A, Crystal Structure Of A Pept
+    2.6e-77  263.0   0.1    3.1e-77  262.7   0.1    1.0  1  gi|333361276|pdb|3NB6|A Chain A, Crystal Structure Of Aquife
+    8.2e-62  211.7   4.6    2.3e-61  210.2   3.2    1.6  1  gi|384482423|pdb|3VMQ|A Chain A, Crystal Structure Of Staphy
+    6.5e-60  205.4   3.5    7.6e-60  205.2   2.5    1.0  1  gi|251837135|pdb|3HZS|A Chain A, S. Aureus Monofunctional Gl
+      3e-45  156.9   2.6    3.8e-45  156.6   1.8    1.0  1  gi|409973705|pdb|3UN7|A Chain A, Crystal Structure Of Pbpa F
+    6.8e-45  155.7   2.9    8.5e-45  155.4   2.0    1.0  1  gi|291463677|pdb|3LO7|A Chain A, Crystal Structure Of Pbpa F
+    1.1e-44  155.1   7.1    1.3e-44  154.8   4.9    1.2  1  gi|62738935|pdb|2BG1|A  Chain A, Active Site Restructuring R
+    1.5e-44  154.6   5.7      2e-44  154.2   3.9    1.2  1  gi|342350781|pdb|2Y2G|A Chain A, Penicillin-Binding Protein 
+    1.6e-44  154.5   6.7    1.8e-44  154.3   4.6    1.0  1  gi|110591396|pdb|2FFF|B Chain B, Open Form Of A Class A Tran
+    2.1e-44  154.1   9.5    3.1e-44  153.5   6.6    1.2  1  gi|545720010|pdb|4MNR|A Chain A, Crystal Structure Of D,d-tr
+    2.4e-44  153.9   8.1    3.3e-44  153.4   5.6    1.2  1  gi|296863372|pdb|2XD1|A Chain A, Active Site Restructuring R
+    2.6e-44  153.8   6.9    3.1e-44  153.5   4.8    1.0  1  gi|178847453|pdb|2ZC5|B Chain B, Penicillin-Binding Protein 
+    3.1e-44  153.5   7.1    3.6e-44  153.3   5.0    1.0  1  gi|85544361|pdb|2C5W|B  Chain B, Penicillin-Binding Protein 
+    3.2e-44  153.5   6.9    3.9e-44  153.2   4.8    1.0  1  gi|85544374|pdb|2C6W|B  Chain B, Penicillin-Binding Protein 
+    8.3e-44  152.1   8.0      1e-43  151.8   5.6    1.1  1  gi|157835243|pdb|2JCH|A Chain A, Structural And Mechanistic 
+    3.8e-43  149.9   7.0    4.7e-43  149.6   4.8    1.2  1  gi|157884145|pdb|2UWX|A Chain A, Active Site Restructuring R
+      1e-41  145.2   9.0    1.2e-41  145.0   6.3    1.0  1  gi|163931068|pdb|2V2F|F Chain F, Crystal Structure Of Pbp1a 
+    1.1e-40  141.8  10.6    1.6e-40  141.3   7.4    1.1  1  gi|554793834|pdb|4N1X|A Chain A, Structure Of A Putative Pep
+    1.2e-40  141.7  10.6    1.7e-40  141.2   7.4    1.1  1  gi|469474696|pdb|4JBF|A Chain A, Crystal Structure Of Peptid
+    5.7e-31  109.7   0.1    7.7e-31  109.2   0.0    1.1  1  gi|361132398|pdb|3UE3|A Chain A, Crystal Structure Of Acinet
+      2e-29  104.6   0.9    2.6e-29  104.2   0.6    1.0  1  gi|409107271|pdb|4FSF|A Chain A, Crystal Structure Of Pseudo
+      2e-29  104.6   0.9    2.7e-29  104.2   0.6    1.0  1  gi|532138034|pdb|4L0L|A Chain A, Crystal Structure Of P.aeru
+      2e-29  104.6   0.9    2.7e-29  104.1   0.6    1.0  1  gi|315364688|pdb|3PBN|A Chain A, Crystal Structure Of Apo Pb
+    2.3e-29  104.3   0.9    3.1e-29  103.9   0.6    1.0  1  gi|311772227|pdb|3OC2|A Chain A, Crystal Structure Of Penici
+      4e-26   93.7   0.0    5.5e-26   93.2   0.0    1.1  1  gi|209870568|pdb|3EQV|A Chain A, Crystal Structure Of Penici
+    3.8e-23   83.8   0.0    5.1e-23   83.4   0.0    1.1  1  gi|209870566|pdb|3EQU|A Chain A, Crystal Structure Of Penici
+    8.6e-21   76.0   0.4    1.3e-20   75.4   0.3    1.2  1  gi|58177060|pdb|1VQQ|A  Chain A, Structure Of Penicillin Bin
+    8.6e-21   76.0   0.4    1.3e-20   75.5   0.3    1.2  1  gi|550545821|pdb|3ZG5|A Chain A, Crystal Structure Of Pbp2a 
+    5.9e-20   73.2   5.1    7.7e-20   72.9   3.5    1.0  1  gi|158431327|pdb|2Z2L|B Chain B, Penicillin-Binding Protein 
+      9e-20   72.6   6.0    1.2e-19   72.2   4.1    1.2  1  gi|37927671|pdb|1PYY|A  Chain A, Double Mutant Pbp2x T338aM3
+    2.5e-19   71.1   6.4    3.5e-19   70.7   4.4    1.2  1  gi|157833527|pdb|1PMD|A Chain A, Penicillin-Binding Protein 
+    2.8e-19   71.0   6.4    3.9e-19   70.5   4.4    1.2  1  gi|8569396|pdb|1QME|A   Chain A, Penicillin-binding Protein 
+    3.3e-19   70.8   0.4    4.9e-19   70.2   0.3    1.2  1  gi|24987839|pdb|1MWS|A  Chain A, Structure Of Nitrocefin Acy
+    3.8e-19   70.6   4.2    4.7e-19   70.3   2.9    1.1  1  gi|16974968|pdb|1K25|A  Chain A, Pbp2x From A Highly Penicil
+    1.9e-18   68.2   7.5    2.6e-18   67.8   5.2    1.2  1  gi|42543579|pdb|1RP5|A  Chain A, Pbp2x From Streptococcus Pn
+    6.8e-18   66.4   0.3    9.6e-18   65.9   0.2    1.1  1  gi|24987837|pdb|1MWR|A  Chain A, Structure Of Semet Penicill
+    1.6e-16   61.9   0.9    2.8e-16   61.1   0.6    1.3  1  gi|410562625|pdb|3VSK|A Chain A, Crystal Structure Of Penici
+    3.1e-16   60.9   7.3    1.1e-15   59.1   5.0    1.7  1  gi|224036199|pdb|2WAF|A Chain A, Penicillin-Binding Protein 
+    1.8e-15   58.4   3.2    6.2e-15   56.6   2.2    1.7  1  gi|224036198|pdb|2WAE|A Chain A, Penicillin-Binding Protein 
+    2.8e-15   57.8   3.5    9.6e-15   56.0   2.4    1.7  1  gi|224036195|pdb|2WAD|A Chain A, Penicillin-Binding Protein 
+    3.4e-05   24.4   0.1    3.7e-05   24.3   0.0    1.0  1  gi|508123535|pdb|3ZG7|A Chain A, Crystal Structure Of Penici
+    4.1e-05   24.2   0.1       0.21   11.9   0.0    2.1  2  gi|42543131|pdb|1NRF|A  Chain A, C-Terminal Domain Of The Ba
+    6.2e-05   23.6   0.7      0.065   13.6   0.1    2.1  2  gi|112491426|pdb|2IWB|A Chain A, Mecr1 Unbound Extracellular
+
+
+Domain annotation for each sequence (and alignments):
+>> gi|361132388|pdb|3UDF|A  Chain A, Crystal Structure Of Apo Pbp1a From Acinetobacter Baumanniigi|361132389|pdb|3UDF|B
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  283.4   0.5   1.2e-86   1.6e-83     132     396 ..      21     283 ..      13     331 .. 0.90
+   2 !  158.6   0.0   6.8e-49     9e-46     403     585 ..     386     563 ..     370     600 .. 0.94
+   3 !   67.1   0.2   3.2e-21   4.2e-18     584     687 ..     619     721 ..     599     729 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 283.4 bits;  conditional E-value: 1.2e-86
+                    PBP1A 132 stiyyaDgktelarige.nRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtgggkq.GGSTITQQYvknaylg 215
+                               ++y aD+ + +a++g      v+++q+p++  +A+lAaED++F +++G+++kG+ RA+ + vtg+++q GGSTIT Q +kn+yl+
+  gi|361132388|pdb|3UDF|A  21 LQVYTADN-QLIAEYGGkLSIPVEYKQIPPNFIHAFLAAEDSSFFEHSGISFKGLGRALSESVTGSDVQtGGSTITMQVAKNYYLS 105
+                              57999**9.89****8548999*******************************************88855**************** PP
+
+                    PBP1A 216 qertvtRKlkElvialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaa 301
+                               ert++RK++E+++a k++++ sK++IL  Y N i+ G++AYGi+aAa+ Y++k+++eL++a+ A++A+l ++Ps+y+p++npe+a
+  gi|361132388|pdb|3UDF|A 106 PERTLKRKITEIFLARKIEQNLSKEDILSLYVNKIFLGKNAYGIAAAAKIYYNKSINELSIAQMAMIAGLPKAPSKYNPVVNPERA 191
+                              ************************************************************************************** PP
+
+                    PBP1A 302 eeRwnyVldgmveegwltaaeraaakfPevepkaksegelsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaae 387
+                               eR+n++l +m++ g++++ae+++a    ++ + +++ +l++   y  ++V++eL ++  + e++++  G++++TTi++k+q+ ae
+  gi|361132388|pdb|3UDF|A 192 LERRNWILGRMLQLGYISQAEYQKAVAEPINLNMPNR-DLNNIHPYAGEMVRSELVKH--FGEQAID-SGYKVYTTINAKRQAIAE 273
+                              ************************9977566564555.79***************764..6777665.79**************** PP
+
+                    PBP1A 388 kaveeqlk.k 396
+                              kav++ l+  
+  gi|361132388|pdb|3UDF|A 274 KAVQDGLEaY 283
+                              *****99631 PP
+
+  == domain 2    score: 158.6 bits;  conditional E-value: 6.8e-49
+                    PBP1A 403 lraalvsvdPktGeVlAyyGGedyakqqvnnatraglqpGStFKpfvlaaaleqgislnsvydgssprtvkegsykveNedgesyg 488
+                              ++  l++++P++G + A++GG ++ ++++n+a +  +qpGSt Kpf +a ale+g++  s+++ +sp t+  g+++++N+dg+ +g
+  gi|361132388|pdb|3UDF|A 386 VQGQLIAINPNDGSIEAIVGGYNFYQSKFNRALQGWRQPGSTIKPFLYALALERGMTPYSMVN-DSPITI--GKWTPKNSDGRYLG 468
+                              78889**********************************************************.******..88************ PP
+
+                    PBP1A 489 sitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipestktleespsiaLGtasvspldmAsayATlAngGvraephfVekVtd 574
+                               i lr+A+  S Ntv v+l q vg+e++++   + G++e+  ++  + +iaLGt +v p++mA++yAT+AngG r++phf+++++d
+  gi|361132388|pdb|3UDF|A 469 MIPLRRALYLSRNTVSVRLLQTVGIERTRQLFMDFGLQED--QIPRNYTIALGTPQVLPIQMATGYATFANGGYRVQPHFIQRIED 552
+                              ***************************************9..588899************************************** PP
+
+                    PBP1A 575 sdgevlyeakt 585
+                              + g+v+yeak+
+  gi|361132388|pdb|3UDF|A 553 AYGKVIYEAKP 563
+                              *******9865 PP
+
+  == domain 3    score: 67.1 bits;  conditional E-value: 3.2e-21
+                    PBP1A 584 ktegeqavskevaddvtsaLqsvvesgtgtaag...grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeeplngagkrvyG 666
+                               +++++ ++++ a d+ ++L++v+e+gtg+aa      +  gKTGT+++ k+aWf+G+  +l+t+ wvg ++ + +l g  +r yG
+  gi|361132388|pdb|3UDF|A 619 YRQAQRILKSSSAYDMANILRDVIEHGTGRAALkigRSDLGGKTGTTNDAKDAWFAGFNGKLVTVTWVGFDQPT-TL-G--RREYG 700
+                              24678999*********************97769966789*****************************97653.44.6..789** PP
+
+                    PBP1A 667 gglPaeiWkafmdaalegkpv 687
+                              g ++  iW +fm +al+g+p+
+  gi|361132388|pdb|3UDF|A 701 GIAALPIWINFMGQALQGTPA 721
+                              *******************97 PP
+
+>> gi|380259141|pdb|3VMA|A  Chain A, Crystal Structure Of The Full-Length Transglycosylase Pbp1b From Escherichia Coli
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  408.3   0.0  2.1e-124  2.8e-121     147     677 ..     174     710 ..     152     723 .. 0.89
+
+  Alignments for each domain:
+  == domain 1    score: 408.3 bits;  conditional E-value: 2.1e-124
+                    PBP1A 147 genRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtg.ggkqGGSTITQQYvknaylgqertvtRKlkElvial 231
+                              ge+R  v+ s  p+ + +  lA+EDr Fy++ G++l  i RA++ n+t  +++qG+ST+TQQ+vkn +l++er++ RK++E+++al
+  gi|380259141|pdb|3VMA|A 174 GEQRLFVPRSGFPDLLVDTLLATEDRHFYEHDGISLYSIGRAVLANLTAgRTVQGASTLTQQLVKNLFLSSERSYWRKANEAYMAL 259
+                              579999******************************************72566********************************* PP
+
+                    PBP1A 232 kldreysKdeILeaYLNtiyFGrgA....YGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaaeeRwnyVldgmv 313
+                               +d +ysKd ILe Y+N +y G+       G   A+  YFg +++eL++++ A+L ++++  s y+p++np+ a eR+n Vl+ + 
+  gi|380259141|pdb|3VMA|A 260 IMDARYSKDRILELYMNEVYLGQSGdneiRGFPLASLYYFGRPVEELSLDQQALLVGMVKGASIYNPWRNPKLALERRNLVLRLLQ 345
+                              **********************85422238******************************************************** PP
+
+                    PBP1A 314 eegwltaaeraaakfPevepkaksegelsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlk..kg 397
+                              ++++++++ ++ ++   +  +  ++g +  ++  ++q V++eL+++  + ++  +  G++I TT+d  aqdaaeka+ e ++  k+
+  gi|380259141|pdb|3VMA|A 346 QQQIIDQELYDMLSARPLGVQ--PRGGVISPQPAFMQLVRQELQAK--LGDKVKDLSGVKIFTTFDSVAQDAAEKAAVEGIPalKK 427
+                              *********998886634333..444577899***********654..666667789**********************9999955 PP
+
+                    PBP1A 398 qpedk.lraalvsvdPktGeVlAyyGGe..dyakqqvnnatraglqpGStFKpfvlaaaleqgisl.nsvydgssprtvk..egs. 476
+                              q++ + l++a+v vd  +GeV+A++GG+  ++a   +n+a++a++  GS  Kp ++++al+q +    +++ +++p  ++  +g+ 
+  gi|380259141|pdb|3VMA|A 428 QRKLSdLETAIVVVDRFSGEVRAMVGGSepQFAG--YNRAMQARRSIGSLAKPATYLTALSQPKIYrLNTWIADAPIALRqpNGQv 511
+                              544445**********************444555..9************************9743324556669999998878889 PP
+
+                    PBP1A 477 ykveNedgesy..gsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipestktleespsiaLGtasvspldmAsayATlAng 560
+                              ++++N+d +    g++ l +A+++S+N++ v+l++ +g+ +v et  +lG+p++  +l+++p++ LG+ + +p++ A+a+ T+A+g
+  gi|380259141|pdb|3VMA|A 512 WSPQNDDRRYSesGRVMLVDALTRSMNVPTVNLGMALGLPAVTETWIKLGVPKD--QLHPVPAMLLGALNLTPIEVAQAFQTIASG 595
+                              ******965434499**************************************9..7***************************** PP
+
+                    PBP1A 561 GvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag....grpaAgKTGTadenkaaWfvGytpql 642
+                              G+ra+    ++V  +dg+vly++ +++e+av++++a  +  ++q+vv++gtg++ g    +   AgKTGT+++n ++Wf+G   + 
+  gi|380259141|pdb|3VMA|A 596 GNRAPLSALRSVIAEDGKVLYQSFPQAERAVPAQAAYLTLWTMQQVVQRGTGRQLGakypNLHLAGKTGTTNNNVDTWFAGIDGST 681
+                              *********************99899**********************99997666669999************************ PP
+
+                    PBP1A 643 ataVwvgredgee.plngagkrvyGgglPaeiWkaf 677
+                              +t  wvgr++++  +l+ga       + + +i++++
+  gi|380259141|pdb|3VMA|A 682 VTITWVGRDNNQPtKLYGA-------SGAMSIYQRY 710
+                              ********99875555554.......4444444444 PP
+
+>> gi|208435656|pdb|3DWK|A  Chain A, Identification Of Dynamic Structural Motifs Involved In Peptidoglycan Glycosyltrans
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  383.9   9.1  5.2e-117    7e-114     133     699 ..       9     605 ..       3     625 .] 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 383.9 bits;  conditional E-value: 5.2e-117
+                    PBP1A 133 tiyyaDgktelari..genRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtg.ggkqGGSTITQQYvknaylg 215
+                               iy ++g + + ++  g+  e v+l++vpk++++AvlA+ED++Fy++ + d+k ++ A+ +n+tg  g +G+ST+TQQ vk a+l+
+  gi|208435656|pdb|3DWK|A   9 KIYDKNG-ELVKTLdnGQRHEHVNLKDVPKSMKDAVLATEDNRFYEHGALDYKRLFGAIGKNLTGgFGSEGASTLTQQVVKDAFLS 93 
+                              6899999.4444446566899*******************************************94578***************** PP
+
+                    PBP1A 216 qertvtRKlkElvialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaa 301
+                              q +++ RK++E++++ +l++eysKd+I++ YLN iy+  g  Gi+aAa+ YF+kd k+L++ae A+LA+l q P++y+  ++p+aa
+  gi|208435656|pdb|3DWK|A  94 QHKSIGRKAQEAYLSYRLEQEYSKDDIFQVYLNKIYYSDGVTGIKAAAKYYFNKDLKDLNLAEEAYLAGLPQVPNNYNIYDHPKAA 179
+                              ************************************************************************************** PP
+
+                    PBP1A 302 eeRwnyVldgmveegwltaaeraaak........fPev.epkaks..egelsgqkgyivqqVkaeLeeelgitedqln...tgGlr 373
+                              e+R n+Vl  m  ++ +t+++ ++ak        + ++ e+  ++  +++ + + +  v+ Vk+eL +++ +++++l    + G++
+  gi|208435656|pdb|3DWK|A 180 EDRKNTVLYLMHYHKRITDKQWEDAKkidlkanlVNRTpEE--RQniDTNQDSEYNSYVNFVKSELMNNKAFKDENLGnvlQSGIK 263
+                              ******************99766666544332222222222..22112223335666789*******999999866543449**** PP
+
+                    PBP1A 374 ItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyakqqvnnatraglqpGStFKpfvlaa.aleq.g 457
+                              I+T +dk++q+ +++ v++     +++d  +++++  d ktG+ +A+ GG+d+ +    n  ++++++GS+ Kpf     a+e+  
+  gi|208435656|pdb|3DWK|A 264 IYTNMDKDVQKTLQNDVDNGSF-YKNKD-QQVGATILDSKTGGLVAISGGRDFKDVVNRNQATDPHPTGSSLKPFLAYGpAIENmK 347
+                              ******************9995.34445.59**********************997777788889**********88762444424 PP
+
+                    PBP1A 458 islnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv....gpekvaetAhalGipestktleespsia 539
+                                +n+ ++ +s ++v +g  +++N+d +s+g++++ +A+++S N +  +  q+v    g ++ ++ A +lG++ +    +  ps +
+  gi|208435656|pdb|3DWK|A 348 WATNHAIQDESSYQV-DG-STFRNYDTKSHGTVSIYDALRQSFNIPALKAWQSVkqnaGNDAPKKFAAKLGLNYEG---DIGPSEV 428
+                              556777777888888.69.67*************************999888888888***************994...5588889 PP
+
+                    PBP1A 540 LG..tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvve.sgtgtaag..grpa 620
+                              LG  +++ sp+++Asa+A +AngG+++++h ++kV+++dge+++  ++++++a+s  +a    ++L++  +  g++   g  g ++
+  gi|208435656|pdb|3DWK|A 429 LGgsASEFSPTQLASAFAAIANGGTYNNAHSIQKVVTRDGETIE-YDHTSHKAMSDYTAYMLAEMLKGTFKpYGSAYGHGvsGVNM 513
+                              99667899********************************8884.57799*********************65887655578**** PP
+
+                    PBP1A 621 AgKTGTa..............denkaaWfvGytpqlataVwvgredgee.plnga.gkrvyGgglPaeiWkafmdaalegkpveeF 690
+                               +KTGT               +  k+ W  G+tpq + +Vw+g ++ ++   n + g   + +++P+ +++++m++  + ++ e+F
+  gi|208435656|pdb|3DWK|A 514 GAKTGTGtygaetysqynlpdNAAKDVWINGFTPQYTMSVWMGFSKVKQyGENSFvG--HSQQEYPQFLYENVMSKI-SSRDGEDF 596
+                              ******99*******999885599*******************99776422133322..56689**********986.678899** PP
+
+                    PBP1A 691 pkpaeigaa 699
+                              + p+++ ++
+  gi|208435656|pdb|3DWK|A 597 KRPSSVSGS 605
+                              *99988442 PP
+
+>> gi|238828188|pdb|3FWL|A  Chain A, Crystal Structure Of The Full-Length Transglycosylase Pbp1b From Escherichia Coli
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  383.2   0.0  8.6e-117  1.1e-113     147     677 ..     157     693 ..     135     710 .. 0.89
+
+  Alignments for each domain:
+  == domain 1    score: 383.2 bits;  conditional E-value: 8.6e-117
+                    PBP1A 147 genRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtg.ggkqGGSTITQQYvknaylgqertvtRKlkElvial 231
+                              ge+R  v+ s  p+ + +  lA+EDr Fy++ G++l  i RA++ n+t  +++qG+ST+TQQ+vkn +l++er++ RK++E++ al
+  gi|238828188|pdb|3FWL|A 157 GEQRLFVPRSGFPDLLVDTLLATEDRHFYEHDGISLYSIGRAVLANLTAgRTVQGASTLTQQLVKNLFLSSERSYWRKANEAYXAL 242
+                              579999******************************************72566********************************* PP
+
+                    PBP1A 232 kldreysKdeILeaYLNtiyFGrgA....YGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaaeeRwnyVldgmv 313
+                                d +ysKd ILe Y N +y G+       G   A+  YFg +++eL++++ A+L + ++  s y+p++np+ a eR+n Vl+ + 
+  gi|238828188|pdb|3FWL|A 243 IXDARYSKDRILELYXNEVYLGQSGdneiRGFPLASLYYFGRPVEELSLDQQALLVGXVKGASIYNPWRNPKLALERRNLVLRLLQ 328
+                              **********************85422238******************************************************** PP
+
+                    PBP1A 314 eegwltaaeraaakfPevepkaksegelsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlk..kg 397
+                              ++++++++ ++ ++   +  +  ++g +  ++  + q V++eL+++  + ++  +  G++I TT+d  aqdaaeka+ e ++  k+
+  gi|238828188|pdb|3FWL|A 329 QQQIIDQELYDXLSARPLGVQ--PRGGVISPQPAFXQLVRQELQAK--LGDKVKDLSGVKIFTTFDSVAQDAAEKAAVEGIPalKK 410
+                              ***********9997645333..44457889************654..666667789**********************9999955 PP
+
+                    PBP1A 398 qpedk.lraalvsvdPktGeVlAyyGGe..dyakqqvnnatraglqpGStFKpfvlaaaleqgisl.nsvydgssprtvk..egs. 476
+                              q++ + l++a+v vd  +GeV+A +GG+  ++a   +n+a +a++  GS  Kp ++++al+q +    +++ +++p  ++  +g+ 
+  gi|238828188|pdb|3FWL|A 411 QRKLSdLETAIVVVDRFSGEVRAXVGGSepQFAG--YNRAXQARRSIGSLAKPATYLTALSQPKIYrLNTWIADAPIALRqpNGQv 494
+                              544445**********************444555..9************************9743324556669999998878889 PP
+
+                    PBP1A 477 ykveNedgesy..gsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipestktleespsiaLGtasvspldmAsayATlAng 560
+                              ++++N+d +    g++ l +A+++S N++ v+l+  +g+ +v et  +lG+p++  +l+++p+  LG+ + +p++ A+a+ T+A+g
+  gi|238828188|pdb|3FWL|A 495 WSPQNDDRRYSesGRVXLVDALTRSXNVPTVNLGXALGLPAVTETWIKLGVPKD--QLHPVPAXLLGALNLTPIEVAQAFQTIASG 578
+                              ******965434499**************************************9..7***************************** PP
+
+                    PBP1A 561 GvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag....grpaAgKTGTadenkaaWfvGytpql 642
+                              G+ra+    ++V  +dg+vly++ +++e+av++++a  +  + q+vv++gtg++ g    +   AgKTGT+++n ++Wf+G   + 
+  gi|238828188|pdb|3FWL|A 579 GNRAPLSALRSVIAEDGKVLYQSFPQAERAVPAQAAYLTLWTXQQVVQRGTGRQLGakypNLHLAGKTGTTNNNVDTWFAGIDGST 664
+                              *********************99899**********************99997666669999************************ PP
+
+                    PBP1A 643 ataVwvgredgee.plnga.g.krvyGgglPaeiWkaf 677
+                              +t  wvgr++++  +l+ga g  ++y         +++
+  gi|238828188|pdb|3FWL|A 665 VTITWVGRDNNQPtKLYGAsGaXSIY---------QRY 693
+                              ********998755666654444444.........444 PP
+
+>> gi|508123538|pdb|3ZG8|B  Chain B, Crystal Structure Of Penicillin Binding Protein 4 From Listeria Monocytogenes In Th
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  372.8  12.5  1.2e-113  1.6e-110     233     710 ..       3     489 ..       1     530 [. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 372.8 bits;  conditional E-value: 1.2e-113
+                    PBP1A 233 ldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaaeeRwnyVldgmveegwl 318
+                              ++++ysKdeI+e+YLN +yFG+g +G++ A+ +YFgk+a++L++ eaA++A+l+q+Psaydp ++ ++a++R+n+Vl+ mve+g +
+  gi|508123538|pdb|3ZG8|B   3 IEKTYSKDEIMEMYLNRSYFGNGEWGVENASLKYFGKSAADLNIPEAATIAGLLQAPSAYDPYQHIDKATNRRNMVLNAMVETGTI 88 
+                              899*********************************************************************************** PP
+
+                    PBP1A 319 taaeraaakfPev.epkaksegelsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqped 401
+                              ++ae +++k  ++     +s++ l+++    v++V +e  +e+ it+d++ ++G++I+T +d++ q+ +e+  ++     ++ ++ 
+  gi|508123538|pdb|3ZG8|B  89 SKAEGDKYKATKIvLND-QSKDPLANKYPWYVDAVINEAVNEADITQDEIMQKGYKIYTELDQNYQTSLENVYNNDGLfpSNANDG 173
+                              *********99996444.555579999************999******************************98876677667777 PP
+
+                    PBP1A 402 k.lraalvsvdPktGeVlAyyGGe.dyakqqvnnatraglqpGStFKpfvl.aaaleqgislnsvydgssprtvkegsykveNedg 484
+                              + ++ ++v +dP+tG+++A++GG+ + + + +n+at+ ++qpGSt+Kp ++ + al+ g+ ++s+++ +++ t+ +g+y+++N +g
+  gi|508123538|pdb|3ZG8|B 174 TlVQSGAVLMDPATGGIRALVGGRgEHVFRGFNRATQMKAQPGSTMKPLAVyTPALQSGYDVDSMLK-DEKITY-KGNYTPTNVGG 257
+                              89*********************97455578*****************976166*************.999999.599******** PP
+
+                    PBP1A 485 esygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipestktleespsiaLG..tasvspldmAsayATlAngGvraephf 568
+                              +  g++ + +A+++S+N + v l +++g++k ++  ++ Gi+  +   + + ++aLG  ++ +sp++mA+ayAT+An+G + e h+
+  gi|508123538|pdb|3ZG8|B 258 VYSGEVPMYKAVANSINAPAVWLLDQIGIDKGVKSVEKFGITVPE--KDRTLGLALGgmSKGASPVEMATAYATFANNGAKPESHI 341
+                              *****************************************9874..35577*****777789*********************** PP
+
+                    PBP1A 569 VekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag..grpaAgKTGTa.....d..enkaaWfvGytpqlata 645
+                              ++k++d +g+++ye+ ++++q +s++v +++ts+L +v++ gtg++a+  g+++AgKTG++     d    k+ WfvGytp+l+ a
+  gi|508123538|pdb|3ZG8|B 342 ITKIVDPSGNTVYENVPKTKQIISETVSNEMTSMLLDVINTGTGQSAAvsGHEMAGKTGSTqvpfdDtsGTKDQWFVGYTPNLVGA 427
+                              **************999***************************98989************9999725699*************** PP
+
+                    PBP1A 646 VwvgredgeeplngagkrvyGgglPaeiWkafmdaalegkpveeFpkpaeigaaeepseeptpep 710
+                              Vw+g ++ +++ +   ++ + +g+ +++ + +m++ l+ ++  +F ++++ +++++ +ee+++e+
+  gi|508123538|pdb|3ZG8|B 428 VWMGYDKTDKEHYL--TTTSSAGV-SSLAHYVMNSGLQYQKSADFSTKSAAQETAAKKEEEEKEK 489
+                              *****966543332..22333333.5677889*************99997765321211111111 PP
+
+>> gi|145580077|pdb|2OLU|A  Chain A, Structural Insight Into The Transglycosylation Step Of Bacterial Cell Wall Biosynth
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  364.7  11.2  3.2e-111  4.3e-108     131     718 ..      16     643 ..       3     666 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 364.7 bits;  conditional E-value: 3.2e-111
+                    PBP1A 131 sstiyyaDgktelari..genRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtg.ggkqGGSTITQQYvknay 213
+                               + iy ++g + + ++  g+  e v+l++vpk+ ++AvlA+ED++Fy++ + d+k ++ A+ +n+tg  g +G+ST+TQQ vk a+
+  gi|145580077|pdb|2OLU|A  16 PAKIYDKNG-ELVKTLdnGQRHEHVNLKDVPKSXKDAVLATEDNRFYEHGALDYKRLFGAIGKNLTGgFGSEGASTLTQQVVKDAF 100
+                              567999999.4455546666899*******************************************94578*************** PP
+
+                    PBP1A 214 lgqertvtRKlkElvialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpe 299
+                              l+q +++ RK++E++++ +l++eysKd+I++ YLN iy+  g  Gi+aAa+ YF+kd k+L++ae A+LA+l q P++y+  ++p+
+  gi|145580077|pdb|2OLU|A 101 LSQHKSIGRKAQEAYLSYRLEQEYSKDDIFQVYLNKIYYSDGVTGIKAAAKYYFNKDLKDLNLAEEAYLAGLPQVPNNYNIYDHPK 186
+                              ************************************************************************************** PP
+
+                    PBP1A 300 aaeeRwnyVldgmveegwltaaeraaak........fPev.epkaks..egelsgqkgyivqqVkaeLeeelgitedqln...tgG 371
+                              aae+R n+Vl     ++ +t+++ ++ak        + ++ e+  ++  +++ + + +  v+ Vk+eL +++ +++++l    + G
+  gi|145580077|pdb|2OLU|A 187 AAEDRKNTVLYLXHYHKRITDKQWEDAKkidlkanlVNRTpEE--RQniDTNQDSEYNSYVNFVKSELXNNKAFKDENLGnvlQSG 270
+                              ***********99999999999666665444322222222222..22112223335666789*******999998866543449** PP
+
+                    PBP1A 372 lrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyakqqvnnatraglqpGStFKpfvlaa.aleq 456
+                              ++I+T  dk++q+ +++ v++     +++d  +++++  d ktG+ +A+ GG+d+ +    n  ++++++GS+ Kpf     a+e+
+  gi|145580077|pdb|2OLU|A 271 IKIYTNXDKDVQKTLQNDVDNGSF-YKNKD-QQVGATILDSKTGGLVAISGGRDFKDVVNRNQATDPHPTGSSLKPFLAYGpAIEN 354
+                              ********************9995.34445.59**********************997777788889**********876526666 PP
+
+                    PBP1A 457 .gislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv....gpekvaetAhalGipestktleesps 537
+                                  +n+ ++ +s ++v +g  +++N+d +s+g++++ +A+++S N +  +  q+v    g ++ ++ A +lG++ +    +  ps
+  gi|145580077|pdb|2OLU|A 355 xKWATNHAIQDESSYQV-DG-STFRNYDTKSHGTVSIYDALRQSFNIPALKAWQSVkqnaGNDAPKKFAAKLGLNYEG---DIGPS 435
+                              24566888888899999.69.67*************************999888888888***************994...55888 PP
+
+                    PBP1A 538 iaLG..tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvve.sgtgtaag..gr 618
+                               +LG  +++ sp+++Asa+A +AngG+++++h ++kV+++dge+++  ++++++a s  +a    + L++  +  g++   g  g 
+  gi|145580077|pdb|2OLU|A 436 EVLGgsASEFSPTQLASAFAAIANGGTYNNAHSIQKVVTRDGETIE-YDHTSHKAXSDYTAYXLAEXLKGTFKpYGSAYGHGvsGV 520
+                              8999667899********************************8884.56799*********************65887655578** PP
+
+                    PBP1A 619 paAgKTGTa..............denkaaWfvGytpqlataVwvgredgee.plnga.gkrvyGgglPaeiWkafmdaalegkpve 688
+                              +  +KTGT               +  k+ W  G+tpq + +Vw g ++ ++   n + g   + +++P+ +++++ ++  + ++ e
+  gi|145580077|pdb|2OLU|A 521 NXGAKTGTGtygaetysqynlpdNAAKDVWINGFTPQYTXSVWXGFSKVKQyGENSFvG--HSQQEYPQFLYENVXSKI-SSRDGE 603
+                              ********99*******999885599*******************99775422133322..56689*******998865.78899* PP
+
+                    PBP1A 689 eFpkpaeigaa...........eepseeptpepses......seeps 718
+                              +F+ p+++ ++           +     +t+ + +s      ++++s
+  gi|145580077|pdb|2OLU|A 604 DFKRPSSVSGSipsinvsgsqdN-----NTT-N-RSthggsdTSANS 643
+                              ******99553222322211111.....111.1.0011111100000 PP
+
+>> gi|508123536|pdb|3ZG7|B  Chain B, Crystal Structure Of Penicillin-binding Protein 4 From Listeria Monocytogenes In Th
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  343.1  11.1  1.1e-104  1.4e-101     233     700 ..       3     479 ..       1     530 [. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 343.1 bits;  conditional E-value: 1.1e-104
+                    PBP1A 233 ldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaaeeRwnyVldgmveegwl 318
+                              ++++ysKdeI e YLN +yFG+g +G++ A+ +YFgk+a++L++ eaA++A+l+q+Psaydp ++ ++a++R+n Vl+  ve+g +
+  gi|508123536|pdb|3ZG7|B   3 IEKTYSKDEIXEXYLNRSYFGNGEWGVENASLKYFGKSAADLNIPEAATIAGLLQAPSAYDPYQHIDKATNRRNXVLNAXVETGTI 88 
+                              899*********************************************************************************** PP
+
+                    PBP1A 319 taaeraaakfPev.epkaksegelsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqped 401
+                              ++ae +++k  ++     +s++ l+++    v++V +e  +e+ it+d++ ++G++I+T +d++ q+ +e+  ++     ++ ++ 
+  gi|508123536|pdb|3ZG7|B  89 SKAEGDKYKATKIvLND-QSKDPLANKYPWYVDAVINEAVNEADITQDEIXQKGYKIYTELDQNYQTSLENVYNNDGLfpSNANDG 173
+                              *********99996444.555579999************999******************************98876677667777 PP
+
+                    PBP1A 402 k.lraalvsvdPktGeVlAyyGGe.dyakqqvnnatraglqpGStFKpfvl.aaaleqgislnsvydgssprtvkegsykveNedg 484
+                              + ++ ++v  dP+tG+++A++GG+ + + + +n+at+ ++qpGSt Kp ++ + al+ g+ ++s ++ +++ t+ +g+y+++N +g
+  gi|508123536|pdb|3ZG7|B 174 TlVQSGAVLXDPATGGIRALVGGRgEHVFRGFNRATQXKAQPGSTXKPLAVyTPALQSGYDVDSXLK-DEKITY-KGNYTPTNVGG 257
+                              89*********************97455578*****************976166*************.999999.599******** PP
+
+                    PBP1A 485 esygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipestktleespsiaLG..tasvspldmAsayATlAngGvraephf 568
+                              +  g++   +A+++S+N + v l +++g++k ++  ++ Gi+  +   + + ++aLG  ++ +sp++ A+ayAT+An+G + e h+
+  gi|508123536|pdb|3ZG7|B 258 VYSGEVPXYKAVANSINAPAVWLLDQIGIDKGVKSVEKFGITVPE--KDRTLGLALGgxSKGASPVEXATAYATFANNGAKPESHI 341
+                              *****************************************9874..35577*****77788************************ PP
+
+                    PBP1A 569 VekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag..grpaAgKTGTa.....d..enkaaWfvGytpqlata 645
+                              ++k++d +g+++ye+ ++++q +s++v ++ ts L +v++ gtg++a+  g++ AgKTG++     d    k+ WfvGytp+l+ a
+  gi|508123536|pdb|3ZG7|B 342 ITKIVDPSGNTVYENVPKTKQIISETVSNEXTSXLLDVINTGTGQSAAvsGHEXAGKTGSTqvpfdDtsGTKDQWFVGYTPNLVGA 427
+                              **************999***************************98989************9999725699*************** PP
+
+                    PBP1A 646 Vwvgredgee..plngagkrvyGgglPaeiWkafmdaalegkpveeFpkpaeigaae 700
+                              Vw g ++ ++   l+      + +g+ +++ + + ++ l+ ++  +F ++++ ++++
+  gi|508123536|pdb|3ZG7|B 428 VWXGYDKTDKehYLTT----TSSAGV-SSLAHYVXNSGLQYQKSADFSTKSAAQETA 479
+                              *****96654223332....223332.334455566678888888888887665432 PP
+
+>> gi|157835256|pdb|2JE5|A  Chain A, Structural And Mechanistic Basis Of Penicillin Binding Protein Inhibition By Lactiv
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  332.2   9.1  2.3e-101     3e-98     112     660 ..      10     619 ..       2     633 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 332.2 bits;  conditional E-value: 2.3e-101
+                    PBP1A 112 avayalvdvpepnavat.....aqsstiyyaDgktelarig.e.nRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAaw 190
+                              +++   v+vp+ +++ +     +  s i y+Dg t++a+i+ +  R++++ +q+++++++A++A+ED+ F +++Gv +++++ A +
+  gi|157835256|pdb|2JE5|A  10 VALFDKVRVPQTEELVNqvkdiSSISEITYSDG-TVIASIEsDmLRTSISSEQISENLKKAIIATEDEHFKEHKGVVPNAVIPATL 94 
+                              444447889977777655666788999******.9*****74678***************************************** PP
+
+                    PBP1A 191 nnvtg.ggkqGGSTITQQYvknaylgqertvtRKlkElvialkldreysKdeILeaYLNtiyFGrgAYG.....iqaAaqaYFgkd 270
+                               ++ g g+  GGST+TQQ++k+ ++g+  t++RK+ E+v al l+r ++KdeIL+ YLN++ FGr+  G       +Aa+  Fg+d
+  gi|157835256|pdb|2JE5|A  95 GKFVGlGSSSGGSTLTQQLIKQQVVGDAPTLARKAAEIVDALALERAMNKDEILTTYLNVAPFGRNNKGqniagARQAAEGIFGVD 180
+                              *****9999********************************************************9864332227899******** PP
+
+                    PBP1A 271 akeLtvaeaAvLAaliqsPsaydpa.........enpeaaeeRwnyVldgmveegwltaaeraaak.fPev.ep.kaksegelsg. 343
+                              a++Ltv +aA+LA+l qsP +y p          e+ e   +R + Vl  m  +g+l+++e++++k ++ + +    +s g+++g 
+  gi|157835256|pdb|2JE5|A 181 ASQLTVPQAAFLAGLPQSPITYSPYentgelksdEDLEIGLRRAKAVLYSMYRTGALSKDEYSQYKdYD-LkQDfL-PS-GTVTGi 263
+                              *******************9999987888998888888889***********************99755.644423.33.345556 PP
+
+                    PBP1A 344 ...........................qkgyivqqVkaeLeeelg......itedqlntgGlrItTTidkkaqdaaekaveeqlk. 395
+                                                         +         +eL++e+       + ++++++gG++ItTTid+k   a+++av+++   
+  gi|157835256|pdb|2JE5|A 264 sqdylyfttlaeaqermydylaqrdnvS--------AKELKNEATqkfyrdLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYl 341
+                              5567777777777766444444321111........233332221122222577***************************99876 PP
+
+                    PBP1A 396 .kgqpedklraalvsvdPktGeVlAyyGGedyakqqvnnatraglqpGStFKpfvla.aaleqgislnsvydgssprtvkegsykv 479
+                               + + + +++++ v +d +tG++l+++GG++y+++q n+a+ +++ p+St Kp      a++qg   ++++ ++ p ++ +g+ ++
+  gi|157835256|pdb|2JE5|A 342 lD-DGTGRVEVGNVLMDNQTGAILGFVGGRNYQENQNNHAFDTKRSPASTTKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PI 425
+                              53.344459********************************************86541699***999999999******9885.55 PP
+
+                    PBP1A 480 eNedgesygsitlreAtkkSvNtvfvqlaqdv..gpekvaetAhalGipestktleesp.siaLGtasvspldmAsayATlAngGv 562
+                                ++ +  g +tl eA++ S N + +     +     +v+   +++G +  +  +e+ p +   G  +v++ +++++y TlAn+Gv
+  gi|157835256|pdb|2JE5|A 426 MYANSKGTGMMTLGEALNYSWNIPAYWTYRMLreNGVDVKGYMEKMGYEIPEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGV 508
+                              555556789**************9876655554544579********99987777765534...799******************* PP
+
+                    PBP1A 563 raephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvves.gtgtaag..........grpaAgKTGTadenkaaWfvG 637
+                              +++ h+++k++ +dg+v+ye +++  q+ sk++a  ++  L++v++s  t+t ++          + +  gKTGT++++++ W + 
+  gi|157835256|pdb|2JE5|A 509 YHQKHVISKIEAADGRVVYEYQDKPVQVYSKATATIMQGLLREVLSSrVTTTFKSnltslnptlaNADWIGKTGTTNQDENMWLML 594
+                              ********************9999*********************97555543335788989999999****************** PP
+
+                    PBP1A 638 ytpqlataVwvgredgeepl.n..ga 660
+                               tp l+   w+g++d++ +l +  g+
+  gi|157835256|pdb|2JE5|A 595 STPRLTLGGWIGHDDNH-SLsQqaGY 619
+                              *************9985.55322344 PP
+
+>> gi|145580129|pdb|2OQO|A  Chain A, Crystal Structure Of A Peptidoglycan Glycosyltransferase From A Class A Pbp: Insigh
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  262.7   0.0   2.3e-80     3e-77     144     326 ..      13     197 ..       3     199 .. 0.94
+
+  Alignments for each domain:
+  == domain 1    score: 262.7 bits;  conditional E-value: 2.3e-80
+                    PBP1A 144 arig.enRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtgggk.qGGSTITQQYvknaylgqertvtRKlkEl 227
+                              ++ig ++R  v+++++p++v nA++A+EDr+F+++ G+d+ +i+RAa+ n + g   qGGSTITQQ++kn +l++ert++RK+kE+
+  gi|145580129|pdb|2OQO|A  13 GTIGiQKRFYVSIDKIPEHVINAFVATEDRNFWHHFGIDPVAIVRAAIVNYRAGRIvQGGSTITQQLAKNLFLTRERTLERKIKEA 98 
+                              4567679*******************************************9976655***************************** PP
+
+                    PBP1A 228 vialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaaeeRwnyVldgmv 313
+                              ++a+k++r+ +K++I+e YLN iy G gAYG++aAaq YFgk++ eL+++eaA+LAal ++P +y+p  +pe+a +R+n Vl++m+
+  gi|145580129|pdb|2OQO|A  99 LLAIKIERTFDKKKIMELYLNQIYLGSGAYGVEAAAQVYFGKHVWELSLDEAALLAALPKAPAKYNPFYHPERALQRRNLVLKRML 184
+                              ************************************************************************************** PP
+
+                    PBP1A 314 eegwltaaeraaa 326
+                              eeg++t++++++a
+  gi|145580129|pdb|2OQO|A 185 EEGYITPEQYEEA 197
+                              ********99876 PP
+
+>> gi|333361276|pdb|3NB6|A  Chain A, Crystal Structure Of Aquifex Aeolicus Peptidoglycan Glycosyltransferase In Complex 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  262.7   0.1   2.3e-80   3.1e-77     144     326 ..      13     197 ..       3     199 .. 0.94
+
+  Alignments for each domain:
+  == domain 1    score: 262.7 bits;  conditional E-value: 2.3e-80
+                    PBP1A 144 arig.enRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtgggk.qGGSTITQQYvknaylgqertvtRKlkEl 227
+                              ++ig ++R  v+++++p++v nA++A+EDr+F+++ G+d+ +i+RAa+ n + g   qGGSTITQQ++kn +l++ert++RK+kE+
+  gi|333361276|pdb|3NB6|A  13 GTIGiQKRFYVSIDKIPEHVINAFVATEDRNFWHHFGIDPVAIVRAAIVNYRAGRIaQGGSTITQQLAKNLFLTRERTLERKIKEA 98 
+                              4567679*******************************************9976655***************************** PP
+
+                    PBP1A 228 vialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkdakeLtvaeaAvLAaliqsPsaydpaenpeaaeeRwnyVldgmv 313
+                              ++a+k++r+ +K++I+e YLN iy G gAYG++aAaq YFgk++ eL+++eaA+LAal ++P +y+p  +pe+a +R+n Vl++m+
+  gi|333361276|pdb|3NB6|A  99 LLAIKIERTFDKKKIMELYLNQIYLGSGAYGVEAAAQVYFGKHVWELSLDEAALLAALPKAPAKYNPFYHPERALQRRNLVLKRML 184
+                              ************************************************************************************** PP
+
+                    PBP1A 314 eegwltaaeraaa 326
+                              eeg++t++++++a
+  gi|333361276|pdb|3NB6|A 185 EEGYITPEQYEEA 197
+                              ********99876 PP
+
+>> gi|384482423|pdb|3VMQ|A  Chain A, Crystal Structure Of Staphylococcus Aureus Membrane-bound Transglycosylase: Apoenzy
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  210.2   3.2   1.7e-64   2.3e-61     136     326 ..      60     257 ..       4     261 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 210.2 bits;  conditional E-value: 1.7e-64
+                    PBP1A 136 yaDgktelarigenRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtgggkqGGSTITQQYvknaylgqertvt 221
+                               +D+  el +i+++   v+ +++p++v+ A+++ ED++Fy+++G+dlkG++RA++++++ +++qGGSTITQQ vkn++ +++r++t
+  gi|384482423|pdb|3VMQ|A  60 TRDNVDELRKIENKSSFVSADNMPEYVKGAFISMEDERFYNHHGFDLKGTTRALFSTISDRDVQGGSTITQQVVKNYFYDNDRSFT 145
+                              578889999998677889******************************************************************** PP
+
+                    PBP1A 222 RKlkElvialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkda.......keLtvaeaAvLAaliqsPsaydpaenpea 300
+                              RK+kEl++a +++++y+K+eIL  YLN iyFG + Y  + Aa++YFg+++       +++tv ++A+LA+ +++Ps y+ ++  e+
+  gi|384482423|pdb|3VMQ|A 146 RKVKELFVAHRVEKQYNKNEILSFYLNNIYFGDNQYTLEGAANHYFGTTVnknsttmSHITVLQSAILASKVNAPSVYNINNMSEN 231
+                              ************************************************9999999999**************************** PP
+
+                    PBP1A 301 aeeRwnyVldgmveegwltaaeraaa 326
+                               ++R ++ l++m ++++++++++++a
+  gi|384482423|pdb|3VMQ|A 232 FTQRVSTNLEKMKQQNYINETQYQQA 257
+                              *********************99986 PP
+
+>> gi|251837135|pdb|3HZS|A  Chain A, S. Aureus Monofunctional Glycosyltransferase (Mtga)in Complex With Moenomycin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  205.2   2.5   5.7e-63   7.6e-60     138     326 ..       9     204 ..       2     208 .. 0.96
+
+  Alignments for each domain:
+  == domain 1    score: 205.2 bits;  conditional E-value: 5.7e-63
+                    PBP1A 138 DgktelarigenRenvklsqvpkevqnAvlAaEDrdFytnpGvdlkGiaRAawnnvtgggkqGGSTITQQYvknaylgqertvtRK 223
+                              D+  el +i+++   v+ +++p++v+ A+++  D++Fy+++G+dlkG++RA++++++ +++qGGSTITQQ vkn++ +++r++tRK
+  gi|251837135|pdb|3HZS|A   9 DNVDELRKIENKSSFVSADNMPEYVKGAFISMQDERFYNHHGFDLKGTTRALFSTISDRDVQGGSTITQQVVKNYFYDNDRSFTRK 94 
+                              5667888887567789********************************************************************** PP
+
+                    PBP1A 224 lkElvialkldreysKdeILeaYLNtiyFGrgAYGiqaAaqaYFgkda.......keLtvaeaAvLAaliqsPsaydpaenpeaae 302
+                              +kEl++a +++++y+K+eIL  YLN iyFG + Y  + Aa++YFg+++       +++tv ++A+LA+ +++Ps y+ ++  e+ +
+  gi|251837135|pdb|3HZS|A  95 VKELFVAHRVEKQYNKNEILSFYLNNIYFGDNQYTLEGAANHYFGTTVnknsttmSHITVLQSAILASKVNAPSVYNINNMSENFT 180
+                              **********************************************9999999999****************************** PP
+
+                    PBP1A 303 eRwnyVldgmveegwltaaeraaa 326
+                              +R ++ l++m ++++++++++++a
+  gi|251837135|pdb|3HZS|A 181 QRVSTNLEKMKQQNYINETQYQQA 204
+                              *******************99986 PP
+
+>> gi|409973705|pdb|3UN7|A  Chain A, Crystal Structure Of Pbpa From Mycobacterium Tuberculosisgi|409973706|pdb|3UN7|B C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.6   1.8   2.8e-48   3.8e-45     370     686 ..     101     462 .]      97     462 .] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 156.6 bits;  conditional E-value: 2.8e-48
+                    PBP1A 370 gGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe........................dyakqqv 431
+                              +G ++ TTi+++ q+a  +a+++      p    + a+v+ +P+tG++lA++  +                        + a+  +
+  gi|409973705|pdb|3UN7|A 101 RGGNVDTTINPRIQQAGWDAMQQGCY--GP---CKGAVVALEPSTGKILALVSSPsydpnllashnpevqaqawqrlgdNPASPLT 181
+                              57789********************4..23...679******************99*************99999988866677899 PP
+
+                    PBP1A 432 nnatraglqpGStFKpfvlaaaleqgislnsvydgssprtvkegs.ykveNedgesygs...itlreAtkkSvNtvfvqlaqdvgp 513
+                              n+a +++++pGStFK+++ aaal +g + ++++ +    ++ +gs  ++eN++g+ +g+   ++lreA+ kS Nt+fvql+ ++g+
+  gi|409973705|pdb|3UN7|A 182 NRAISETYPPGSTFKVITTAAALAAGATETEQLTAAPTIPL-PGStAQLENYGGAPCGDeptVSLREAFVKSCNTAFVQLGIRTGA 266
+                              **********************************7777777.688899*********76666************************ PP
+
+                    PBP1A 514 ekvaetAhalGipes.........tktleesp........siaLGtasv..spldmAsayATlAngGvraephfVekVtdsdgevl 580
+                              ++ +++A+a G+++          ++t+   p          ++G+++v  +pl  A+  AT+AngG+ ++p++V + +  d   +
+  gi|409973705|pdb|3UN7|A 267 DALRSMARAFGLDSPprptplqvaESTVG--PipdsaalgMTSIGQKDValTPLANAEIAATIANGGITMRPYLVGSLKGPDLANI 350
+                              *************9988765544333333..1447344544556666553378888899********************9888666 PP
+
+                    PBP1A 581 yea.ktegeqavskevaddvtsaLqsvvesgtgtaag.grpaAgKTGTa.......denkaaWfvGytpqlataVwvgre..dgee 655
+                               ++ + ++++avs++va++ t+ + +  +  +++ a  g ++A+KTGTa        +  +aW++ + p  a  V+v     +g+ 
+  gi|409973705|pdb|3UN7|A 351 STTvRYQQRRAVSPQVAAKLTELMVGAEKVAQQKGAIpGVQIASKTGTAehgtdprHTPPHAWYIAFAPAQAPKVAVAVLveNGAD 436
+                              66646789****************88766433343447***********877754338889*******988865555443115543 PP
+
+                    PBP1A 656 plngagkrvyGgglPaeiWkafmdaalegkp 686
+                                     + +Gg l+a i +a+++aal+g+p
+  gi|409973705|pdb|3UN7|A 437 R-----LSATGGALAAPIGRAVIEAALQGEP 462
+                              3.....4579******************987 PP
+
+>> gi|291463677|pdb|3LO7|A  Chain A, Crystal Structure Of Pbpa From Mycobacterium Tuberculosisgi|291463678|pdb|3LO7|B C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.4   2.0   6.4e-48   8.5e-45     370     686 ..     122     483 .]     118     483 .] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 155.4 bits;  conditional E-value: 6.4e-48
+                    PBP1A 370 gGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe........................dyakqqv 431
+                              +G ++ TTi+++ q+a  +a+++      p    + a+v+ +P+tG++lA++  +                        + a+  +
+  gi|291463677|pdb|3LO7|A 122 RGGNVDTTINPRIQQAGWDAMQQGCY--GP---CKGAVVALEPSTGKILALVSSPsydpnllashnpevqaqawqrlgdNPASPLT 202
+                              57789********************4..23...679******************99*************99999988866677899 PP
+
+                    PBP1A 432 nnatraglqpGStFKpfvlaaaleqgislnsvydgssprtvkegs.ykveNedgesygs...itlreAtkkSvNtvfvqlaqdvgp 513
+                              n+a +++++pGStFK+++ aaal +g + ++++ +    ++ +gs  ++eN++g+ +g+   ++lreA+ kS Nt+fvql+ ++g+
+  gi|291463677|pdb|3LO7|A 203 NRAISETYPPGSTFKVITTAAALAAGATETEQLTAAPTIPL-PGStAQLENYGGAPCGDeptVSLREAFVKSCNTAFVQLGIRTGA 287
+                              **********************************7777777.688899*********76666************************ PP
+
+                    PBP1A 514 ekvaetAhalGipes.........tktleesp........siaLGtasv..spldmAsayATlAngGvraephfVekVtdsdgevl 580
+                              ++ +++A+a G+++          ++t+   p          ++G+++v  +pl  A+  AT+AngG+ ++p++V + +  d   +
+  gi|291463677|pdb|3LO7|A 288 DALRSMARAFGLDSPprptplqvaESTVG--PipdsaalgMTSIGQKDValTPLANAEIAATIANGGITMRPYLVGSLKGPDLANI 371
+                              *************9988765544333333..1447344544556666553378888899********************9888666 PP
+
+                    PBP1A 581 yea.ktegeqavskevaddvtsaLqsvvesgtgtaag.grpaAgKTGTa.......denkaaWfvGytpqlataVwvgre..dgee 655
+                               ++   ++++avs++va++ t+ + +  +  +++ a  g ++A+KTGTa        +  +aW++ + p  a  V+v     +g+ 
+  gi|291463677|pdb|3LO7|A 372 STTvGYQQRRAVSPQVAAKLTELMVGAEKVAQQKGAIpGVQIASKTGTAehgtdprHTPPHAWYIAFAPAQAPKVAVAVLveNGAD 457
+                              65546789****************88766433343447***********877754338889*******988865555443115543 PP
+
+                    PBP1A 656 plngagkrvyGgglPaeiWkafmdaalegkp 686
+                                     + +Gg l+a i +a+++aal+g+p
+  gi|291463677|pdb|3LO7|A 458 R-----LSATGGALAAPIGRAVIEAALQGEP 483
+                              3.....4579******************987 PP
+
+>> gi|62738935|pdb|2BG1|A  Chain A, Active Site Restructuring Regulates Ligand Recognition In Classa Penicillin-Binding 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  154.8   4.9   9.6e-48   1.3e-44     347     660 ..      64     393 ..       6     458 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 154.8 bits;  conditional E-value: 9.6e-48
+                   PBP1A 347 yivqqVkaeLeeel..gitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsvdPktGeVlAyyGGedyakq 429
+                             +  ++ k+e +++    + ++++++gG++ItTTid+k   a+++av+++    + + + +++++ v +d +tG++l+++GG++y+++
+  gi|62738935|pdb|2BG1|A  64 VSAKELKNEATQKFyrDLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYllD-DGTGRVEVGNVLMDNQTGAILGFVGGRNYQEN 149
+                             33444444443322225788***************************9987653.344459************************** PP
+
+                   PBP1A 430 qvnnatraglqpGStFKpfvla.aaleqgislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv..gp 513
+                             q n+a+ +++ p+St Kp      a++qg   ++++ ++ p ++ +g+ ++  ++ +  g +tl eA++ S N + +     +    
+  gi|62738935|pdb|2BG1|A 150 QNNHAFDTKRSPASTTKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PIMYANSKGTGMMTLGEALNYSWNIPAYWTYRMLreNG 235
+                             ******************86541699***999999999******9885.55555556789**************9876655554544 PP
+
+                   PBP1A 514 ekvaetAhalGipestktleesp.siaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddv 599
+                              +v+   +++G +  +  +e+ p +   G  +v++ +++++y TlAn+Gv+++ h+++k++ +dg+v+ye +++  q+ sk++a  +
+  gi|62738935|pdb|2BG1|A 236 VDVKGYMEKMGYEIPEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGVYHQKHVISKIEAADGRVVYEYQDKPVQVYSKATATIM 319
+                             579********99987777765534...799***************************************9999************* PP
+
+                   PBP1A 600 tsaLqsvves.gtgtaag..........grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeepl.n..ga 660
+                             +  L++v++s  t+t ++          + +  gKTGT++++++ W +  tp l+   w+g++d++ +l +  g+
+  gi|62738935|pdb|2BG1|A 320 QGLLREVLSSrVTTTFKSnltslnptlaNADWIGKTGTTNQDENMWLMLSTPRLTLGGWIGHDDNH-SLsQqaGY 393
+                             ********97555543335788989999999*******************************9985.66322344 PP
+
+>> gi|342350781|pdb|2Y2G|A  Chain A, Penicillin-Binding Protein 1b (Pbp-1b) In Complex With An Alkyl Boronate (A01)gi|3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  154.2   3.9   1.5e-47     2e-44     342     660 ..      59     393 ..      23     458 .. 0.82
+
+  Alignments for each domain:
+  == domain 1    score: 154.2 bits;  conditional E-value: 1.5e-47
+                    PBP1A 342 sgqkgyivqqVkaeLeeel..gitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsvdPktGeVlAyyGG 423
+                              ++ +++  ++ k+e +++    + ++++++gG++ItTTid+k   a+++av+++    + + + +++++ v +d +tG++l+++GG
+  gi|342350781|pdb|2Y2G|A  59 AQRDNVSAKELKNEATQKFyrDLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYllD-DGTGRVEVGNVLMDNQTGAILGFVGG 143
+                              4444444444555554322225788***************************9987653.344459******************** PP
+
+                    PBP1A 424 edyakqqvnnatraglqpGStFKpfvla.aaleqgislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqla 508
+                              ++y+++q n+a+ +++ p+St Kp      a++qg   ++++ ++ p ++ +g+ ++  ++ +  g +tl eA++ S N + +   
+  gi|342350781|pdb|2Y2G|A 144 RNYQENQNNHAFDTKRSPASTTKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PIMYANSKGTGMMTLGEALNYSWNIPAYWTY 228
+                              ************************86541699***999999999******9885.55555556789**************987665 PP
+
+                    PBP1A 509 qdv..gpekvaetAhalGipestktleesp.siaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqav 591
+                                +     +v+   +++G +  +  +e+ p +   G  +v++ +++++y TlAn+Gv+++ h+++k++ +dg+v+ye +++  q+ 
+  gi|342350781|pdb|2Y2G|A 229 RMLreNGVDVKGYMEKMGYEIPEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGVYHQKHVISKIEAADGRVVYEYQDKPVQVY 311
+                              5554544579********99987777765534...799***************************************9999***** PP
+
+                    PBP1A 592 skevaddvtsaLqsvves.gtgtaag..........grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeepl.n..ga 660
+                              sk++a  ++  L++v++s  t+t ++          + +  gKTGT+ ++++ W +  tp l+   w+g++d++ +l +  g+
+  gi|342350781|pdb|2Y2G|A 312 SKATATIMQGLLREVLSSrVTTTFKSnltslnptlaNADWIGKTGTTGQDENMWLMLSTPRLTLGGWIGHDDNH-SLsQqaGY 393
+                              ****************97555543335788989999999*******************************9985.66322344 PP
+
+>> gi|110591396|pdb|2FFF|B  Chain B, Open Form Of A Class A Transpeptidase Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  154.3   4.6   1.4e-47   1.8e-44     347     660 ..      29     354 ..       5     418 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 154.3 bits;  conditional E-value: 1.4e-47
+                    PBP1A 347 yivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsvdPktGeVlAyyGGedyakqq 430
+                               +++++++++   + + ++++++gG++ItTTid+k   a+++av+++    + + + +++++ v +d +tG++l+++GG++y+++q
+  gi|110591396|pdb|2FFF|B  29 ELKNEATQKFY--RDLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYllD-DGTGRVEVGNVLMDNQTGAILGFVGGRNYQENQ 111
+                              34444444442..25788***************************9987653.344459*************************** PP
+
+                    PBP1A 431 vnnatraglqpGStFKpfvla.aaleqgislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv..gp 513
+                               n+a+ +++ p+St Kp      a++qg   ++++ ++ p ++ +g+ ++  ++ +  g +tl eA++ S N + +     +    
+  gi|110591396|pdb|2FFF|B 112 NNHAFDTKRSPASTTKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PIMYANSKGTGMMTLGEALNYSWNIPAYWTYRMLreNG 196
+                              *****************86541699***999999999******9885.55555556789**************9876655554544 PP
+
+                    PBP1A 514 ekvaetAhalGipestktleesp.siaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevadd 598
+                               +v+   +++G +  +  +e+ p +   G  +v++ +++++y TlAn+Gv+++ h+++k++ +dg+v+ye +++  q+ sk++a  
+  gi|110591396|pdb|2FFF|B 197 VDVKGYMEKMGYEIPEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGVYHQKHVISKIEAADGRVVYEYQDKPVQVYSKATATI 279
+                              579********99987777765534...799***************************************9999************ PP
+
+                    PBP1A 599 vtsaLqsvves.gtgtaag..........grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeepl.n..ga 660
+                              ++  L++v++s  t+t ++          + +  gKTGT++++++ W +  tp l+   w+g++d++ +l +  g+
+  gi|110591396|pdb|2FFF|B 280 MQGLLREVLSSrVTTTFKSnltslnptlaNADWIGKTGTTNQDENMWLMLSTPRLTLGGWIGHDDNH-SLsRraGY 354
+                              *********97555543335788989999999*******************************9985.66322354 PP
+
+>> gi|545720010|pdb|4MNR|A  Chain A, Crystal Structure Of D,d-transpeptidase Domain Of Peptidoglycan Glycosyltransferase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.5   6.6   2.3e-47   3.1e-44     367     640 ..     102     419 ..      86     446 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 153.5 bits;  conditional E-value: 2.3e-47
+                    PBP1A 367 lntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe.....dyak............qqvnnat 435
+                              + t G  +t T++ k q+aa++a +              a v  dP tG++lA    +     d+a             + v++a 
+  gi|545720010|pdb|4MNR|A 102 IGTAGNDVTLTLNSKIQQAAQDALAGRK----------GACVVXDPDTGAILAXASAPtynaaDFAAvieqananpddsTLVDRAA 177
+                              5688999*************99986544..........589*************77776666644445555555566556799*** PP
+
+                    PBP1A 436 raglqpGStFKpfvlaaaleqgisl.nsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetA 520
+                               + + pGStFK+++la+ale+++   ++v+++    ++  g+ +v+N ++++ygs tl++At+ S Ntvf ql+++ g++k +  A
+  gi|545720010|pdb|4MNR|A 178 GSLYAPGSTFKIVTLATALEDDVAGeDTVFSSPGTXEI--GNATVSNFNKANYGSLTLAQATELSSNTVFGQLGVEXGADKLVAGA 261
+                              **********************9883566665566666..7799****************************************** PP
+
+                    PBP1A 521 halGipes..............tktleesp....................siaLGtasvspldmAsayATlAngGvraephfVekV 572
+                              ++ G +++              +++l++sp                    +   G  ++++l+ A +   +An+Gv  +p++V++V
+  gi|545720010|pdb|4MNR|A 262 ESFGFNKEidfplytpeslxpsAEDLQKSPwelawaaagepvgdttrpgrESPAG-PQATVLEXAXVGTAIANDGVIXQPYLVDSV 346
+                              ***************9999988566666334444444544456644445444444.4789************************** PP
+
+                    PBP1A 573 tdsdgevlyeakteg.eqavskevaddvtsaLqsvvesgtgtaag..grpaAgKTGTad..enkaaWfvGytp 640
+                              ++++ge  ++a++++  qavsk++a  v ++L +vv++gtgtaa+  g ++AgKTGTa+  + ++ WfvG  p
+  gi|545720010|pdb|4MNR|A 347 NNANGERSFSASPTKlXQAVSKTTAGRVRDVLLGVVQNGTGTAAAipGIDVAGKTGTAEkeNGNDSWFVGXAP 419
+                              ********99965544**************************999*************555999******988 PP
+
+>> gi|296863372|pdb|2XD1|A  Chain A, Active Site Restructuring Regulates Ligand Recognition In Class A Penicillin-Bindin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.4   5.6   2.5e-47   3.3e-44     346     660 ..      67     393 ..      31     458 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 153.4 bits;  conditional E-value: 2.5e-47
+                    PBP1A 346 gyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsvdPktGeVlAyyGGedyakq 429
+                              + +++++++++   + + ++++++gG++ItTTid+k   a+++av+++    + + + +++++ v +d +tG++l+++GG++y+++
+  gi|296863372|pdb|2XD1|A  67 KELKNEATQKFY--RDLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYllD-DGTGRVEVGNVLMDNQTGAILGFVGGRNYQEN 149
+                              333444444442..25788***************************9987653.344459************************** PP
+
+                    PBP1A 430 qvnnatraglqpGStFKpfvla.aaleqgislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv..g 512
+                              q n+a+ +++ p+St Kp      a++qg   ++++ ++ p ++ +g+ ++  ++ +  g +tl eA++ S N + +     +   
+  gi|296863372|pdb|2XD1|A 150 QNNHAFDTKRSPASTTKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PIMYANSKGTGMMTLGEALNYSWNIPAYWTYRMLreN 234
+                              ******************86541699***999999999******9885.55555556789**************987665555454 PP
+
+                    PBP1A 513 pekvaetAhalGipestktleesp.siaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevad 597
+                                +v+   +++G +  +  +e+ p +   G  +v++ +++++y TlAn+Gv+++ h+++k++ +dg+v+ye +++  q+ sk++a 
+  gi|296863372|pdb|2XD1|A 235 GVDVKGYMEKMGYEIPEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGVYHQKHVISKIEAADGRVVYEYQDKPVQVYSKATAT 317
+                              4579********99987777765534...799***************************************9999*********** PP
+
+                    PBP1A 598 dvtsaLqsvves.gtgtaag..........grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeepl.n..ga 660
+                               ++  L++v++s  t+t ++          + +  gKTGT++++++ W +  tp l+   w+g++d++ +l +  g+
+  gi|296863372|pdb|2XD1|A 318 IMQGLLREVLSSrVTTTFKSnltslnptlaNADWIGKTGTTNQDENMWLMLSTPRLTLGGWIGHDDNH-SLsQqaGY 393
+                              **********97555543335788989999999*******************************9985.66322344 PP
+
+>> gi|178847453|pdb|2ZC5|B  Chain B, Penicillin-Binding Protein 1a (Pbp 1a) Acyl-Enzyme Complex (Biapenem) From Streptoc
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.5   4.8   2.3e-47   3.1e-44     347     693 ..       8     374 ..       1     385 [. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 153.5 bits;  conditional E-value: 2.3e-47
+                    PBP1A 347 yivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe...dyakq 429
+                              y+ ++ k+ +++ ++ t  +l t G+ ++T +d++aq+ + +  ++      p+d+l++a + vd ++G+V+A  G +     ++ 
+  gi|178847453|pdb|2ZC5|B   8 YMDNYLKEVINQVEEETGYNLLTTGMDVYTNVDQEAQKHLWDIYNTDEYVAYPDDELQVASTIVDVSNGKVIAQLGARhqsSNVSF 93 
+                              4444444444333344667899********************99887765578888*********************955533335 PP
+
+                    PBP1A 430 qvnnatraglqpGStFKpfv.laaaleqgisl..nsvydgssprtvkegs.ykveNedgesygsitlreAtkkSvNtvfvqlaqdv 511
+                               +n+a+++++  GSt+Kp++ +a ale g+     +++  ++p++++ g+ ++v N d   +g+itl+ A+++S N++ v+  ++v
+  gi|178847453|pdb|2ZC5|B  94 GINQAVETNRDWGSTMKPITdYAPALEYGVYDstATIVH-DEPYNYP-GTnTPVYNWDRGYFGNITLQYALQQSRNVPAVETLNKV 177
+                              68*****************85788*****7552145555.8999995.8779******999************************* PP
+
+                    PBP1A 512 gpekvaetAhalGipes....tktleespsiaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavsk 593
+                              g+++ ++  + lGi+      ++ ++++++ +  ++ +s   mA+ayA +AngG++ +p  + kV+ sdg+   e ++ g++a+++
+  gi|178847453|pdb|2ZC5|B 178 GLNRAKTFLNGLGIDYPsihySNAISSNTTESDKKYGASSEKMAAAYAAFANGGTYYKPMYIHKVVFSDGSEK-EFSNVGTRAMKE 262
+                              ***************996665333333333334489999*******************************555.235689****** PP
+
+                    PBP1A 594 evaddvtsaLqsvvesgtgtaag..grpaAgKTGTa..............d.enkaaWfvGytpqlataVwvgredgeeplngagk 662
+                              ++a  +t++++ v++ gtg++a     p AgKTGT+              +    +  f+Gyt++ + aVw g +++ +pl g   
+  gi|178847453|pdb|2ZC5|B 263 TTAYMMTDMMKTVLSYGTGQNAYlaWLPQAGKTGTSnytdeeienhiktsQfVAPDELFAGYTRKYSMAVWTGYSNRLTPLVG--- 345
+                              **************99***99989999***********99999877654325566789****************988558877... PP
+
+                    PBP1A 663 rvyGgglPaeiWkafmdaalegkpveeFpkp 693
+                                +G +++a++++++m+   eg+++e+ + p
+  gi|178847453|pdb|2ZC5|B 346 --NGLTVAAKVYRSMMTYLSEGSNPEDWNIP 374
+                              ..8********************99997655 PP
+
+>> gi|85544361|pdb|2C5W|B  Chain B, Penicillin-Binding Protein 1a (Pbp-1a) Acyl-Enzyme Complex (Cefotaxime) From Strepto
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.3   5.0   2.7e-47   3.6e-44     351     693 ..      10     372 ..       1     380 [. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 153.3 bits;  conditional E-value: 2.7e-47
+                   PBP1A 351 qVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe...dyakqqvnna 434
+                             + k+ +++ ++ t  +l t G+ ++T +d++aq+ + +  ++      p+d+l++a + vd ++G+V+A  G +     ++  +n+a
+  gi|85544361|pdb|2C5W|B  10 YLKEVINQVEEETGYNLLTTGMDVYTNVDQEAQKHLWDIYNTDEYVAYPDDELQVASTIVDVSNGKVIAQLGARhqsSNVSFGINQA 96 
+                             333333333334567899********************99887765578888*********************95553333568*** PP
+
+                   PBP1A 435 traglqpGStFKpfv.laaaleqgisl..nsvydgssprtvkegs.ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekva 517
+                             +++++  GSt+Kp++ +a ale g+     +++  ++p++++ g+ ++v N d   +g+itl+ A+++S N++ v+  ++vg+++ +
+  gi|85544361|pdb|2C5W|B  97 VETNRDWGSTMKPITdYAPALEYGVYEstATIVH-DEPYNYP-GTnTPVYNWDRGYFGNITLQYALQQSRNVPAVETLNKVGLNRAK 181
+                             **************85788*****7542145555.8999995.8779******999******************************* PP
+
+                   PBP1A 518 etAhalGipes....tktleespsiaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddvt 600
+                             +  + lGi+      ++ ++++++ +  ++ +s   mA+ayA +AngG++ +p  + kV+ sdg+   e ++ g++a+++++a  +t
+  gi|85544361|pdb|2C5W|B 182 TFLNGLGIDYPsihySNAISSNTTESDKKYGASSEKMAAAYAAFANGGTYYKPMYIHKVVFSDGSEK-EFSNVGTRAMKETTAYMMT 267
+                             *********996665333333333334489999*******************************555.235689************* PP
+
+                   PBP1A 601 saLqsvvesgtgtaag..grpaAgKTGTa..............d.enkaaWfvGytpqlataVwvgredgeeplngagkrvyGgglP 670
+                             ++++ v++ gtg++a     p AgKTGT+              +    +  f+Gyt++ + aVw g +++ +pl g     +G +++
+  gi|85544361|pdb|2C5W|B 268 DMMKTVLTYGTGRNAYlaWLPQAGKTGTSnytdeeienhiktsQfVAPDELFAGYTRKYSMAVWTGYSNRLTPLVG-----NGLTVA 349
+                             ************99989999***********99999877654325566789****************988558877.....8***** PP
+
+                   PBP1A 671 aeiWkafmdaalegkpveeFpkp 693
+                             a++++++m+   eg+++e+ + p
+  gi|85544361|pdb|2C5W|B 350 AKVYRSMMTYLSEGSNPEDWNIP 372
+                             ***************99987655 PP
+
+>> gi|85544374|pdb|2C6W|B  Chain B, Penicillin-Binding Protein 1a (Pbp-1a) From Streptococcus Pneumoniae
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.2   4.8   2.9e-47   3.9e-44     350     693 ..      11     371 ..       2     379 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 153.2 bits;  conditional E-value: 2.9e-47
+                   PBP1A 350 qqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe...dyakqqvnn 433
+                             ++V +++e   + t  +l t G+ ++T +d++aq+ + +  ++      p+d+l++a + vd ++G+V+A  G +     ++  +n+
+  gi|85544374|pdb|2C6W|B  11 KEVINQVE---EETGYNLLTTGMDVYTNVDQEAQKHLWDIYNTDEYVAYPDDELQVASTIVDVSNGKVIAQLGARhqsSNVSFGINQ 94 
+                             33334443...34557899********************99887765578888*********************95553333568** PP
+
+                   PBP1A 434 atraglqpGStFKpfv.laaaleqgisl..nsvydgssprtvkegs.ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekv 516
+                             a+++++  GSt+Kp++ +a ale g+     +++  ++p++++ g+ ++v N d   +g+itl+ A+++S N++ v+  ++vg+++ 
+  gi|85544374|pdb|2C6W|B  95 AVETNRDWGSTMKPITdYAPALEYGVYDstATIVH-DEPYNYP-GTnTPVYNWDRGYFGNITLQYALQQSRNVPAVETLNKVGLNRA 179
+                             ***************85788*****7552145555.8999995.8779******999****************************** PP
+
+                   PBP1A 517 aetAhalGipes....tktleespsiaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddv 599
+                             ++  + lGi+      ++ ++++++ +  ++ +s   mA+ayA +AngG++ +p  + kV+ sdg+   e ++ g++a+++++a  +
+  gi|85544374|pdb|2C6W|B 180 KTFLNGLGIDYPsihySNAISSNTTESDKKYGASSEKMAAAYAAFANGGTYYKPMYIHKVVFSDGSEK-EFSNVGTRAMKETTAYMM 265
+                             **********996665333333333334489999*******************************555.235689************ PP
+
+                   PBP1A 600 tsaLqsvvesgtgtaag..grpaAgKTGTa..............d.enkaaWfvGytpqlataVwvgredgeeplngagkrvyGggl 669
+                             t++++ v++ gtg++a     p AgKTGT+              +    +  f+Gyt++ + aVw g +++ +pl g     +G ++
+  gi|85544374|pdb|2C6W|B 266 TDMMKTVLTYGTGRNAYlaWLPQAGKTGTSnytdeeienhiktsQfVAPDELFAGYTRKYSMAVWTGYSNRLTPLVG-----NGLTV 347
+                             *************99989999***********99999877654325566789****************988558877.....8**** PP
+
+                   PBP1A 670 PaeiWkafmdaalegkpveeFpkp 693
+                             +a++++++m+   eg+++e+ + p
+  gi|85544374|pdb|2C6W|B 348 AAKVYRSMMTYLSEGSNPEDWNIP 371
+                             ****************99987655 PP
+
+>> gi|157835243|pdb|2JCH|A  Chain A, Structural And Mechanistic Basis Of Penicillin Binding Protein Inhibition By Lactiv
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.8   5.6   7.6e-47     1e-43     361     660 ..      49     362 ..      20     427 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 151.8 bits;  conditional E-value: 7.6e-47
+                    PBP1A 361 gitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsvdPktGeVlAyyGGedyakqqvnnatraglqpGSt 444
+                               + ++++++gG++ItTTid+k   a+++av+++    + + + +++++ v +d +tG++l+++GG++y+++q n+a+ +++ p+St
+  gi|157835243|pdb|2JCH|A  49 DLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYllD-DGTGRVEVGNVLMDNQTGAILGFVGGRNYQENQNNHAFDTKRSPAST 133
+                              46789**************************9987653.344459***************************************** PP
+
+                    PBP1A 445 FKpfvla.aaleqgislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv..gpekvaetAhalGipe 527
+                               Kp      a++qg   ++++ ++ p ++ +g+ ++  ++ +  g +tl eA++ S N + +     +     +v+   +++G + 
+  gi|157835243|pdb|2JCH|A 134 TKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PIMYANSKGTGMMTLGEALNYSWNIPAYWTYRMLreNGVDVKGYMEKMGYEI 218
+                              ***86541699***999999999******9885.55555556789**************9876655554544579********999 PP
+
+                    PBP1A 528 stktleesp.siaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvves.gt 611
+                               +  +e+ p +   G  +v++ +++++y TlAn+Gv+++ h+++k++ +dg+v+ye +++  q+ sk++a  ++  L++v++s  t
+  gi|157835243|pdb|2JCH|A 219 PEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGVYHQKHVISKIEAADGRVVYEYQDKPVQVYSKATATIMQGLLREVLSSrVT 301
+                              87777765534...799***************************************9999*********************97555 PP
+
+                    PBP1A 612 gtaag..........grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeepl.n..ga 660
+                              +t ++          + +  gKTGT++++++ W +  tp l+   w+g++d++ +l +  g+
+  gi|157835243|pdb|2JCH|A 302 TTFKSnltslnptlaNADWIGKTGTTNQDENMWLMLSTPRLTLGGWIGHDDNH-SLsQqaGY 362
+                              543335788989999999*******************************9985.66322344 PP
+
+>> gi|157884145|pdb|2UWX|A  Chain A, Active Site Restructuring Regulates Ligand Recognition In Class A Penicillin-Bindin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.6   4.8   3.5e-46   4.7e-43     347     660 ..      64     393 ..       6     458 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 149.6 bits;  conditional E-value: 3.5e-46
+                    PBP1A 347 yivqqVkaeLeeel..gitedqlntgGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsvdPktGeVlAyyGGedyak 428
+                              +  ++ k+e +++    + ++++++gG++ItTTid+k   a+++av+++    + + + +++++ v +d +tG++l+++GG++y++
+  gi|157884145|pdb|2UWX|A  64 VSAKELKNEATQKFyrDLAAKEIENGGYKITTTIDQKIHSAMQSAVADYGYllD-DGTGRVEVGNVLMDNQTGAILGFVGGRNYQE 148
+                              33444444443322225788***************************9987653.344459************************* PP
+
+                    PBP1A 429 qqvnnatraglqpGStFKpfvla.aaleqgislnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdv.. 511
+                              +q n+a+ +++ p+ t Kp      a++qg   ++++ ++ p ++ +g+ ++  ++ +  g +tl eA++ S N + +     +  
+  gi|157884145|pdb|2UWX|A 149 NQNNHAFDTKRSPAXTTKPLLAYgIAIDQGLMGSETILSNYPTNFANGN-PIMYANSKGTGMMTLGEALNYSWNIPAYWTYRMLre 233
+                              *******************86541699***999999999******9885.55555556789**************98766555545 PP
+
+                    PBP1A 512 gpekvaetAhalGipestktleesp.siaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskeva 596
+                                 +v+   +++G +  +  +e+ p +   G  +v++ +++++y TlAn+Gv+++ h+++k++ +dg+v+ye +++  q+ sk++a
+  gi|157884145|pdb|2UWX|A 234 NGVDVKGYMEKMGYEIPEYGIESLPmG---GGIEVTVAQHTNGYQTLANNGVYHQKHVISKIEAADGRVVYEYQDKPVQVYSKATA 316
+                              44579********99987777765534...799***************************************9999********** PP
+
+                    PBP1A 597 ddvtsaLqsvves.gtgtaag..........grpaAgKTGTadenkaaWfvGytpqlataVwvgredgeepl.n..ga 660
+                                ++  L++v++s  t+t ++          + +  gKTGT++++++ W +  tp l+   w+g++d++ +l +  g+
+  gi|157884145|pdb|2UWX|A 317 TIMQGLLREVLSSrVTTTFKSnltslnptlaNADWIGKTGTTNQDENMWLMLSTPRLTLGGWIGHDDNH-SLsQqaGY 393
+                              ***********97555543335788989999999*******************************9985.66322344 PP
+
+>> gi|163931068|pdb|2V2F|F  Chain F, Crystal Structure Of Pbp1a From Drug-resistant Strain 5204 From Streptococcus Pneum
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.0   6.3   8.9e-45   1.2e-41     347     692 ..       8     373 ..       1     384 [. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 145.0 bits;  conditional E-value: 8.9e-45
+                    PBP1A 347 yivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak...q 429
+                              y+ ++ k+ +++ ++ t  +l t G+ ++T +d++aq+ + +  ++    + p+d+l++a + vd ++G+V+A  G +  a+    
+  gi|163931068|pdb|2V2F|F   8 YMDNYLKEVINQVEQETGYNLLTTGMDVYTNVDQEAQKHLWDIYNSDQYVSYPDDDLQVASTVVDVSNGKVIAQLGARHQASnvsF 93 
+                              5555555555444455778899*********************9988766678888**********************65553334 PP
+
+                    PBP1A 430 qvnnatraglqpGStFKpfv.laaaleqgisl..nsvydgssprtvkegs.ykveNedgesygsitlreAtkkSvNtvfvqlaqdv 511
+                               +n+a+++++  GS++Kp++ +a a+e g+     ++++ + p+++ +g+ ++v N d + +g+itl+ A+++S N+  v+  ++v
+  gi|163931068|pdb|2V2F|F  94 GTNQAVETNRDWGSAMKPITdYAPAIEYGVYDstATMVN-DIPYNY-PGTsTPVYNWDRAYFGNITLQYALQQSRNVTAVETLNKV 177
+                              5799***************857789****7552155555.677777.5888*********************************** PP
+
+                    PBP1A 512 gpekvaetAhalGipes....tktleespsiaLGtasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavsk 593
+                              g+++ ++  + lGi+      ++ ++++++ +  ++ +s   mA+ayA +AngG++++p  ++kV+ sdg+  +  ++ g++a+++
+  gi|163931068|pdb|2V2F|F 178 GLDRAKTFLNGLGIDYPsmhyANAISSNTTESNKQYGASSEKMAAAYAAFANGGIYHKPMYINKVVFSDGSKKE-FSDVGTRAMKE 262
+                              **************9985555333333444445599**********************************6663.35699****** PP
+
+                    PBP1A 594 evaddvtsaLqsvvesgtgtaag..grpaAgKTGTa.............d..enkaaWfvGytpqlataVwvgredgeeplngagk 662
+                              ++a  +t++++ v++ gtg+ a       AgKTGT+             +     +  fvGyt++ + aVw g +++ +p+ g   
+  gi|163931068|pdb|2V2F|F 263 TTAYMMTEMMKTVLAYGTGRGAYlpWLAQAGKTGTSnytddeiekhiknTgyVAPDEMFVGYTRKYSMAVWTGYSNRLTPIVG--- 345
+                              ***************9***988899999***********999987776414467789*****************987557655... PP
+
+                    PBP1A 663 rvyGgglPaeiWkafmdaalegkpveeFpk 692
+                                 G  ++a++++++++   eg+++e+ + 
+  gi|163931068|pdb|2V2F|F 346 --DGFLVAAKVYRSMITYLSEGSNPEDWNI 373
+                              ..5777899999999999999988887765 PP
+
+>> gi|554793834|pdb|4N1X|A  Chain A, Structure Of A Putative Peptidoglycan Glycosyltransferase From Atopobium Parvulum I
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  141.3   7.4   1.2e-43   1.6e-40     362     666 ..     116     456 ..      99     463 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 141.3 bits;  conditional E-value: 1.2e-43
+                    PBP1A 362 itedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak.............qqvnna 434
+                              ++   +nt G  ++ Ti+ + q+ ae+a + +            ++v  dP+tG+VlA    + y++             q v++ 
+  gi|554793834|pdb|4N1X|A 116 YSXAGINTTGSSVVLTINSQXQAVAEAALQGYS----------GSIVVXDPSTGAVLAKASSPSYTHaelgtiiesgtgsQLVDRT 191
+                              677889*********************998766..........4699************99996655556666666666699**** PP
+
+                    PBP1A 435 traglqpGStFKpfvlaaaleqgisl.nsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaet 519
+                              t+a + pGS+FK+++laa ++  +++ +++y++    ++  g  +++N+ +e+ g+i lreA+++S Nt+ +ql++ +g+++ ++ 
+  gi|554793834|pdb|4N1X|A 192 TQALYSPGSSFKTVTLAAGIDTHKTTlDTTYSAPGTXEIG-G-GTIHNYANEDXGTIPLREAFARSSNTALAQLGVALGADNLVSY 275
+                              ********************98765449********9994.6.57***************************************** PP
+
+                    PBP1A 520 AhalGipes.......tktleesp.............siaLGta......svspldmAsayATlAngGvraephfVekVtdsdgev 579
+                              A+a G  +        t++l ++p             ++  G++      ++++ + A   A +AngGv  +p++V++V + +g v
+  gi|554793834|pdb|4N1X|A 276 ARAFGYGTAlgqdfstTPSLXPNPaexttwelawascGLPVGEHaspagpQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAV 361
+                              ********9*99999977776655556667777787888888652222336799999999************************** PP
+
+                    PBP1A 580 lyeakteg.eqavskevaddvtsaLqsvvesgtgtaag..grpaAgKTGTad...enkaaWfvGytp....qlataVwvgredgee 655
+                              + ++++++  qavs+++a++v +a  +vvesgtg  a+  g ++AgKTGTad    n + +f+G+ p     l+ +V + + +ge+
+  gi|554793834|pdb|4N1X|A 362 VSTTSPKSlGQAVSADTAAQVREAXLGVVESGTGXGARvpGVKIAGKTGTADvenGNFNSFFIGFAPydhpTLVVSVVIEG-NGEN 446
+                              *98876666*************************99999************65569999******9754335655555543.4443 PP
+
+                    PBP1A 656 pl.ngagkrvyG 666
+                               l +g  ++v G
+  gi|554793834|pdb|4N1X|A 447 VLgYG--AQVGG 456
+                              55445..44555 PP
+
+>> gi|469474696|pdb|4JBF|A  Chain A, Crystal Structure Of Peptidoglycan Glycosyltransferase From Atopobium Parvulum Dsm 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  141.2   7.4   1.2e-43   1.7e-40     362     666 ..     126     466 ..     109     473 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 141.2 bits;  conditional E-value: 1.2e-43
+                    PBP1A 362 itedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak.............qqvnna 434
+                              ++   +nt G  ++ Ti+ + q+ ae+a + +            ++v  dP+tG+VlA    + y++             q v++ 
+  gi|469474696|pdb|4JBF|A 126 YSXAGINTTGSSVVLTINSQXQAVAEAALQGYS----------GSIVVXDPSTGAVLAKASSPSYTHaelgtiiesgtgsQLVDRT 201
+                              677889*********************998766..........4699************99996655556666666666699**** PP
+
+                    PBP1A 435 traglqpGStFKpfvlaaaleqgisl.nsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaet 519
+                              t+a + pGS+FK+++laa ++  +++ +++y++    ++  g  +++N+ +e+ g+i lreA+++S Nt+ +ql++ +g+++ ++ 
+  gi|469474696|pdb|4JBF|A 202 TQALYSPGSSFKTVTLAAGIDTHKTTlDTTYSAPGTXEIG-G-GTIHNYANEDXGTIPLREAFARSSNTALAQLGVALGADNLVSY 285
+                              ********************98765449********9994.6.57***************************************** PP
+
+                    PBP1A 520 AhalGipes.......tktleesp.............siaLGta......svspldmAsayATlAngGvraephfVekVtdsdgev 579
+                              A+a G  +        t++l ++p             ++  G++      ++++ + A   A +AngGv  +p++V++V + +g v
+  gi|469474696|pdb|4JBF|A 286 ARAFGYGTAlgqdfstTPSLXPNPaexttwelawascGLPVGEHaspagpQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAV 371
+                              ********9*99999977776655556667777787888888652222336799999999************************** PP
+
+                    PBP1A 580 lyeakteg.eqavskevaddvtsaLqsvvesgtgtaag..grpaAgKTGTad...enkaaWfvGytp....qlataVwvgredgee 655
+                              + ++++++  qavs+++a++v +a  +vvesgtg  a+  g ++AgKTGTad    n + +f+G+ p     l+ +V + + +ge+
+  gi|469474696|pdb|4JBF|A 372 VSTTSPKSlGQAVSADTAAQVREAXLGVVESGTGXGARvpGVKIAGKTGTADvenGNFNSFFIGFAPydhpTLVVSVVIEG-NGEN 456
+                              *98876666*************************99999************65569999******9754335655555543.4443 PP
+
+                    PBP1A 656 pl.ngagkrvyG 666
+                               l +g  ++v G
+  gi|469474696|pdb|4JBF|A 457 VLgYG--AQVGG 466
+                              55445..44555 PP
+
+>> gi|361132398|pdb|3UE3|A  Chain A, Crystal Structure Of Acinetobacter Baumanni Pbp3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  109.2   0.0   5.8e-34   7.7e-31     343     683 ..     177     536 ..     153     547 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 109.2 bits;  conditional E-value: 5.8e-34
+                    PBP1A 343 gqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe.... 424
+                              g++++i+++  + L+ ++ i+e    + G +It +id ++q  +++  +++  + +++   +a +++vd ktGe+lA+   +    
+  gi|361132398|pdb|3UE3|A 177 GEQKIIRDKKGNRLKVSEVIKE---VESGENITLSIDSRLQYIMYRELTAAGVA-NNA--RSATAIAVDVKTGEILAMTSWPsynp 256
+                              5555555555555644434444...368999**************999887733.333..368899************55553344 PP
+
+                    PBP1A 425 ......dyakqqvnnatraglqpGStFKpfvlaaaleqg.islnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtv 503
+                                       +   n+   + ++pGSt+Kpf++aaale g ++ ns+++ ++p t++ g +++++   ++yg  tl+  + kS N+ 
+  gi|361132398|pdb|3UE3|A 257 ndkgglSNKDAMRNRGAIDMFEPGSTMKPFTVAAALESGqYTPNSIVN-TAPGTMRLGWHTIRD--THNYGALTLTGIIVKSSNVG 339
+                              4444433333566899999*******************9455688888.999999878666666..599***************** PP
+
+                    PBP1A 504 fvqlaqdvgpekvaetAhalGipes...............tktleesp..siaLG.tasvspldmAsayATlAngGvraephfVek 571
+                               ++la ++  e+  +  +++G  +s               + +l++s+  ++a G   +++ l++A++yA lAn+Gv ++     k
+  gi|361132398|pdb|3UE3|A 340 SAKLALSLPKEALPSFFRRAGFGQSsdvkfpgesagllysADKLNSSQlgTMAYGyGLNATILQLAQGYAMLANHGVEMPLS-LHK 424
+                              ***********************9999999988877777655665554678888844699*****************98654.566 PP
+
+                    PBP1A 572 VtdsdgevlyeaktegeqavskevaddvtsaLqsvve.sgtgtaag..grpaAgKTGTa...........denkaaWfvGytp... 640
+                                +    v+     eg+q++++++ad+v  +L++v+  +gt+++a   g  + gKTGTa           +++  a f+G  p   
+  gi|361132398|pdb|3UE3|A 425 LDQ----VP-----EGRQVLDPKIADQVLMMLEQVTLpGGTAKQAVipGYRVGGKTGTAhklradrkgysNSEYRALFAGVAPvsd 501
+                              655....77.....89********************9779999888*************988877766544677788888765333 PP
+
+                    PBP1A 641 .qlataVwvgredgeeplngagkrvyGgglPaeiWkafmdaale 683
+                                la  V v + +         +r yGg ++a +++++m++ l+
+  gi|361132398|pdb|3UE3|A 502 pRLAMIVVVENPQ---------GRYYGGLVAAPVFAKIMQESLR 536
+                              3566666664433.........479**************99886 PP
+
+>> gi|409107271|pdb|4FSF|A  Chain A, Crystal Structure Of Pseudomonas Aeruginosa Pbp3 Complexed With Compound 14
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.2   0.6     2e-32   2.6e-29     369     698 ..     171     525 ..     148     534 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 104.2 bits;  conditional E-value: 2e-32
+                    PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak.........qqvnnatraglqpGStF 445
+                              + G +   +id ++q  a++  +++l  ++ ++    +lv +d ktGe+lA+   + y              n+a+ + ++pGSt 
+  gi|409107271|pdb|4FSF|A 171 KPGKTLALSIDLRLQYLAHRELRNALL-ENGAK--AGSLVIMDVKTGEILAMTNQPTYNPnnrrnlqpaAMRNRAMIDVFEPGSTV 253
+                              55667777899999**9*999999995.44443..689**************9999444444444555567899999********* PP
+
+                    PBP1A 446 Kpfvlaaaleqg.islnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.. 528
+                              Kpf + aal  g  + ++++d   p t++ g y++++ + ++  + +l+  + kS N+   ++a d+g+e + ++ +++G+ ++  
+  gi|409107271|pdb|4FSF|A 254 KPFSMSAALASGrWKPSDIVD-VYPGTLQIGRYTIRDVS-RNSRQLDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDtg 337
+                              ***********9445577777.666666658899**996.56688***************************************99 PP
+
+                    PBP1A 529 .............tktlee..spsiaLG.tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevadd 598
+                                           + ++ +  ++++a G   sv+++++A+ayA lAn+G+ ++  + ++V +    v+     +g q++s+eva++
+  gi|409107271|pdb|4FSF|A 338 lgfpgervgnlpnHRKWPKaeTATLAYGyGLSVTAIQLAHAYAALANDGKSVPLSM-TRVDR----VP-----DGVQVISPEVAST 413
+                              99999887776653344223345999995579******************997655.67766....66.....799********** PP
+
+                    PBP1A 599 vtsaLqsvve.sgtgtaag..grpaAgKTGTa...........denkaaWfvGytpqlataVwvgredgeepln.gagkrvyGggl 669
+                              v+ +Lq+vve +g   +a+  g  aAgK+GTa           ++     f+G+ p     ++++   +e p + g     +Gg +
+  gi|409107271|pdb|4FSF|A 414 VQGMLQQVVEaQGGVFRAQvpGYHAAGKSGTArkvsvgtkgyrENAYRSLFAGFAPATDPRIAMVVVIDE-PSKaG----YFGGLV 494
+                              **********6565566888*****************998886688899*****9988777777766443.43314....89**** PP
+
+                    PBP1A 670 PaeiWkafmdaalegk..pveeFpkpaeiga 698
+                               a +++++m  al+ +  p+ ++p+++e ++
+  gi|409107271|pdb|4FSF|A 495 SAPVFSKVMAGALRLMnvPPDNLPTATEQQQ 525
+                              ************8755226777777765544 PP
+
+>> gi|532138034|pdb|4L0L|A  Chain A, Crystal Structure Of P.aeruginosa Pbp3 In Complex With Compound 4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.2   0.6     2e-32   2.7e-29     369     698 ..     172     526 ..     149     535 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 104.2 bits;  conditional E-value: 2e-32
+                    PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak.........qqvnnatraglqpGStF 445
+                              + G +   +id ++q  a++  +++l  ++ ++    +lv +d ktGe+lA+   + y              n+a+ + ++pGSt 
+  gi|532138034|pdb|4L0L|A 172 KPGKTLALSIDLRLQYLAHRELRNALL-ENGAK--AGSLVIMDVKTGEILAMTNQPTYNPnnrrnlqpaAMRNRAMIDVFEPGSTV 254
+                              55667777899999**9*999999995.44443..689**************9999444444444555567899999********* PP
+
+                    PBP1A 446 Kpfvlaaaleqg.islnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.. 528
+                              Kpf + aal  g  + ++++d   p t++ g y++++ + ++  + +l+  + kS N+   ++a d+g+e + ++ +++G+ ++  
+  gi|532138034|pdb|4L0L|A 255 KPFSMSAALASGrWKPSDIVD-VYPGTLQIGRYTIRDVS-RNSRQLDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDtg 338
+                              ***********9445577777.666666658899**996.56688***************************************99 PP
+
+                    PBP1A 529 .............tktlee..spsiaLG.tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevadd 598
+                                           + ++ +  ++++a G   sv+++++A+ayA lAn+G+ ++  + ++V +    v+     +g q++s+eva++
+  gi|532138034|pdb|4L0L|A 339 lgfpgervgnlpnHRKWPKaeTATLAYGyGLSVTAIQLAHAYAALANDGKSVPLSM-TRVDR----VP-----DGVQVISPEVAST 414
+                              99999887776653344223345999995579******************997655.67766....66.....799********** PP
+
+                    PBP1A 599 vtsaLqsvve.sgtgtaag..grpaAgKTGTa...........denkaaWfvGytpqlataVwvgredgeepln.gagkrvyGggl 669
+                              v+ +Lq+vve +g   +a+  g  aAgK+GTa           ++     f+G+ p     ++++   +e p + g     +Gg +
+  gi|532138034|pdb|4L0L|A 415 VQGMLQQVVEaQGGVFRAQvpGYHAAGKSGTArkvsvgtkgyrENAYRSLFAGFAPATDPRIAMVVVIDE-PSKaG----YFGGLV 495
+                              **********6565566888*****************998886688899*****9988777777766443.43314....89**** PP
+
+                    PBP1A 670 PaeiWkafmdaalegk..pveeFpkpaeiga 698
+                               a +++++m  al+ +  p+ ++p+++e ++
+  gi|532138034|pdb|4L0L|A 496 SAPVFSKVMAGALRLMnvPPDNLPTATEQQQ 526
+                              ************8755226777777765544 PP
+
+>> gi|315364688|pdb|3PBN|A  Chain A, Crystal Structure Of Apo Pbp3 From Pseudomonas Aeruginosagi|315364689|pdb|3PBO|A C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.1   0.6     2e-32   2.7e-29     369     698 ..     173     527 ..     150     536 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 104.1 bits;  conditional E-value: 2e-32
+                    PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak.........qqvnnatraglqpGStF 445
+                              + G +   +id ++q  a++  +++l  ++ ++    +lv +d ktGe+lA+   + y              n+a+ + ++pGSt 
+  gi|315364688|pdb|3PBN|A 173 KPGKTLALSIDLRLQYLAHRELRNALL-ENGAK--AGSLVIMDVKTGEILAMTNQPTYNPnnrrnlqpaAMRNRAMIDVFEPGSTV 255
+                              55667777899999**9*999999995.44443..689**************9999444444444555567899999********* PP
+
+                    PBP1A 446 Kpfvlaaaleqg.islnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.. 528
+                              Kpf + aal  g  + ++++d   p t++ g y++++ + ++  + +l+  + kS N+   ++a d+g+e + ++ +++G+ ++  
+  gi|315364688|pdb|3PBN|A 256 KPFSMSAALASGrWKPSDIVD-VYPGTLQIGRYTIRDVS-RNSRQLDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDtg 339
+                              ***********9445577777.666666658899**996.56688***************************************99 PP
+
+                    PBP1A 529 .............tktlee..spsiaLG.tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevadd 598
+                                           + ++ +  ++++a G   sv+++++A+ayA lAn+G+ ++  + ++V +    v+     +g q++s+eva++
+  gi|315364688|pdb|3PBN|A 340 lgfpgervgnlpnHRKWPKaeTATLAYGyGLSVTAIQLAHAYAALANDGKSVPLSM-TRVDR----VP-----DGVQVISPEVAST 415
+                              99999887776653344223345999995579******************997655.67766....66.....799********** PP
+
+                    PBP1A 599 vtsaLqsvve.sgtgtaag..grpaAgKTGTa...........denkaaWfvGytpqlataVwvgredgeepln.gagkrvyGggl 669
+                              v+ +Lq+vve +g   +a+  g  aAgK+GTa           ++     f+G+ p     ++++   +e p + g     +Gg +
+  gi|315364688|pdb|3PBN|A 416 VQGMLQQVVEaQGGVFRAQvpGYHAAGKSGTArkvsvgtkgyrENAYRSLFAGFAPATDPRIAMVVVIDE-PSKaG----YFGGLV 496
+                              **********6565566888*****************998886688899*****9988777777766443.43314....89**** PP
+
+                    PBP1A 670 PaeiWkafmdaalegk..pveeFpkpaeiga 698
+                               a +++++m  al+ +  p+ ++p+++e ++
+  gi|315364688|pdb|3PBN|A 497 SAPVFSKVMAGALRLMnvPPDNLPTATEQQQ 527
+                              ************8755226777777765544 PP
+
+>> gi|311772227|pdb|3OC2|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 3 From Pseudomonas Aeruginosagi|31
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.9   0.6   2.3e-32   3.1e-29     369     698 ..     199     553 ..     176     562 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 103.9 bits;  conditional E-value: 2.3e-32
+                    PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGedyak.........qqvnnatraglqpGStF 445
+                              + G +   +id ++q  a++  +++l  ++ ++    +lv +d ktGe+lA+   + y              n+a+ + ++pGSt 
+  gi|311772227|pdb|3OC2|A 199 KPGKTLALSIDLRLQYLAHRELRNALL-ENGAK--AGSLVIMDVKTGEILAMTNQPTYNPnnrrnlqpaAMRNRAMIDVFEPGSTV 281
+                              55667777899999**99999999995.44443..689**************9999444444444555567899999********* PP
+
+                    PBP1A 446 Kpfvlaaaleqg.islnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.. 528
+                              Kpf + aal  g  + ++++d   p t++ g y++++ + ++  + +l+  + kS N+   ++a d+g+e + ++ +++G+ ++  
+  gi|311772227|pdb|3OC2|A 282 KPFSMSAALASGrWKPSDIVD-VYPGTLQIGRYTIRDVS-RNSRQLDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDtg 365
+                              ***********9445577777.666666658899**996.56688***************************************99 PP
+
+                    PBP1A 529 .............tktlee..spsiaLG.tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqavskevadd 598
+                                           + ++ +  ++++a G   sv+++++A+ayA lAn+G+ ++  + ++V +    v+     +g q++s+eva++
+  gi|311772227|pdb|3OC2|A 366 lgfpgervgnlpnHRKWPKaeTATLAYGyGLSVTAIQLAHAYAALANDGKSVPLSM-TRVDR----VP-----DGVQVISPEVAST 441
+                              99999887776653344223345999995579******************997655.67766....66.....799********** PP
+
+                    PBP1A 599 vtsaLqsvve.sgtgtaag..grpaAgKTGTa...........denkaaWfvGytpqlataVwvgredgeepln.gagkrvyGggl 669
+                              v+ +Lq+vve +g   +a+  g  aAgK+GTa           ++     f+G+ p     ++++   +e p + g     +Gg +
+  gi|311772227|pdb|3OC2|A 442 VQGMLQQVVEaQGGVFRAQvpGYHAAGKSGTArkvsvgtkgyrENAYRSLFAGFAPATDPRIAMVVVIDE-PSKaG----YFGGLV 522
+                              **********6565566888*****************998886688899*****9988777777766443.43314....89**** PP
+
+                    PBP1A 670 PaeiWkafmdaalegk..pveeFpkpaeiga 698
+                               a +++++m  al+ +  p+ ++p+++e ++
+  gi|311772227|pdb|3OC2|A 523 SAPVFSKVMAGALRLMnvPPDNLPTATEQQQ 553
+                              ************8755226777777765544 PP
+
+>> gi|209870568|pdb|3EQV|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 2 From Neisseria Gonorrhoeae Contai
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.2   0.0   4.1e-29   5.5e-26     365     679 ..     187     519 ..     167     528 .. 0.81
+
+  Alignments for each domain:
+  == domain 1    score: 93.2 bits;  conditional E-value: 4.1e-29
+                    PBP1A 365 dqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe..........dyakqqvnnatraglq 440
+                              ++  ++G  I  ++d++ q+ a++  +++++  ++++     +v  d +tGe+lA+   +          d  +q  n+a+++ ++
+  gi|209870568|pdb|3EQV|A 187 NKAPQNGKDIILSLDQRIQTLAYEELNKAVE-YHQAK--AGTVVVLDARTGEILALANTPaydpnrpgraD-SEQRRNRAVTDMIE 268
+                              566789999*********************5.44443..5678889**********998867666666533.33799********* PP
+
+                    PBP1A 441 pGStFKpfvlaaaleqgis.lnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGi 525
+                              pGS+ Kpfv+a al++g++ ln++++ ++p+++  g+ +v++   + y s ++r  ++kS N+   +l +++g+e+  +  h+lGi
+  gi|209870568|pdb|3EQV|A 269 PGSAIKPFVIAKALDAGKTdLNERLN-TQPYKI--GPSPVRDT--HVYPSLDVRGIMQKSSNVGTSKLSARFGAEEMYDFYHELGI 349
+                              *****************763699999.9*****..76777765..889************************************** PP
+
+                    PBP1A 526 pes............tktlee........spsiaLG.tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqa 590
+                                                 ++        ++++++G   + s l++A+ay  l  +Gv  +  f ++ +  +          g++ 
+  gi|209870568|pdb|3EQV|A 350 GVRmhsgfpgetaglL---RNwrrwrpieQATMSFGyGLQLSLLQLARAYTALTHDGVLLPLSFEKQAVAPQ----------GKRI 422
+                              9998899998854441...335556445455999995579**********************9987777755..........5555 PP
+
+                    PBP1A 591 vskevaddvtsaLqsvve.sgtgtaag..grpaAgKTGTa.........denkaaWfvGytpqlataVwvgredgeepl.ngagkr 663
+                              +++ +a++v + + sv+e +gtgta +  g ++ +KTGTa         d++    f+G+ p     V v  + +e p  +g    
+  gi|209870568|pdb|3EQV|A 423 FKEXTAREVRNLMVSVTEpGGTGTAGAvdGFDVGAKTGTArklvngryvDNKHVGTFIGFAPAKNPRVIVAVTIDE-PTaHG---- 503
+                              8999**************77999955599***********9999888766777889****9977766666655332.33134.... PP
+
+                    PBP1A 664 vyGgglPaeiWkafmd 679
+                               yGg ++++ +k++m 
+  gi|209870568|pdb|3EQV|A 504 YYGGVVAGSPFKKIMG 519
+                              6666666666666665 PP
+
+>> gi|209870566|pdb|3EQU|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 2 From Neisseria Gonorrhoeaegi|209
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   83.4   0.0   3.8e-26   5.1e-23     365     641 ..     187     485 ..     167     522 .. 0.82
+
+  Alignments for each domain:
+  == domain 1    score: 83.4 bits;  conditional E-value: 3.8e-26
+                    PBP1A 365 dqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe..........dyakqqvnnatraglq 440
+                              ++  ++G  I  ++d++ q+ a++  +++++  ++++     +v  d +tGe+lA+   +          d  +q  n+a+++ ++
+  gi|209870566|pdb|3EQU|A 187 NKAPQNGKDIILSLDQRIQTLAYEELNKAVE-YHQAK--AGTVVVLDARTGEILALANTPaydpnrpgraD-SEQRRNRAVTDXIE 268
+                              566789999*********************5.44443..5678889**********998867666666533.33799********* PP
+
+                    PBP1A 441 pGStFKpfvlaaaleqgis.lnsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGi 525
+                              pGS+ Kpfv+a al++g++ ln++++ ++p+++  g+ +v++   + y s ++r   +kS N+   +l +++g+e+  +  h+lGi
+  gi|209870566|pdb|3EQU|A 269 PGSAIKPFVIAKALDAGKTdLNERLN-TQPYKI--GPSPVRDT--HVYPSLDVRGIXQKSSNVGTSKLSARFGAEEXYDFYHELGI 349
+                              *****************763699999.9*****..76777765..889************************************** PP
+
+                    PBP1A 526 pes............tktlee........spsiaLG.tasvspldmAsayATlAngGvraephfVekVtdsdgevlyeaktegeqa 590
+                                                 ++        +++ ++G   + s l++A+ay  l  +Gv  +  f ++ +  +          g++ 
+  gi|209870566|pdb|3EQU|A 350 GVRxhsgfpgetaglL---RNwrrwrpieQATXSFGyGLQLSLLQLARAYTALTHDGVLLPLSFEKQAVAPQ----------GKRI 422
+                              9998899998854441...3354454454447777744699*********************9987777755..........5555 PP
+
+                    PBP1A 591 vskevaddvtsaLqsvve.sgtgtaag..grpaAgKTGTa.........denkaaWfvGytpq 641
+                              +++ +a++v +   sv+e +gtgta +  g ++ +KTGTa         d++  a f+G+ p 
+  gi|209870566|pdb|3EQU|A 423 FKEXTAREVRNLXVSVTEpGGTGTAGAvdGFDVGAKTGTArkfvngryaDNKHVATFIGFAPA 485
+                              8999**************77999955599************9999988778889******985 PP
+
+>> gi|58177060|pdb|1VQQ|A  Chain A, Structure Of Penicillin Binding Protein 2a From Methicillin Resistant Staphylococcus
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.4   0.3   9.6e-24   1.3e-20     340     654 ..     268     617 ..     237     635 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 75.4 bits;  conditional E-value: 9.6e-24
+                   PBP1A 340 elsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe.. 424
+                             +l+ ++gy v+ V ++ +  +    ++ ++ G  I+ Tid+k+q+ +++ +++             +++++ P+tGe lA++  +  
+  gi|58177060|pdb|1VQQ|A 268 KLQHEDGYRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDY----------GSGTAIHPQTGELLALVSTPsy 344
+                             5666667766666666543222233556899*************99998776666..........4689************998888 PP
+
+                   PBP1A 425 ..................dyakqqvnnatraglqpGStFKpfvlaaaleqgisl...nsvydgssprtvk.egsykveNedgesygs 489
+                                               +  k+ + n ++ +  pGSt K+ + +  l++       +  +dg+  ++ k  g+y+v+ ++ +  g+
+  gi|58177060|pdb|1VQQ|A 345 dvypfmygmsneeynkltEDKKEPLLNKFQITTSPGSTQKILTAMIGLNNKTLDdktSYKIDGKGWQKDKsWGGYNVTRYE-VVNGN 430
+                             888888888899666555333367888999999***************997433433666677755544433447676664.44599 PP
+
+                   PBP1A 490 itlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.............tktlee.....spsiaLGtasvspldmAsayATlA 558
+                             i+l++A++ S N  f+++a ++g +k ++  ++lG+ e+             +k+l++     +++   G+  ++p++  s y+ l 
+  gi|58177060|pdb|1VQQ|A 431 IDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDipsdypfynaqisNKNLDNeillaDSGYGQGEILINPVQILSIYSALE 517
+                             **********************************************988887667766555544488899999************** PP
+
+                   PBP1A 559 ngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag...grpaAgKTGTa.......d.enkaaW 634
+                             n+G+ + ph+ +  ++   +v       +++ +ske ++  t+ +q+vv++ ++++       +  gK+GTa       +   +  W
+  gi|58177060|pdb|1VQQ|A 518 NNGNINAPHLLKDTKN---KVW------KKNIISKENINLLTDGMQQVVNKTHKED-IyrsYANLIGKSGTAelkmkqgEtGRQIGW 594
+                             **********998887...666......5789*****************9755543.235678889******88877662477888* PP
+
+                   PBP1A 635 fvGyt...pqlataVwvgredge 654
+                             f+ y    p++  a++v + +++
+  gi|58177060|pdb|1VQQ|A 595 FISYDkdnPNMMMAINVKDVQDK 617
+                             ***96222677777777666544 PP
+
+>> gi|550545821|pdb|3ZG5|A  Chain A, Crystal Structure Of Pbp2a From Mrsa In Complex With Peptidoglycan Analogue At Allo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.5   0.3   9.4e-24   1.3e-20     340     654 ..     264     613 ..     233     631 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 75.5 bits;  conditional E-value: 9.4e-24
+                    PBP1A 340 elsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe. 424
+                              +l+ ++gy v+ V ++ +  +    ++ ++ G  I+ Tid+k+q+ +++ +++             +++++ P+tGe lA++  + 
+  gi|550545821|pdb|3ZG5|A 264 KLQHEDGYRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDY----------GSGTAIHPQTGELLALVSTPs 339
+                              5666667766666666543222233556899*************99998776666..........4689************99888 PP
+
+                    PBP1A 425 ...................dyakqqvnnatraglqpGStFKpfvlaaaleqgisl...nsvydgssprtvk.egsykveNedgesy 487
+                                                 +  k+ + n ++ +  pGSt K+ + +  l++       +  +dg+  ++ k  g+y+v+ ++ +  
+  gi|550545821|pdb|3ZG5|A 340 ydvypfmygmsneeynkltEDKKEPLLNKFQITTSPGSTQKILTAMIGLNNKTLDdktSYKIDGKGWQKDKsWGGYNVTRYE-VVN 424
+                              8888888888899666555333367888999999***************997433433666677755544433447676664.445 PP
+
+                    PBP1A 488 gsitlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.............tktlee.....spsiaLGtasvspldmAsayA 555
+                              g+i+l++A++ S N  f+++a ++g +k ++  ++lG+ e+             +k+l++     +++   G+  ++p++  s y+
+  gi|550545821|pdb|3ZG5|A 425 GNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDipsdypfynaqisNKNLDNeillaDSGYGQGEILINPVQILSIYS 510
+                              99**********************************************988887667766555544488899999*********** PP
+
+                    PBP1A 556 TlAngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag...grpaAgKTGTa.......d.en 630
+                               l n+G+ + ph+ +  ++   +v       +++ +ske ++  t+ +q+vv++ ++++       +  gK+GTa       +   
+  gi|550545821|pdb|3ZG5|A 511 ALENNGNINAPHLLKDTKN---KVW------KKNIISKENINLLTDGMQQVVNKTHKED-IyrsYANLIGKSGTAelkmkqgEtGR 586
+                              *************998887...666......5789*****************9755543.235678889******88877662477 PP
+
+                    PBP1A 631 kaaWfvGyt...pqlataVwvgredge 654
+                              +  Wf+ y    p++  a++v + +++
+  gi|550545821|pdb|3ZG5|A 587 QIGWFISYDkdnPNMMMAINVKDVQDK 613
+                              888****96222677777777666544 PP
+
+>> gi|158431327|pdb|2Z2L|B  Chain B, Penicillin-Binding Protein 2x (Pbp2x) From Streptococcus Pneumoniaegi|158431330|pd
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.9   3.5   5.7e-23   7.7e-20     368     653 ..      15     340 ..       7     362 .. 0.76
+
+  Alignments for each domain:
+  == domain 1    score: 72.9 bits;  conditional E-value: 5.7e-23
+                    PBP1A 368 ntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe............dyakqqvnnatraglqp 441
+                              +  G  ++TTi   +q  +e+ +++  + + +  k    ++ v  ktGe+lA    +            d++    +   +++++p
+  gi|158431327|pdb|2Z2L|B  15 TMDGKDVYTTISSPLQSFMETQMDAFQE-KVKG-K-YMTATLVSAKTGEILATTQRPtfdadtkegiteDFVW--RDILYQSNYEP 95 
+                              457899**************99998874.3333.3.344455679********88888877666655554444..6788899**** PP
+
+                    PBP1A 442 GStFKpfvlaaaleqgisl.nsvydgssprtvkegs....ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAh. 521
+                              GSt+K++ laaa++++    ++v++ ss+ ++  +     ++  Ne+ +    +t  + +++S N+    l q++g +   +  + 
+  gi|158431327|pdb|2Z2L|B  96 GSTMKVMMLAAAIDNNTFPgGEVFN-SSELKIA-DAtirdWD-VNEGLTGGRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLNr 178
+                              **************99666378888.8999996.42232232.2444444567*************************99999872 PP
+
+                    PBP1A 522 .alGipes............tktleesp.....siaLGt.asvspldmAsayATlAngGvraephfVekVtdsdgevlyeakte.g 587
+                               + G+p+             +      +     + ++G+  sv+ ++m +a+  +An+Gv  ep f++ + d ++++  ++++e  
+  gi|158431327|pdb|2Z2L|B 179 fKFGVPTRfgltdeyagqlpAD-----NivniaQSSFGQgISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARKSQKEiV 259
+                              346****988866663322222.....134455889997469******************************99988877654425 PP
+
+                    PBP1A 588 eqavskevaddvtsaLqsvve.s..gtgtaag.........grpaAgKTGTa...denkaaWfvGytpqlataVwvgredg 653
+                               + vsk++a+ +   +  v +    gt  + +         g+++A K+GTa   de++  + vG t  + +aV++  +++
+  gi|158431327|pdb|2Z2L|B 260 GNPVSKDAASLTRTNMVLVGTdPvyGTMYNHStgkptvtvpGQNVALKSGTAqiaDEKNGGYLVGLTDYIFSAVSMSPAEN 340
+                              8889999999888888777663234555322245778899************77669999***************987655 PP
+
+>> gi|37927671|pdb|1PYY|A  Chain A, Double Mutant Pbp2x T338aM339F FROM STREPTOCOCCUS PNEUMONIAE STRAIN R6 At 2.4 A Reso
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   4.1   9.4e-23   1.2e-19     367     658 ..     206     538 ..     179     693 .. 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 72.2 bits;  conditional E-value: 9.4e-23
+                   PBP1A 367 lntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe............dyakqqvnnatraglqp 441
+                              +  G  ++TTi   +q  +e+ +++  + + +  k    ++ v  ktGe+lA    +            d++    +   +++++p
+  gi|37927671|pdb|1PYY|A 206 RTMDGKDVYTTISSPLQSFMETQMDAFQE-KVKG-K-YMTATLVSAKTGEILATTQRPtfdadtkegiteDFVW--RDILYQSNYEP 287
+                             4567999**************99998874.3333.3.344455679********88888877666655554444..6788899**** PP
+
+                   PBP1A 442 GStFKpfvlaaaleqgisl.nsvydgssprtvkegs....ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAh.. 521
+                             GS+FK++ laaa++++    ++v++ ss+ ++  +     ++  Ne+ +    +t  + +++S N+    l q++g +   +  +  
+  gi|37927671|pdb|1PYY|A 288 GSAFKVMMLAAAIDNNTFPgGEVFN-SSELKIA-DAtirdWD-VNEGLTGGRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLNrf 371
+                             **************99666378888.8999996.42232232.2444444567*************************999998723 PP
+
+                   PBP1A 522 alGipes............tktleesp.....siaLGt.asvspldmAsayATlAngGvraephfVekVtdsdgevlyeakte.geq 589
+                             + G+p+             +      +     + ++G+  sv+ ++m +a+  +An+Gv  ep f++ + d ++++  ++++e   +
+  gi|37927671|pdb|1PYY|A 372 KFGVPTRfgltdeyagqlpAD-----NivniaQSSFGQgISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARKSQKEiVGN 453
+                             46****988866663322222.....134455889997469******************************9998887765442588 PP
+
+                   PBP1A 590 avskevaddvtsaLqsvve.s..gtgtaag.........grpaAgKTGTa...denkaaWfvGytpqlataVwvgredgee.pln 658
+                              vsk++a+ +   +  v +    gt  + +         g+++A K+GTa   de++  + vG t  + +aV++  +++    l+
+  gi|37927671|pdb|1PYY|A 454 PVSKDAASLTRTNMVLVGTdPvyGTMYNHStgkptvtvpGQNVALKSGTAqiaDEKNGGYLVGLTDYIFSAVSMSPAENPDfILY 538
+                             89999999888888777663234555322245778899************77669999****************98876443444 PP
+
+>> gi|157833527|pdb|1PMD|A  Chain A, Penicillin-Binding Protein 2x (Pbp-2x)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.7   4.4   2.6e-22   3.5e-19     367     658 ..     179     511 ..     152     666 .. 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 70.7 bits;  conditional E-value: 2.6e-22
+                    PBP1A 367 lntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe............dyakqqvnnatraglq 440
+                               +  G  ++TTi   +q  +e+ +++  + + +  k    ++ v  ktGe+lA    +            d++    +   +++++
+  gi|157833527|pdb|1PMD|A 179 RTMDGKDVYTTISSPLQSFMETQMDAFQE-KVKG-K-YMTATLVSAKTGEILATTQRPtfdadtkegiteDFVW--RDILYQSNYE 259
+                              4567999**************99998874.3333.3.344455679********88888877666655554444..6788899*** PP
+
+                    PBP1A 441 pGStFKpfvlaaaleqgisl.nsvydgssprtvkegs....ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAh 521
+                              pGSt+K++ laaa++++    ++v++ ss+ ++  +     ++  Ne+ +    +t  + +++S N+    l q++g +   +  +
+  gi|157833527|pdb|1PMD|A 260 PGSTMKVMMLAAAIDNNTFPgGEVFN-SSELKIA-DAtirdWD-VNEGLTGGRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLN 342
+                              ***************99666378888.8999996.42232232.2444444567*************************9999987 PP
+
+                    PBP1A 522 ..alGipes............tktleesp.....siaLGt.asvspldmAsayATlAngGvraephfVekVtdsdgevlyeakte. 586
+                                + G+p+             +      +     + ++G+  sv+ ++m +a+  +An+Gv  ep f++ + d ++++  ++++e 
+  gi|157833527|pdb|1PMD|A 343 rfKFGVPTRfgltdeyagqlpAD-----NivniaQSSFGQgISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARKSQKEi 423
+                              2346****988866663322222.....134455889997469******************************9998887765442 PP
+
+                    PBP1A 587 geqavskevaddvtsaLqsvve.s..gtgtaag.........grpaAgKTGTa...denkaaWfvGytpqlataVwvgredgee.p 656
+                                + vsk++a+ +   +  v +    gt  + +         g+++A K+GTa   de++  + vG t  + +aV++  +++    
+  gi|157833527|pdb|1PMD|A 424 VGNPVSKDAASLTRTNMVLVGTdPvyGTMYNHStgkptvtvpGQNVALKSGTAqiaDEKNGGYLVGLTDYIFSAVSMSPAENPDfI 509
+                              58889999999888888777663234555322245778899************77669999****************988764434 PP
+
+                    PBP1A 657 ln 658
+                              l+
+  gi|157833527|pdb|1PMD|A 510 LY 511
+                              44 PP
+
+>> gi|8569396|pdb|1QME|A  Chain A, Penicillin-binding Protein 2x (pbp-2x)gi|8569397|pdb|1QMF|A Chain A, Penicillin-bind
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.5   4.4   2.9e-22   3.9e-19     367     658 ..     206     538 ..     179     693 .. 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 70.5 bits;  conditional E-value: 2.9e-22
+                  PBP1A 367 lntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe............dyakqqvnnatraglqpG 442
+                             +  G  ++TTi   +q  +e+ +++  + + +  k    ++ v  ktGe+lA    +            d++    +   +++++pG
+  gi|8569396|pdb|1QME|A 206 RTMDGKDVYTTISSPLQSFMETQMDAFQE-KVKG-K-YMTATLVSAKTGEILATTQRPtfdadtkegiteDFVW--RDILYQSNYEPG 288
+                            4567999**************99998874.3333.3.344455679********88888877666655554444..6788899***** PP
+
+                  PBP1A 443 StFKpfvlaaaleqgisl.nsvydgssprtvkegs....ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAh..al 523
+                            St+K++ laaa++++    ++v++ ss+ ++  +     ++  Ne+ +    +t  + +++S N+    l q++g +   +  +  + 
+  gi|8569396|pdb|1QME|A 289 STMKVMMLAAAIDNNTFPgGEVFN-SSELKIA-DAtirdWD-VNEGLTGGRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLNrfKF 373
+                            *************99666378888.8999996.42232232.2444444567*************************99999872346 PP
+
+                  PBP1A 524 Gipes............tktleesp.....siaLGt.asvspldmAsayATlAngGvraephfVekVtdsdgevlyeakte.geqavs 592
+                            G+p+             +      +     + ++G+  sv+ ++m +a+  +An+Gv  ep f++ + d ++++  ++++e   + vs
+  gi|8569396|pdb|1QME|A 374 GVPTRfgltdeyagqlpAD-----NivniaQSSFGQgISVTQTQMIRAFTAIANDGVMLEPKFISAIYDPNDQTARKSQKEiVGNPVS 456
+                            ****988866663322222.....134455889997469******************************9998887765442588899 PP
+
+                  PBP1A 593 kevaddvtsaLqsvve.s..gtgtaag.........grpaAgKTGTa...denkaaWfvGytpqlataVwvgredgee.pln 658
+                            k++a+ +   +  v +    gt  + +         g+++A K+GTa   de++  + vG t  + +aV++  +++    l+
+  gi|8569396|pdb|1QME|A 457 KDAASLTRTNMVLVGTdPvyGTMYNHStgkptvtvpGQNVALKSGTAqiaDEKNGGYLVGLTDYIFSAVSMSPAENPDfILY 538
+                            99999888888777663234555322245778899************77669999****************98876443444 PP
+
+>> gi|24987839|pdb|1MWS|A  Chain A, Structure Of Nitrocefin Acyl-Penicillin Binding Protein 2a From Methicillin Resistan
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.2   0.3   3.6e-22   4.9e-19     340     654 ..     268     617 ..     237     635 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 70.2 bits;  conditional E-value: 3.6e-22
+                   PBP1A 340 elsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe.. 424
+                             +l+ ++gy v+ V ++ +  +    ++ ++ G  I+ Tid+k+q+ +++ +++             +++++ P+tGe lA++  +  
+  gi|24987839|pdb|1MWS|A 268 KLQHEDGYRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDY----------GSGTAIHPQTGELLALVSTPsy 344
+                             5666667766666666543222233556899*************99998776666..........4689************998888 PP
+
+                   PBP1A 425 ..................dyakqqvnnatraglqpGStFKpfvlaaaleqgisl...nsvydgssprtvk.egsykveNedgesygs 489
+                                               +  k+ + n ++ +  pG t K+ + +  l++       +  +dg+  ++ k  g+y+v+ ++ +  g+
+  gi|24987839|pdb|1MWS|A 345 dvypfmygmsneeynkltEDKKEPLLNKFQITTSPGXTQKILTAMIGLNNKTLDdktSYKIDGKGWQKDKsWGGYNVTRYE-VVNGN 430
+                             888888888899666555333367888999999***************997433433666677755544433447676664.44599 PP
+
+                   PBP1A 490 itlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.............tktlee.....spsiaLGtasvspldmAsayATlA 558
+                             i+l++A++ S N  f+++a ++g +k ++  ++lG+ e+             +k+l++     +++   G+  ++p++  s y+ l 
+  gi|24987839|pdb|1MWS|A 431 IDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDipsdypfynaqisNKNLDNeillaDSGYGQGEILINPVQILSIYSALE 517
+                             **********************************************988887667766555544488899999************** PP
+
+                   PBP1A 559 ngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag...grpaAgKTGTa.......d.enkaaW 634
+                             n+G+ + ph+ +  ++   +v       +++ +ske ++  t+ +q+vv++ ++++       +  gK+GTa       +   +  W
+  gi|24987839|pdb|1MWS|A 518 NNGNINAPHLLKDTKN---KVW------KKNIISKENINLLTDGMQQVVNKTHKED-IyrsYANLIGKSGTAelkmkqgEtGRQIGW 594
+                             **********998887...666......5789*****************9755543.235678889******88877662477888* PP
+
+                   PBP1A 635 fvGyt...pqlataVwvgredge 654
+                             f+ y    p++  a++v + +++
+  gi|24987839|pdb|1MWS|A 595 FISYDkdnPNMMMAINVKDVQDK 617
+                             ***96222677777777666544 PP
+
+>> gi|16974968|pdb|1K25|A  Chain A, Pbp2x From A Highly Penicillin-Resistant Streptococcus Pneumoniae Clinical Isolateg
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   70.3   2.9   3.5e-22   4.7e-19     369     658 ..     191     521 ..     168     664 .. 0.77
+
+  Alignments for each domain:
+  == domain 1    score: 70.3 bits;  conditional E-value: 3.5e-22
+                   PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe............dyakqqvnnatraglqpGS 443
+                               G  ++TT+   +q  +e+ +++ l+ + +  k    ++ v  ktGe+lA    +            d++    +   +++++pGS
+  gi|16974968|pdb|1K25|A 191 VDGKDVYTTLSSPLQSFMETQMDAFLE-KVKG-K-YMTATLVSAKTGEILATTQRPtfnadtkegiteDFVW--RDILYQSNYEPGS 272
+                             46889*********************5.3343.3.344455679********88887777667655555444..6788899****** PP
+
+                   PBP1A 444 tFKpfvlaaaleqgislnsvydgssprtvk.egs...ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAhal..G 524
+                             ++K+++la+ ++++   +  y  ss+ ++    +   +   Ne+ +  g +t  + +++S N+    l q++g +   +  ++   G
+  gi|16974968|pdb|1K25|A 273 AMKVMTLASSIDNNTFPSGEYFNSSELKIAdA-TtrdW-DVNEGLTTGGMMTFLQGFAHSSNVGMSLLEQKMGDATWLDYLKRFkfG 357
+                             ************99877666666999999742.23434.346777888*****************************999986444* PP
+
+                   PBP1A 525 ipes.......tktleesp.....siaLGt.asvspldmAsayATlAngGvraephfVekVtdsdgevlyea.ktegeqavskevad 597
+                             +p+        + +l +++     + ++G+  sv+ ++m +a+  +An+Gv  ep f++ + d++++ + ++ k+   + vske+a+
+  gi|16974968|pdb|1K25|A 358 VPTRfgltdeyAGQLPADNivsiaQSSFGQgISVTQTQMLRAFTAIANDGVMLEPKFISAIYDTNNQSVRKSqKEIVGNPVSKEAAS 444
+                             ***988766552333221144455888997469******************************99977766523445999******* PP
+
+                   PBP1A 598 dvtsaLqsvves...gtgtaag...........grpaAgKTGTa...denkaaWfvGytpqlataVwvgredgee.pln 658
+                             ++ + +  v ++   gt    +           g+++A K+GTa   de++  + vG t+ + +aV +  +++    l+
+  gi|16974968|pdb|1K25|A 445 TTRNHMILVGTDplyGTMY--NhytgkpiitvpGQNVAVKSGTAqiaDEKNGGYLVGSTNYIFSAVTMNPAENPDfILY 521
+                             ******9999844445553..3346789999*************77669999****************98766443334 PP
+
+>> gi|42543579|pdb|1RP5|A  Chain A, Pbp2x From Streptococcus Pneumoniae Strain 5259 With Reduced Susceptibility To Beta-
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.8   5.2   1.9e-21   2.6e-18     367     658 ..     206     538 ..     179     692 .. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 67.8 bits;  conditional E-value: 1.9e-21
+                   PBP1A 367 lntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe............dyakqqvnnatraglqp 441
+                              +  G  ++TTi   +q  +e+ +++  + + +  k    ++ v  ktGe+lA    +            d++    +   +++++p
+  gi|42543579|pdb|1RP5|A 206 QTVDGKDVYTTISSPLQSFMETQMDAFQE-KVKG-K-YMTATLVSAKTGEILATTQRPtfdadtkegiteDFVW--RDILYQSNYEP 287
+                             4456899**************99998874.3333.3.344455679********88888877666655554444..6788899**** PP
+
+                   PBP1A 442 GStFKpfvlaaaleqgisl.nsvydgssprtvkegs....ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpekvaetAh.. 521
+                             GSt+K++ laaa++++    ++v++ ss+ ++  +     ++  Ne+ +    +t  + +++S N+    l q++g +   +  +  
+  gi|42543579|pdb|1RP5|A 288 GSTMKVMMLAAAIDNNTFPgGEVFN-SSELKIA-DAtirdWD-VNEGLTGGRMMTFSQGFAHSSNVGMTLLEQKMGDATWLDYLNrf 371
+                             **************99666378888.8999996.42232232.2444444567*************************999998723 PP
+
+                   PBP1A 522 alGipes.......tktleesp.....siaLGt.asvspldmAsayATlAngGvraephfVekVtdsdgevlyea.ktegeqavske 594
+                             + G+p+        + +l +++       a+G+  sv+ ++m +a+  +An+Gv  ep f++   d +++ + ++ k+   + vske
+  gi|42543579|pdb|1RP5|A 372 KFGVPTRfgltdeyAGQLPADNivniaMSAFGQgISVTQTQMLRAFTAIANDGVMLEPKFISALYDPNDQSVRKSqKEIVGNPVSKE 458
+                             46****988766662233221144455779997469******************************999777655244458999999 PP
+
+                   PBP1A 595 vaddvtsaLqsvve..s.gtgtaag.........grpaAgKTGTa...denkaaWfvGytpqlataVwvgredgee.pln 658
+                             +a+ + + +  v +    gt  + +         g+++A K+GTa   de++  +  G t+++ ++V++  +++    l+
+  gi|42543579|pdb|1RP5|A 459 AASVTRDHMVMVGTdpTyGTMYNHStgkatvnvpGQNVALKSGTAeiaDEKNGGYLTGSTNNIFSVVSMHPAENPDfILY 538
+                             999999999999874324554222245667899************666699999***************98876543444 PP
+
+>> gi|24987837|pdb|1MWR|A  Chain A, Structure Of Semet Penicillin Binding Protein 2a From Methicillin Resistant Staphylo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   0.2   7.2e-21   9.6e-18     340     640 ..     268     600 ..     237     633 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 65.9 bits;  conditional E-value: 7.2e-21
+                   PBP1A 340 elsgqkgyivqqVkaeLeeelgitedqlntgGlrItTTidkkaqdaaekaveeqlkkgqpedklraalvsvdPktGeVlAyyGGe.. 424
+                             +l+ ++gy v+ V ++ +  +    ++ ++ G  I+ Tid+k+q+ +++  ++             +++++ P+tGe lA++  +  
+  gi|24987837|pdb|1MWR|A 268 KLQHEDGYRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNXKNDY----------GSGTAIHPQTGELLALVSTPsy 344
+                             56666666666666665432222235568999************99998776665..........4689************888888 PP
+
+                   PBP1A 425 ..................dyakqqvnnatraglqpGStFKpfvlaaaleqgisl...nsvydgssprtvk.egsykveNedgesygs 489
+                                               +  k+ + n ++ +  pGSt K+ +    l++       +  +dg+  ++ k  g+y+v+ ++ +  g+
+  gi|24987837|pdb|1MWR|A 345 dvypfxygxsneeynkltEDKKEPLLNKFQITTSPGSTQKILTAXIGLNNKTLDdktSYKIDGKGWQKDKsWGGYNVTRYE-VVNGN 430
+                             888888888899666555333367888999999***********9999987432433666677755544433447676664.44599 PP
+
+                   PBP1A 490 itlreAtkkSvNtvfvqlaqdvgpekvaetAhalGipes.............tktlee.....spsiaLGtasvspldmAsayATlA 558
+                             i+l++A++ S N  f+++a ++g +k ++  ++lG+ e+             +k+l++     +++   G+  ++p++  s y+ l 
+  gi|24987837|pdb|1MWR|A 431 IDLKQAIESSDNIFFARVALELGSKKFEKGXKKLGVGEDipsdypfynaqisNKNLDNeillaDSGYGQGEILINPVQILSIYSALE 517
+                             **********************************************988887667766555544488899999************** PP
+
+                   PBP1A 559 ngGvraephfVekVtdsdgevlyeaktegeqavskevaddvtsaLqsvvesgtgtaag...grpaAgKTGTa.......d.enkaaW 634
+                             n+G+ + ph+ +  ++   +v       +++ +ske ++  t+  q+vv++ ++++       +  gK+GTa       +   +  W
+  gi|24987837|pdb|1MWR|A 518 NNGNINAPHLLKDTKN---KVW------KKNIISKENINLLTDGXQQVVNKTHKED-IyrsYANLIGKSGTAelkxkqgEtGRQIGW 594
+                             **********998887...666......5789*****************8755543.235678889******777765524777789 PP
+
+                   PBP1A 635 fvGytp 640
+                             f+ y +
+  gi|24987837|pdb|1MWR|A 595 FISYDK 600
+                             999864 PP
+
+>> gi|410562625|pdb|3VSK|A  Chain A, Crystal Structure Of Penicillin-Binding Protein 3 (Pbp3) From Methicilin-Resistant 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.1   0.6   2.1e-19   2.8e-16     370     640 ..     267     596 ..     240     643 .. 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 61.1 bits;  conditional E-value: 2.1e-19
+                    PBP1A 370 gGlrItTTidkkaqdaaekaveeqlk..kgqpedklraalvsv.dPktGeVlAyyGGe........dyakqqvnnatraglqpGSt 444
+                              +G   + Tid ++q+++e+  ++q+k  ++q ++++  a++ v +Pk+G +lA+ G +        dy        +++++ +GS+
+  gi|410562625|pdb|3VSK|A 267 RGQDLKLTIDIDLQKEVEALLDKQIKklRSQGAKDMDNAMMVVqNPKNGDILALAGKQinksgkmtDYDI----GTFTSQFAVGSS 348
+                              5777889******************97744444348888888846***********99988764443333....567889****** PP
+
+                    PBP1A 445 FKpfvlaaaleqg.islnsvydgssprtvkegs.ykveNedgesygsitlreAtkkSvNtvfvqlaqdv..........gpekvae 518
+                               K  +l+a  ++  i++++++  ++p +++ g+ +k +  +++ + si+ ++A+ +S N+  ++ a ++           p+++ +
+  gi|410562625|pdb|3VSK|A 349 VKGGTLLAGYQNKaIKVGETMV-DEPLHFQ-GGlTKRSYFNKNGHVSINDKQALMHSSNVYMFKTALKLagdpyysgmaLPSDISS 432
+                              **********986377776666.7*****6.6646666666677899*******************99886556664455777777 PP
+
+                    PBP1A 519 tAhal..Gipes.................tktleesp....siaLGtas.vspldmAsayATlAngGvraephfVekVtdsdg... 577
+                               A++l  G+++                   + l+++p     +++G+++  +pl++ +  +T+An+G r +ph+  ++ +s++   
+  gi|410562625|pdb|3VSK|A 433 PAQKLrrGLNQVglgvktgidlpnetrgqIEPLTNNPgnylDLSIGQYDtYTPLQLSQYVSTIANDGYRIQPHIGLTIHESTNkde 518
+                              7777666666668888887888777655523344455667799***9962689********************9888886555432 PP
+
+                    PBP1A 578 evlyeakteg....eqavskevaddvtsaLqsvve.s.gtg.taag....grpaAgKTGTa......denkaaWfvGytp 640
+                                ++++k +g    + + +++ ++++++  +   + + gtg    +      p+AgKTGTa      +   +  ++Gy p
+  gi|410562625|pdb|3VSK|A 519 VGPLKKKINGtvlnKVNNTEKEIKQIQEGFKMAFNdKdGTGyV--SfkdtVVPTAGKTGTAevfqngEPRVNSTYIGYAP 596
+                              3344443222334355566777888888888888854577742..2456789*********6666544677788888876 PP
+
+>> gi|224036199|pdb|2WAF|A  Chain A, Penicillin-Binding Protein 2b (Pbp-2b) From Streptococcus Pneumoniae (Strain R6)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.1   5.0   8.3e-19   1.1e-15     365     652 ..     297     655 ..     194     670 .. 0.71
+
+  Alignments for each domain:
+  == domain 1    score: 59.1 bits;  conditional E-value: 8.3e-19
+                    PBP1A 365 dqln..tgGlrItTTidkkaqdaaekaveeqlk...kgqpedklraal..vsvdPktGeVlAyyGGe......dyakqqvnnatra 437
+                              d+++  ++G +I+ Tid + qd + +  +++ +   ++  ++ ++ ++  v+ +PktG+Vl + G +      + + +++ ++t +
+  gi|224036199|pdb|2WAF|A 297 DTIEegSKGNNIKLTIDLAFQDSVDALLKSYFNselENGGAK-YSEGVyaVALNPKTGAVLSMSGIKhdlktgELTPDSLGTVT-N 380
+                              5555336799*****************999998765333333.66665227789***********9975544423335555555.4 PP
+
+                    PBP1A 438 glqpGStFKpfvlaaaleqgislnsvydgssprtvkegsykveNedgesygs..itlreAtkkSvNtvfvqlaqdv.......... 511
+                               + pGS  K  ++ +  e+g+  +++   ++   + +gs +++    + ygs  it  +A++ S Nt  vq a  +          
+  gi|224036199|pdb|2WAF|A 381 VFVPGSVVKAATISSGWENGVLSGNQTLTDQSIVF-QGSAPINSWYTQAYGSfpITAVQALEYSSNTYMVQTALGLmgqtyqpnmf 465
+                              889*****************988666666888899.697766666778898877999**************888754444444445 PP
+
+                    PBP1A 512 ........gpekvaetAhalGipes...............tktleespsiaLGt.asvspldmAsayATlAngGvraephfVekVt 573
+                                       +ek ++t  + G+ +                + ++ ++ ++a+G+ ++ +p+++A+  AT+An+Gvr+ p +Ve + 
+  gi|224036199|pdb|2WAF|A 466 vgtsnlesAMEKLRSTFGEYGLGTAtgidlpdestgfvpkEYSFANYITNAFGQfDNYTPMQLAQYVATIANNGVRVAPRIVEGIY 551
+                              533333333444444444445555576777666554444333334455*****84689***************************9 PP
+
+                    PBP1A 574 dsdg.....evlyeakteg..eqavskevaddvtsaLqsvvesgtgtaag.......grpaAgKTGTa...........denkaaW 634
+                               +++     +++ + ++++  + ++s + ++   +   +v+ + +g+++g          + gKTGTa           ++n+ a+
+  gi|224036199|pdb|2WAF|A 552 GNNDkgglgDLIQQLQPTEmnKVNISDSDMSILHQGFYQVAHGTSGLTTGrafsngaLVSISGKTGTAesyvadgqqatNTNAVAY 637
+                              43333479777755554433488899999999999999999854443333456775557889******999887744333455555 PP
+
+                    PBP1A 635 fvGytpqlataVwvgred 652
+                                   pq+a aV + +++
+  gi|224036199|pdb|2WAF|A 638 APSDNPQIAVAVVFPHNT 655
+                              555567999999876654 PP
+
+>> gi|224036198|pdb|2WAE|A  Chain A, Penicillin-Binding Protein 2b (Pbp-2b) From Streptococcus Pneumoniae (Strain 5204)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.6   2.2   4.6e-18   6.2e-15     369     653 ..     303     656 ..     265     671 .. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 56.6 bits;  conditional E-value: 4.6e-18
+                    PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlk....kgqpedklraal..vsvdPktGeVlAyyGGe......dyakqqvnnatraglqpG 442
+                              ++G +I+ Tid + qd + +  +++ +    +   ++ ++ ++  v+ +P+tG+Vl + G +      + + +++ ++t + + pG
+  gi|224036198|pdb|2WAE|A 303 SKGKNIKLTIDLAFQDSVDALLKSYFNselgN-GGAK-YSEGVyaVALNPQTGAVLSMSGLKhdlktgELTPDSLGTVT-NVFVPG 385
+                              6799******************9999877642.2332.55665227889***********9975544423335555555.4889** PP
+
+                    PBP1A 443 StFKpfvlaaaleqgislnsvydgssprtvkegsykveNedgesygs..itlreAtkkSvNtvfvqlaqdv.....gpek...vae 518
+                              S  K  ++ +  e+g+  +++   ++p  + +gs ++    +  ygs  it  eA++ S N   vq a  +     +p+    + +
+  gi|224036198|pdb|2WAE|A 386 SVVKAATISSGWENGVLSGNQTLTDQPIVF-QGSAPIYSWYKLAYGSfpITAVEALEYSSNAYVVQTALGImgqtyQPNMfvgTSN 470
+                              ***************9887777779*****.599999999999998877999**************99887655554443111233 PP
+
+                    PBP1A 519 tAhalGipes..................tktleesp.........siaLGt.asvspldmAsayATlAngGvraephfVekVtdsd 576
+                                 a+G  +s                  ++ l   p         ++a+G+ ++ +p+++A+  AT+An+Gvr  ph+Ve + d++
+  gi|224036198|pdb|2WAE|A 471 LESAMGKLRStfgeyglgsatgidlpdeSTGLV--PkeynfanfiTNAFGQfDNYTPMQLAQYVATIANNGVRLAPHIVEGIYDNN 554
+                              334566555567777777778776665533332..1334567788*****84689****************************866 PP
+
+                    PBP1A 577 g.....evlyea.kteg..eqavskevaddvtsaLqsvve..s..gtgtaag.......grpaAgKTGTa...........denka 632
+                              +     e++  a +t++  + ++s++ ++   +   +v    s   t    g          + gKTGT            ++n+ 
+  gi|224036198|pdb|2WAE|A 555 DkgglgELIQ-AiDTKEinKVNISESDMAILHQGFYQVSHgtSplTT----GrafsdgaTVSISGKTGTGesyvaggqeanNTNAV 635
+                              6668976664.445554448889999999999999999864333333....2345686677889******9999888643224444 PP
+
+                    PBP1A 633 aWfvGytpqlataVwvgredg 653
+                              a+     pq+a aV + ++++
+  gi|224036198|pdb|2WAE|A 636 AYAPTENPQIAVAVVFPHNTN 656
+                              444555579999998776654 PP
+
+>> gi|224036195|pdb|2WAD|A  Chain A, Penicillin-Binding Protein 2b (Pbp-2b) From Streptococcus Pneumoniae (Strain 5204)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   2.4   7.2e-18   9.6e-15     369     653 ..     303     656 ..     265     671 .. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 56.0 bits;  conditional E-value: 7.2e-18
+                    PBP1A 369 tgGlrItTTidkkaqdaaekaveeqlk....kgqpedklraal..vsvdPktGeVlAyyGGe......dyakqqvnnatraglqpG 442
+                              ++G +I+ Tid + qd + +  +++ +    +   ++ ++ ++  v+ +P+tG+Vl + G +      + + +++ ++t + + pG
+  gi|224036195|pdb|2WAD|A 303 SKGKNIKLTIDLAFQDSVDALLKSYFNselgN-GGAK-YSEGVyaVALNPQTGAVLSMSGLKhdlktgELTPDSLGTVT-NVFVPG 385
+                              6799******************9999877642.2332.55665227889***********9975544423335555555.4889** PP
+
+                    PBP1A 443 StFKpfvlaaaleqgislnsvydgssprtvkegsykveNedgesygs..itlreAtkkSvNtvfvqlaqdv.....gpek...vae 518
+                              S  K  ++ +  e+g+  +++   ++p  + +gs ++    +  ygs  it  eA++ S N   vq a  +     +p+    + +
+  gi|224036195|pdb|2WAD|A 386 SVVKAATISSGWENGVLSGNQTLTDQPIVF-QGSAPIYSWYKLAYGSfpITAVEALEYSSNAYVVQTALGImgqtyQPNMfvgTSN 470
+                              ***************9887777779*****.599999999999998877999**************99887655554443111233 PP
+
+                    PBP1A 519 tAhalGipes..................tktleesp.........siaLGt.asvspldmAsayATlAngGvraephfVekVtdsd 576
+                                 a+G  +s                  ++ l   p         ++a+G+ ++ +p+++A+  AT+An+Gvr  ph+Ve + d++
+  gi|224036195|pdb|2WAD|A 471 LESAMGKLRStfgeyglgsatgidlpdeSTGLV--PkeynfanfiTNAFGQfDNYTPMQLAQYVATIANNGVRLAPHIVEGIYDNN 554
+                              334566555567777777778776665533332..1334567788*****84689****************************866 PP
+
+                    PBP1A 577 g.....evlyea.kteg..eqavskevaddvtsaLqsvve..s..gtgtaag.......grpaAgKTGTa...........denka 632
+                              +     e++  a +t++  + ++s++ ++   +   +v    s   t    g          + gKTGT            ++n+ 
+  gi|224036195|pdb|2WAD|A 555 DkgglgELIQ-AiDTKEinKVNISESDMAILHQGFYQVSHgtSplTT----GrafsdgaTVSISGKTGTGesyvaggqeatNTNAV 635
+                              6668976664.445554448889999999999999999864333333....2345686677889******9999888544335555 PP
+
+                    PBP1A 633 aWfvGytpqlataVwvgredg 653
+                              a+     pq+a aV + ++++
+  gi|224036195|pdb|2WAD|A 636 AYAPTENPQIAVAVVFPHNTN 656
+                              555555679999998876654 PP
+
+>> gi|508123535|pdb|3ZG7|A  Chain A, Crystal Structure Of Penicillin-binding Protein 4 From Listeria Monocytogenes In Th
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.0   2.8e-08   3.7e-05     130     173 ..       4      47 .]       2      47 .] 0.90
+
+  Alignments for each domain:
+  == domain 1    score: 24.3 bits;  conditional E-value: 2.8e-08
+                    PBP1A 130 qsstiyyaDgktelarige.nRenvklsqvpkevqnAvlAaEDrd 173
+                               +++iy +Dg  + +++++ + + v++++++k++qnAv+++EDr+
+  gi|508123535|pdb|3ZG7|A   4 SATIIYDKDG-DKAGELSStDATFVSIDKISKNLQNAVVSIEDRK 47 
+                              5789999***.799999855***********************95 PP
+
+>> gi|42543131|pdb|1NRF|A  Chain A, C-Terminal Domain Of The Bacillus Licheniformis Blar Penicillin-Receptor
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.3   0.0   0.00048      0.63     432     514 ..      52     126 ..      35     134 .. 0.70
+   2 !   11.9   0.0   0.00015      0.21     612     640 ..     189     220 ..     176     227 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 10.3 bits;  conditional E-value: 0.00048
+                   PBP1A 432 nnatraglqpGStFKpfvlaaaleqgislnsvydgssprtvkegs.ykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpe 514
+                              + +++++ p+St+K+f  + ale gi +++    +s++t  +g+ y+++       ++ +l  A+  S    f +l  ++g +
+  gi|42543131|pdb|1NRF|A  52 RKESTSRFAPASTYKVFSALLALESGIITKN----DSHMTW-DGTqYPYKEW----NQDQDLFSAMSSSTTWYFQKLDRQIGED 126
+                             34566799******************98853....344555.3542222222....2345677788888877777777777766 PP
+
+  == domain 2    score: 11.9 bits;  conditional E-value: 0.00015
+                   PBP1A 612 gtaaggrpaAgKTGTa..d.enkaaWfvGytp 640
+                              ++++gr   gKTGT+  + e  a Wf+Gy+ 
+  gi|42543131|pdb|1NRF|A 189 LEESNGRVLSGKTGTSviNgELHAGWFIGYVE 220
+                             34456***********8746999*******85 PP
+
+>> gi|112491426|pdb|2IWB|A  Chain A, Mecr1 Unbound Extracellular Antibiotic-Sensor Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.6   0.0    0.0015         2     434     517 ..      43     118 ..      28     121 .. 0.70
+   2 !   13.6   0.1   4.9e-05     0.065     600     640 ..     166     209 ..     146     226 .. 0.86
+
+  Alignments for each domain:
+  == domain 1    score: 8.6 bits;  conditional E-value: 0.0015
+                    PBP1A 434 atraglqpGStFKpfvlaaaleqg.isl...nsvydgssprtvkegsykveNedgesygsitlreAtkkSvNtvfvqlaqdvgpek 515
+                               +++++ p St+K++  + a +q+  sl   ++++d + +       y+++  +    ++ +l+ ++k SvN  + +l++ +  ++
+  gi|112491426|pdb|2IWB|A  43 ESKQRYSPNSTYKIYLALMAFDQNlLSLnhtEQQWD-KHQ-------YPFKEWN----QDQNLNSSMKYSVNWYYENLNKHLRQDE 116
+                              4567899*******9888888887245522233333.333.......3333332....34689*****************999998 PP
+
+                    PBP1A 516 va 517
+                              v+
+  gi|112491426|pdb|2IWB|A 117 VK 118
+                              87 PP
+
+  == domain 2    score: 13.6 bits;  conditional E-value: 4.9e-05
+                    PBP1A 600 tsaLqsvvesgtgtaaggrpaAgKTGTa...denkaaWfvGytp 640
+                              ++a+++v +s t ++++  +  gKTGT     ++++ WfvGy+ 
+  gi|112491426|pdb|2IWB|A 166 NKAIEKVENSMTLKQKDTYKYVGKTGTGivnHKEANGWFVGYVE 209
+                              57888998899888788***********885599999*****85 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (792 nodes)
+Target sequences:                      67962  (16399156 residues)
+Passed MSV filter:                      2392  (0.0351961); expected 1359.2 (0.02)
+Passed bias filter:                     1551  (0.0228216); expected 1359.2 (0.02)
+Passed Vit filter:                       251  (0.00369324); expected 68.0 (0.001)
+Passed Fwd filter:                        60  (0.000882846); expected 0.7 (1e-05)
+Initial search space (Z):              67962  [actual number of targets]
+Domain search space  (domZ):              51  [number of targets reported over threshold]
+# CPU time: 3.58u 0.06s 00:00:03.64 Elapsed: 00:00:00.96
+# Mc/sec: 13529.30
+//
